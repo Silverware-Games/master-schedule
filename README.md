@@ -1,4 +1,4 @@
-# Silverware Games 
+# Silverware Games, Inc.
 
 A centralized content roadmap for Silverware Games, and our Master Plan for World Domination.
 
