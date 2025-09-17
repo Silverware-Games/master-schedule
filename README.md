@@ -3,12 +3,36 @@
 A centralized content roadmap for Silverware Games, and our Master Plan for World Domination.
 
 ---
+## Games Page
 
+Centralized games page for silverwaregames, https://silverwaregames.com/games with only our best stuff.
+| URL                        | CTA                              |
+|----------------------------|----------------------------------|
+| https://eggfun.io          | Play free on any device          |
+| https://lilysgame.io       | Play free on any device          |
+| https://firestarter.cc     | Play free on any device          |
+| https://kingzazz.com       | Play free on any device          |
+| https://bobblebonanza.io   | Play free on any device          |
+| https://washtowelfill.io   | Play free on any device          |
+| https://xanadu.live        | Watch video                      |
+| https://hundredbullets.com | Buy on XBOX/PC                   |
+| https://matchystar.com     | Email me for a key!              |
+
+
+1) "Play More Games Button" for HTML5 Games for people who want to try our other stuff, redirects to https://silverwaregames.com/games/
+2) Remove all SWGIO.com backend for now. To be improved later.
+3) Add google stats to all games so that we can see how many people are playing.
+4) Add "games" pinned article to silverwaregames.com front page that redirects to https://silverwaregames.com/games/
+5) Add "Mailing List Sign Up Button" Make sure https://list.silverwaregames.com goes to a mailing list sign up and plaster the link around everywhere.
+6) Fix "Press" page so it is correct and doesn't use the weird vlambeer system that is bad.
+7) Make https://silverwaregames.com/games/ an attractive site with little thumb/buttons for each of my best game projects.
+8) Remove stats bar at bottom of silverwaregames.com because backend is dead for now. (See 2)
+9) Redirect https://silverwaregames.io to https://silverwaregames.com for now.
 
 ---
 ## Social Media / MichaelPlzNo Master Schedule
 
-This repository organizes all Silverware Games projects, art, videos, and social channels into a predictable, brand-driven content engine—while still leaving room for spontaneity and creative play.
+Organize all social stuff, art, videos, and various posting channels into a predictable, brand-driven content engine—while still leaving room for spontaneity and creative play.
 
 ---
 ### YouTube Weekly Schedule
