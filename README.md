@@ -2,7 +2,6 @@
 
 A centralized content roadmap for Silverware Games, and our Master Plan for World Domination.
 
----
 ## Games Page
 
 Centralized games page for silverwaregames, https://silverwaregames.com/games with only our best stuff.
@@ -29,12 +28,10 @@ Centralized games page for silverwaregames, https://silverwaregames.com/games wi
 8) Remove stats bar at bottom of silverwaregames.com because backend is dead for now. (See 2)
 9) Redirect https://silverwaregames.io to https://silverwaregames.com for now.
 
----
 ## Social Media / MichaelPlzNo Master Schedule
 
 Organize all social stuff, art, videos, and various posting channels into a predictable, brand-driven content engine—while still leaving room for spontaneity and creative play.
 
----
 ### YouTube Weekly Schedule
 
 | Day       | Theme              | Format               | Description                                                                 |
@@ -47,7 +44,6 @@ Organize all social stuff, art, videos, and various posting channels into a pred
 | Saturday  | AI Nightmare       | Long form (1–3 min)  | Wacky AI videos, fake Netflix trailers, surreal sketches                    |
 | Sunday    | Coffee Radar       | Long form            | Weekly devlogs & reflective vlogs—your creative process in recap form       |
 
----
 ### Instagram
 
 - **Reels**  
@@ -60,7 +56,6 @@ Organize all social stuff, art, videos, and various posting channels into a pred
 - **Stories**  
   Daily micro-updates: polls on next GDF topic, speed snaps of doodles, quick Q&A.
 
----
 ### Bluesky
 
 - Daily micro-posts  
@@ -68,7 +63,6 @@ Organize all social stuff, art, videos, and various posting channels into a pred
 - Teasers for upcoming YouTube posts (“MovieMonday drops tomorrow!”)
 - Pulse polls to crowdsource next WildcardFriday topic
 
----
 ### Website (silverwaregames.com)
 
 - **Weekly Blog** (Sunday)  
@@ -80,7 +74,6 @@ Organize all social stuff, art, videos, and various posting channels into a pred
 
 - **Doodle Club Sign-Up**  
   Promote the mailing list with exclusive monthly wallpapers/downloads.
----
 
 ### Doodle Club Mailing List
 
@@ -93,7 +86,6 @@ Organize all social stuff, art, videos, and various posting channels into a pred
   - Mini art tutorials (PDF + video snippet)  
   - Holiday-themed doodle packs
 
----
 # Next Steps
 
  
