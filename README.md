@@ -5,17 +5,17 @@ A centralized content roadmap for Silverware Games, and our Master Plan for Worl
 ## Games Page
 
 Centralized games page for silverwaregames, https://silverwaregames.com/games with only our best stuff.
-| URL                        | CTA                              |
-|----------------------------|----------------------------------|
-| https://eggfun.io          | Play free on any device          |
-| https://lilysgame.io       | Play free on any device          |
-| https://firestarter.cc     | Play free on any device          |
-| https://kingzazz.com       | Play free on any device          |
-| https://bobblebonanza.io   | Play free on any device          |
-| https://washtowelfill.io   | Play free on any device          |
-| https://xanadu.live        | Watch video                      |
-| https://hundredbullets.com | Buy on XBOX/PC                   |
-| https://matchystar.com     | Email me for a key!              |
+| URL                        | CTA                              | Forward To                                        |
+|----------------------------|----------------------------------|---------------------------------------------------|
+| https://eggfun.io          | Play free on any device          | ERROR                                             |
+| https://lilysgame.io       | Play free on any device          | https://lilysgame.io                              |
+| https://firestarter.cc     | Play free on any device          | https://silverwaregames.com/games/firestarter/    |
+| https://kingzazz.com       | Play free on any device          | https://silverwaregames.com/games/zazz/           |
+| https://bobblebonanza.io   | Play free on any device          | https://silverwaregames.com/games/bobble/         |
+| https://washtowelfill.io   | Play free on any device          | https://silverwaregames.com/games/wtf/            |
+| https://xanadu.live        | Watch video                      |                                                   |
+| https://hundredbullets.com | Buy on XBOX/PC                   |                                                   |
+| https://matchystar.com     | Email me for a key!              |                                                   |
 
 
 1) "Play More Games Button" for HTML5 Games for people who want to try our other stuff, redirects to https://silverwaregames.com/games/
