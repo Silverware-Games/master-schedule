@@ -7,25 +7,25 @@ A centralized content roadmap for Silverware Games, and our Master Plan for Worl
 Centralized games page for silverwaregames, https://silverwaregames.com/games with only our best stuff.
 | URL                        | CTA         | Forward To                                        | Issue Tracker                                                |
 |----------------------------|-------------|---------------------------------------------------|--------------------------------------------------------------|
-| https://eggfun.io          | HTML5       | ERROR                                             | 
+| https://eggfun.io          | HTML5       | https://silverwaregames.com/games/eggfun/         |
 | https://lilysgame.io       | HTML5       | https://lilysgame.io                              | https://github.com/Silverware-Games/lilys-game-issues        |
 | https://firestarter.cc     | HTML5       | https://silverwaregames.com/games/firestarter/    | https://github.com/Silverware-Games/firestarter-issues       |
 | https://kingzazz.com       | HTML5       | https://silverwaregames.com/games/zazz/           |
 | https://bobblebonanza.io   | HTML5       | https://silverwaregames.com/games/bobble/         |
 | https://washtowelfill.io   | HTML5       | https://silverwaregames.com/games/wtf/            | https://github.com/Silverware-Games/war-tainted-falls-issues |
-| https://xanadu.live        | Watch video |                                                   | https://github.com/Silverware-Games/xanadu-issues            |
-| https://hundredbullets.com | XBOX/PC     |                                                   | https://github.com/Silverware-Games/Hundred-Bullets-Issues   |
-| https://matchystar.com     | STEAM       |                                                   | https://github.com/Silverware-Games/matchy-star-issues       |
+| https://xanadu.live        | Watch video | Youtube Video                                     | https://github.com/Silverware-Games/xanadu-issues            |
+| https://hundredbullets.com | XBOX/PC     | SWG HB Press Page                                 | https://github.com/Silverware-Games/Hundred-Bullets-Issues   |
+| https://matchystar.com     | STEAM       | Steam Page                                        | https://github.com/Silverware-Games/matchy-star-issues       |
 
 
 1) "Play More Games Button" for HTML5 Games for people who want to try our other stuff, redirects to https://silverwaregames.com/games/
 2) Remove all SWGIO.com backend for now. To be improved later.
-3) Add google stats to all games so that we can see how many people are playing.
+3) ~~Add google stats to all games so that we can see how many people are playing.~~
 4) Add "games" pinned article to silverwaregames.com front page that redirects to https://silverwaregames.com/games/
 5) Add "Mailing List Sign Up Button" Make sure https://list.silverwaregames.com goes to a mailing list sign up and plaster the link around everywhere.
 6) Fix "Press" page so it is correct and doesn't use the weird vlambeer system that is bad.
-7) Make https://silverwaregames.com/games/ an attractive site with little thumb/buttons for each of my best game projects.
-8) Remove stats bar at bottom of silverwaregames.com because backend is dead for now. (See 2)
+7) ~~Make https://silverwaregames.com/games/ an attractive site with little thumb/buttons for each of my best game projects.~~
+8) ~~Remove stats bar at bottom of silverwaregames.com because backend is dead for now. (See 2)~~
 9) Redirect https://silverwaregames.io to https://silverwaregames.com for now.
 
 ## Social Media / MichaelPlzNo Master Schedule
