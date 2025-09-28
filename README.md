@@ -10,7 +10,7 @@ Centralized games page for silverwaregames, https://silverwaregames.com/games wi
 | https://eggfun.io          | HTML5       | https://silverwaregames.com/games/eggfun/         | [⚠️](https://github.com/Silverware-Games/eggfun-issues)            |
 | https://lilysgame.io       | HTML5       | https://lilysgame.io                              | [⚠️](https://github.com/Silverware-Games/lilys-game-issues)        |
 | https://firestarter.cc     | HTML5       | https://silverwaregames.com/games/firestarter/    | [⚠️](https://github.com/Silverware-Games/firestarter-issues)       |
-| https://kingzazz.com       | HTML5       | https://silverwaregames.com/games/zazz/           |
+| https://kingzazz.com       | HTML5       | https://silverwaregames.com/games/zazz/           | [⚠️](https://github.com/Silverware-Games/king-zazz-issues)         |
 | https://bobblebonanza.io   | HTML5       | https://silverwaregames.com/games/bobble/         | [⚠️](https://github.com/Silverware-Games/bobble-bonanza-issues)    |
 | https://washtowelfill.io   | HTML5       | https://silverwaregames.com/games/wtf/            | [⚠️](https://github.com/Silverware-Games/war-tainted-falls-issues) |
 | https://xanadu.live        | Watch video | Youtube Video                                     | [⚠️](https://github.com/Silverware-Games/xanadu-issues)            |
