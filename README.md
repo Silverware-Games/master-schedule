@@ -7,7 +7,7 @@ A centralized content roadmap for Silverware Games, and our Master Plan for Worl
 Centralized games page for silverwaregames, https://silverwaregames.com/games with only our best stuff.
 | URL                        | CTA         | Forward To                                        | Issue Tracker                                                      |
 |----------------------------|-------------|---------------------------------------------------|--------------------------------------------------------------------|
-| https://eggfun.io          | HTML5       | https://silverwaregames.com/games/eggfun/         |
+| https://eggfun.io          | HTML5       | https://silverwaregames.com/games/eggfun/         | [⚠️](https://github.com/Silverware-Games/eggfun-issues)            |
 | https://lilysgame.io       | HTML5       | https://lilysgame.io                              | [⚠️](https://github.com/Silverware-Games/lilys-game-issues)        |
 | https://firestarter.cc     | HTML5       | https://silverwaregames.com/games/firestarter/    | [⚠️](https://github.com/Silverware-Games/firestarter-issues)       |
 | https://kingzazz.com       | HTML5       | https://silverwaregames.com/games/zazz/           |
