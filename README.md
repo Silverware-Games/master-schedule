@@ -5,17 +5,17 @@ A centralized content roadmap for Silverware Games, and our Master Plan for Worl
 ## Games Page
 
 Centralized games page for silverwaregames, https://silverwaregames.com/games with only our best stuff.
-| URL                        | CTA         | Forward To                                        | Issue Tracker                                                |
-|----------------------------|-------------|---------------------------------------------------|--------------------------------------------------------------|
+| URL                        | CTA         | Forward To                                        | Issue Tracker                                                      |
+|----------------------------|-------------|---------------------------------------------------|--------------------------------------------------------------------|
 | https://eggfun.io          | HTML5       | https://silverwaregames.com/games/eggfun/         |
-| https://lilysgame.io       | HTML5       | https://lilysgame.io                              | https://github.com/Silverware-Games/lilys-game-issues        |
-| https://firestarter.cc     | HTML5       | https://silverwaregames.com/games/firestarter/    | https://github.com/Silverware-Games/firestarter-issues       |
+| https://lilysgame.io       | HTML5       | https://lilysgame.io                              | [⚠️](https://github.com/Silverware-Games/lilys-game-issues)        |
+| https://firestarter.cc     | HTML5       | https://silverwaregames.com/games/firestarter/    | [⚠️](https://github.com/Silverware-Games/firestarter-issues)       |
 | https://kingzazz.com       | HTML5       | https://silverwaregames.com/games/zazz/           |
-| https://bobblebonanza.io   | HTML5       | https://silverwaregames.com/games/bobble/         |
-| https://washtowelfill.io   | HTML5       | https://silverwaregames.com/games/wtf/            | https://github.com/Silverware-Games/war-tainted-falls-issues |
-| https://xanadu.live        | Watch video | Youtube Video                                     | https://github.com/Silverware-Games/xanadu-issues            |
-| https://hundredbullets.com | XBOX/PC     | SWG HB Press Page                                 | https://github.com/Silverware-Games/Hundred-Bullets-Issues   |
-| https://matchystar.com     | STEAM       | Steam Page                                        | https://github.com/Silverware-Games/matchy-star-issues       |
+| https://bobblebonanza.io   | HTML5       | https://silverwaregames.com/games/bobble/         | [⚠️](https://github.com/Silverware-Games/bobble-bonanza-issues)    |
+| https://washtowelfill.io   | HTML5       | https://silverwaregames.com/games/wtf/            | [⚠️](https://github.com/Silverware-Games/war-tainted-falls-issues) |
+| https://xanadu.live        | Watch video | Youtube Video                                     | [⚠️](https://github.com/Silverware-Games/xanadu-issues)            |
+| https://hundredbullets.com | XBOX/PC     | SWG HB Press Page                                 | [⚠️](https://github.com/Silverware-Games/Hundred-Bullets-Issues)   |
+| https://matchystar.com     | STEAM       | Steam Page                                        | [⚠️](https://github.com/Silverware-Games/matchy-star-issues)       |
 
 
 1) "Play More Games Button" for HTML5 Games for people who want to try our other stuff, redirects to https://silverwaregames.com/games/
