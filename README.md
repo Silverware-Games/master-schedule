@@ -7,10 +7,10 @@ A centralized content roadmap for Silverware Games, and our Master Plan for Worl
 Centralized games page for silverwaregames, https://silverwaregames.com/games with only our best stuff.
 | URL                        | CTA         | Forward To                                        | Design Doc                                                         |
 |----------------------------|-------------|---------------------------------------------------|--------------------------------------------------------------------|
-| https://matchystar.com     | STEAM       | Steam Page                                        | [⚠️](https://github.com/Silverware-Games/matchy-star-gdd)          |
-| https://xanadu.live        | Watch video | Youtube Video                                     | [⚠️](https://github.com/Silverware-Games/xanadu-live-gdd)          |
+| https://matchystar.com     | STEAM       | Steam Page                                        | [🔧](https://github.com/Silverware-Games/matchy-star-gdd)          |
+| https://xanadu.live        | Watch video | Youtube Video                                     | [🔧](https://github.com/Silverware-Games/xanadu-live-gdd)          |
 | https://lilysgame.io       | HTML5       | https://lilysgame.io                              | [⚠️](https://github.com/Silverware-Games/lilys-game-issues)        |
-| https://washtowelfill.io   | HTML5       | https://silverwaregames.com/games/wtf/            | [⚠️](https://github.com/Silverware-Games/wash-towel-fill-gdd)      |
+| https://washtowelfill.io   | HTML5       | https://silverwaregames.com/games/wtf/            | [🔧](https://github.com/Silverware-Games/wash-towel-fill-gdd)      |
 | https://firestarter.cc     | HTML5       | https://silverwaregames.com/games/firestarter/    | [⚠️](https://github.com/Silverware-Games/firestarter-issues)       |
 | https://bobblebonanza.io   | HTML5       | https://silverwaregames.com/games/bobble/         | [⚠️](https://github.com/Silverware-Games/bobble-bonanza-issues)    |
 | https://eggfun.io          | HTML5       | https://silverwaregames.com/games/eggfun/         | [⚠️](https://github.com/Silverware-Games/eggfun-issues)            |
