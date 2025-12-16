@@ -5,7 +5,7 @@ A centralized content roadmap for Silverware Games, and our Master Plan for Worl
 ## Games Page
 
 Centralized games page for silverwaregames, https://silverwaregames.com/games with only our best stuff.
-| URL                        | CTA         | Forward To                                        | Issue Tracker                                                      |
+| URL                        | CTA         | Forward To                                        | Design Doc                                                         |
 |----------------------------|-------------|---------------------------------------------------|--------------------------------------------------------------------|
 | https://matchystar.com     | STEAM       | Steam Page                                        | [⚠️](https://github.com/Silverware-Games/matchy-star-gdd)          |
 | https://xanadu.live        | Watch video | Youtube Video                                     | [⚠️](https://github.com/Silverware-Games/xanadu-live-gdd)          |
