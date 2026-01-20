@@ -1,89 +1,170 @@
 # Silverware Games, Inc.
 
-A centralized content roadmap for Silverware Games, and our Master Plan for World Domination.
+**Silverware Games** is an independent game studio, creative playground, and collaborative hub focused on making games, art, and weird ideas fun for everyone involved.
 
-## Games Page
+This repository serves as:
+- A centralized roadmap for Silverware Games projects
+- A coordination hub for collaborators
+- A public-facing snapshot of what we’re building, publishing, and experimenting with
 
-Centralized games page for silverwaregames, https://silverwaregames.com/games with only our best stuff.
-| URL                        | CTA         | Forward To                                        | Design Doc                                                         |
-|----------------------------|-------------|---------------------------------------------------|--------------------------------------------------------------------|
-| https://matchystar.com     | STEAM       | Steam Page                                        | [🔧](https://github.com/Silverware-Games/matchy-star-gdd)          |
-| https://xanadu.live        | Watch video | Youtube Video                                     | [🔧](https://github.com/Silverware-Games/xanadu-live-gdd)          |
-| https://lilysgame.io       | HTML5       | https://lilysgame.io                              | [⚠️](https://github.com/Silverware-Games/lilys-game-issues)        |
-| https://washtowelfill.io   | HTML5       | https://silverwaregames.com/games/wtf/            | [🔧](https://github.com/Silverware-Games/wash-towel-fill-gdd)      |
-| https://firestarter.cc     | HTML5       | https://silverwaregames.com/games/firestarter/    | [⚠️](https://github.com/Silverware-Games/firestarter-issues)       |
-| https://bobblebonanza.io   | HTML5       | https://silverwaregames.com/games/bobble/         | [⚠️](https://github.com/Silverware-Games/bobble-bonanza-issues)    |
-| https://eggfun.io          | HTML5       | https://silverwaregames.com/games/eggfun/         | [⚠️](https://github.com/Silverware-Games/eggfun-issues)            |
-| https://kingzazz.com       | HTML5       | https://silverwaregames.com/games/zazz/           | [⚠️](https://github.com/Silverware-Games/king-zazz-issues)         |
-| https://hundredbullets.com | XBOX/PC     | SWG HB Press Page                                 | [⚠️](https://github.com/Silverware-Games/Hundred-Bullets-Issues)   |
+Our unofficial mission statement:  
+**Make cool things, invite good people, and bring the fun.**
 
-1) "Play More Games Button" for HTML5 Games for people who want to try our other stuff, redirects to https://silverwaregames.com/games/
-2) Remove all SWGIO.com backend for now. To be improved later.
-3) Add "games" pinned article to silverwaregames.com front page that redirects to https://silverwaregames.com/games/
-4) Add "Mailing List Sign Up Button" Make sure https://list.silverwaregames.com goes to a mailing list sign up and plaster the link around everywhere.
-5) Fix "Press" page so it is correct and doesn't use the weird vlambeer system that is bad.
-6) Redirect https://silverwaregames.io to https://silverwaregames.com for now.
+## What We Do
 
-## Social Media / MichaelPlzNo Master Schedule
+Silverware Games works across multiple creative lanes:
 
-Organize all social stuff, art, videos, and various posting channels into a predictable, brand-driven content engine—while still leaving room for spontaneity and creative play.
+- Original games (HTML5, PC, console)
+- Experimental art & interactive media
+- Podcasts and video series
+- Client work and consulting
+- Open collaboration with artists, developers, and creators
+
+Some projects are playful.  
+Some are polished.  
+Many are intentionally strange.
+
+## Games Hub
+
+Our public games page lives here:  
+https://silverwaregames.com/games
+
+It features a curated selection of our best and most representative work.
+
+| URL                        | Platform  | Forward / CTA                              | Design / Issues                                  |
+|----------------------------|-----------|---------------------------------------------|--------------------------------------------------|
+| https://matchystar.com     | PC (Steam)| Steam Page                                  | https://github.com/Silverware-Games/matchy-star-gdd |
+| https://xanadu.live        | Video     | YouTube Video                               | https://github.com/Silverware-Games/xanadu-live-gdd |
+| https://lilysgame.io       | HTML5     | Play on Web                                 | https://github.com/Silverware-Games/lilys-game-issues |
+| https://washtowelfill.io   | HTML5     | Play on Web                                 | https://github.com/Silverware-Games/wash-towel-fill-gdd |
+| https://firestarter.cc     | HTML5     | Play on Web                                 | https://github.com/Silverware-Games/firestarter-issues |
+| https://bobblebonanza.io   | HTML5     | Play on Web                                 | https://github.com/Silverware-Games/bobble-bonanza-issues |
+| https://eggfun.io          | HTML5     | Play on Web                                 | https://github.com/Silverware-Games/eggfun-issues |
+| https://kingzazz.com       | HTML5     | Play on Web                                 | https://github.com/Silverware-Games/king-zazz-issues |
+| https://hundredbullets.com | PC / Xbox | Press Page                                  | https://github.com/Silverware-Games/Hundred-Bullets-Issues |
+
+### Games Page TODOs
+
+- Add **“Play More Games”** button linking to `/games`
+- Remove legacy SWGIO backend (temporary)
+- Pin “Games” article on silverwaregames.com homepage
+- Fix and modernize the Press page (remove old Vlambeer-style system)
+- Redirect:
+  - `silverwaregames.io` → `silverwaregames.com`
+
+## Collaboration & Community
+
+Silverware Games is **not a closed studio**.
+
+We actively welcome:
+- Game designers
+- Programmers
+- Artists & illustrators
+- Animators
+- Writers
+- Sound designers
+- Curious weirdos with good ideas
+
+Ways to get involved:
+- Contribute to an existing game repo
+- Pitch a mini-game or experiment
+- Join a podcast episode
+- Collaborate on art, videos, or tools
+
+If you can explain **why something is fun**, you’re probably a good fit.
+
+## Podcasts & Guest Content
+
+We host and guest-host podcasts and long-form creative conversations on YouTube.
+
+These include:
+- Design discussions
+- Art process breakdowns
+- Game dev feedback
+- Creative philosophy
+- Occasionally unhinged tangents
+
+Episodes are intentionally informal and creator-friendly.  
+If you like talking shop and making things — you’re welcome.
+
+## Client Work & Consulting
+
+In addition to internal projects, Silverware Games takes on **select client work**.
+
+**Rate:** $60/hour  
+**Focus:** Creative-first, indie-friendly, human-scale projects
+
+Recent examples:
+- https://mandela.agency  
+- https://blackandwhitestone.com  
+
+Typical services:
+- Website design & implementation
+- Branding & creative direction
+- Interactive prototypes
+- Technical consulting
+- Creative systems & workflows
+
+Client work helps fund experiments — not replace them.
+
+## Social Media & Content Engine
+
+This repo also tracks our ongoing publishing cadence, primarily under the **MichaelPlzNo** brand.
 
 ### YouTube Weekly Schedule
 
-| Day       | Theme              | Format               | Description                                                                 |
-|-----------|--------------------|----------------------|-----------------------------------------------------------------------------|
-| Monday    | MovieMonday        | Shorts (+ subtitles) | Trendy film clips rated Bronze/Silver/Gold, with punchy commentary          |
-| Tuesday   | TimeLapseTuesday   | Shorts               | 60-second doodle timelapses set to trending music (queue 40+ from archive)  |
-| Wednesday | WifeWednesday      | Shorts (+ subtitles) | Slice-of-life or co-op gaming moments with Lily                             |
-| Thursday  | GameDevFeedback    | Long form (3–5 min)  | Heavily edited dev feedback: quick takeaways, teachable moments             |
-| Friday    | WildcardFriday     | Flexible             | Spontaneous: memes, reactions, dev rants, AI experiments, etc.              |
-| Saturday  | AI Nightmare       | Long form (1–3 min)  | Wacky AI videos, fake Netflix trailers, surreal sketches                    |
-| Sunday    | Coffee Radar       | Long form            | Weekly devlogs & reflective vlogs—your creative process in recap form       |
+| Day       | Theme            | Format            | Description |
+|----------|------------------|-------------------|-------------|
+| Monday    | MovieMonday      | Shorts            | Film clips rated Bronze/Silver/Gold |
+| Tuesday   | TimeLapseTuesday | Shorts            | 60s doodle timelapses |
+| Wednesday | WifeWednesday    | Shorts            | Co-op & slice-of-life with Lily |
+| Thursday  | GameDevFeedback  | Long (3–5 min)    | Focused dev critique |
+| Friday    | WildcardFriday   | Flexible          | Memes, rants, experiments |
+| Saturday  | AI Nightmare     | Long (1–3 min)    | Surreal AI chaos |
+| Sunday    | Coffee Radar     | Long              | Weekly dev & life recap |
 
-### Instagram
+## Mailing List: Doodle Club
 
-- **Reels**  
-  Mirror YouTube Shorts (MovieMonday, TimeLapseTuesday, WifeWednesday) immediately after upload.
+Sign-up hub:  
+https://list.silverwaregames.com
 
-- **Feed Posts**  
-  - Sketchbook snapshots (align with SketchbookSaturday)  
-  - Behind-the-scenes dev shots (1× per week)
+### What Subscribers Get
 
-- **Stories**  
-  Daily micro-updates: polls on next GDF topic, speed snaps of doodles, quick Q&A.
+- Weekly highlights
+- Behind-the-scenes process
+- Exclusive doodles and downloads
+- Occasional mini tutorials or experiments
 
-### Bluesky
+This is our most direct way to keep collaborators and fans in the loop.
 
-- Daily micro-posts  
-- Progress shots (“Today I’m doodling…”)
-- Teasers for upcoming YouTube posts (“MovieMonday drops tomorrow!”)
-- Pulse polls to crowdsource next WildcardFriday topic
+## Website
 
-### Website (silverwaregames.com)
+https://silverwaregames.com
 
-- **Weekly Blog** (Sunday)  
-  Embed your Coffee Radar vlog, expand with screenshots, dev notes, and resource links.
+Planned / ongoing sections:
+- Weekly blog (Coffee Radar embeds)
+- Portfolio gallery
+- Timelapse archive
+- AI experiments
+- Mailing list promotion
 
-- **Portfolio Gallery**  
-  - Timelapse collection (for TimeLapseTuesday)  
-  - AI experiments archive (for AI Nightmare)
+## Tone & Philosophy
 
-- **Doodle Club Sign-Up**  
-  Promote the mailing list with exclusive monthly wallpapers/downloads.
+- Be kind
+- Be curious
+- Ship things
+- Don’t over-polish the soul out of projects
+- Fun is not optional
 
-### Doodle Club Mailing List
+## Status
 
-- **Weekly Newsletter**  
-  - Top 3 YouTube highlights  
-  - Sneak peek at next month’s timelapses or GDF  
-  - Exclusive behind-the-scenes doodle PDF
+Silverware Games is actively evolving.
 
-- **Special Editions**  
-  - Mini art tutorials (PDF + video snippet)  
-  - Holiday-themed doodle packs
+Expect:
+- Iteration
+- Experiments
+- Public discussion
+- Occasional chaos
 
-# Next Steps
-
- 
-     > “Welcome to Silverware Games 2.0 – a daily playlist of doodles, dev wisdom, and delightful chaos!”  
-   - Update channel banners and profile bios to reflect the new schedule.
+If that sounds good to you — welcome.
+ Update channel banners and profile bios to reflect the new schedule.
