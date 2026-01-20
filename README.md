@@ -73,6 +73,15 @@ Ways to get involved:
 
 If you can explain **why something is fun**, you’re probably a good fit.
 
+## 🎮 GameDev Feedback Series
+
+Silverware Games produces a GameDev Feedback video series focused on giving meaningful, honest feedback to indie games that are still in development. This is part of our mission to support other creators, highlight great work, and help devs polish UI/UX, gameplay clarity, and feature design.
+
+This series is open, supportive, and constructive:
+- We review submitted games on our YouTube channel.
+- Feedback covers areas like usability, design clarity, potential features, and overall player experience.
+- We aim to help games become more understandable and fun for broader audiences.
+
 ## Podcasts & Guest Content
 
 We host and guest-host podcasts and long-form creative conversations on YouTube.
