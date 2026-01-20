@@ -1,5 +1,8 @@
 # Silverware Games, Inc.
 
+![10795e68-bc89-4bff-83f2-79d79a2b31bb-md](https://github.com/user-attachments/assets/826108ae-ff88-4047-bd34-a790382b0621)
+
+
 **Silverware Games** is an independent game studio, creative playground, and collaborative hub focused on making games, art, and weird ideas fun for everyone involved.
 
 This repository serves as:
