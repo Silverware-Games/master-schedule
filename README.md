@@ -167,4 +167,3 @@ Expect:
 - Occasional chaos
 
 If that sounds good to you — welcome.
- Update channel banners and profile bios to reflect the new schedule.
