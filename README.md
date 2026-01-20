@@ -31,17 +31,17 @@ https://silverwaregames.com/games
 
 It features a curated selection of our best and most representative work.
 
-| URL                        | Platform  | Forward / CTA                               | Design / Issues                                  |
-|----------------------------|-----------|---------------------------------------------|--------------------------------------------------|
-| https://matchystar.com     | PC (Steam)| Steam Page                                  | [⚙️](https://github.com/Silverware-Games/matchy-star-gdd) |
-| https://xanadu.live        | Video     | YouTube Video                               | [⚙️](https://github.com/Silverware-Games/xanadu-live-gdd) |
-| https://lilysgame.io       | HTML5     | Play on Web                                 | [⚙️](https://github.com/Silverware-Games/lilys-game-issues) |
-| https://washtowelfill.io   | HTML5     | Play on Web                                 | [⚙️](https://github.com/Silverware-Games/wash-towel-fill-gdd) |
-| https://firestarter.cc     | HTML5     | Play on Web                                 | [⚙️](https://github.com/Silverware-Games/firestarter-issues) |
-| https://bobblebonanza.io   | HTML5     | Play on Web                                 | [⚙️](https://github.com/Silverware-Games/bobble-bonanza-issues) |
-| https://eggfun.io          | HTML5     | Play on Web                                 | [⚙️](https://github.com/Silverware-Games/eggfun-issues) |
-| https://kingzazz.com       | HTML5     | Play on Web                                 | [⚙️](https://github.com/Silverware-Games/king-zazz-issues) |
-| https://hundredbullets.com | PC / Xbox | Press Page                                  | [⚙️](https://github.com/Silverware-Games/Hundred-Bullets-Issues) |
+| URL                        | Platform  | Forward / CTA                | Design / Issues                                  |
+|----------------------------|-----------|------------------------------|--------------------------------------------------|
+| https://matchystar.com     | PC (Steam)| Steam Page                   | [⚙️](https://github.com/Silverware-Games/matchy-star-gdd) |
+| https://xanadu.live        | Video     | YouTube Video                | [⚙️](https://github.com/Silverware-Games/xanadu-live-gdd) |
+| https://lilysgame.io       | HTML5     | Play on Web                  | [⚙️](https://github.com/Silverware-Games/lilys-game-issues) |
+| https://washtowelfill.io   | HTML5     | Play on Web                  | [⚙️](https://github.com/Silverware-Games/wash-towel-fill-gdd) |
+| https://firestarter.cc     | HTML5     | Play on Web                  | [⚙️](https://github.com/Silverware-Games/firestarter-issues) |
+| https://bobblebonanza.io   | HTML5     | Play on Web                  | [⚙️](https://github.com/Silverware-Games/bobble-bonanza-issues) |
+| https://eggfun.io          | HTML5     | Play on Web                  | [⚙️](https://github.com/Silverware-Games/eggfun-issues) |
+| https://kingzazz.com       | HTML5     | Play on Web                  | [⚙️](https://github.com/Silverware-Games/king-zazz-issues) |
+| https://hundredbullets.com | PC / Xbox | Press Page                   | [⚙️](https://github.com/Silverware-Games/Hundred-Bullets-Issues) |
 
 ### Games Page TODOs
 
@@ -119,18 +119,6 @@ Client work helps fund experiments — not replace them.
 ## Social Media & Content Engine
 
 This repo also tracks our ongoing publishing cadence, primarily under the **MichaelPlzNo** brand.
-
-### YouTube Weekly Schedule
-
-| Day       | Theme            | Format            | Description |
-|----------|------------------|-------------------|-------------|
-| Monday    | MovieMonday      | Shorts            | Film clips rated Bronze/Silver/Gold |
-| Tuesday   | TimeLapseTuesday | Shorts            | 60s doodle timelapses |
-| Wednesday | WifeWednesday    | Shorts            | Co-op & slice-of-life with Lily |
-| Thursday  | GameDevFeedback  | Long (3–5 min)    | Focused dev critique |
-| Friday    | WildcardFriday   | Flexible          | Memes, rants, experiments |
-| Saturday  | AI Nightmare     | Long (1–3 min)    | Surreal AI chaos |
-| Sunday    | Coffee Radar     | Long              | Weekly dev & life recap |
 
 ## Mailing List: Doodle Club
 
