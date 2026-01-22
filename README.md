@@ -21,6 +21,8 @@ Silverware Games works across multiple creative lanes:
 
 - Original games (HTML5, PC, console)
 - Experimental art & interactive media
+- Wacky animations and video experiments
+- Critique and feedback of creative projects
 - Podcasts and video series
 - Client work and consulting
 - Open collaboration with artists, developers, and creators
