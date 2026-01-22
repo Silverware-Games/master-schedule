@@ -59,7 +59,7 @@ It features a curated selection of our best and most representative work.
 
 ## Collaboration & Community
 
-Silverware Games is **not a closed studio**.
+Silverware Games is **an open studio**.
 
 We actively welcome:
 - Game designers
