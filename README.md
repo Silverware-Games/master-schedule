@@ -38,15 +38,15 @@ It features a curated selection of our best and most representative work.
 
 | URL                        | Platform  | Forward / CTA                | Design / Issues                                  |
 |----------------------------|-----------|------------------------------|--------------------------------------------------|
-| https://matchystar.com     | PC (Steam)| Steam Page                   | [⚙️](https://github.com/Silverware-Games/matchy-star-gdd) |
-| https://xanadu.live        | Video     | YouTube Video                | [⚙️](https://github.com/Silverware-Games/xanadu-live-gdd) |
-| https://lilysgame.io       | HTML5     | Play on Web                  | [⚙️](https://github.com/Silverware-Games/lilys-game-issues) |
-| https://washtowelfill.io   | HTML5     | Play on Web                  | [⚙️](https://github.com/Silverware-Games/wash-towel-fill-gdd) |
-| https://firestarter.cc     | HTML5     | Play on Web                  | [⚙️](https://github.com/Silverware-Games/firestarter-issues) |
-| https://bobblebonanza.io   | HTML5     | Play on Web                  | [⚙️](https://github.com/Silverware-Games/bobble-bonanza-issues) |
-| https://eggfun.io          | HTML5     | Play on Web                  | [⚙️](https://github.com/Silverware-Games/eggfun-issues) |
-| https://kingzazz.com       | HTML5     | Play on Web                  | [⚙️](https://github.com/Silverware-Games/king-zazz-issues) |
-| https://hundredbullets.com | PC / Xbox | Press Page                   | [⚙️](https://github.com/Silverware-Games/Hundred-Bullets-Issues) |
+| https://matchystar.com     | PC (Steam)| Steam Page                   | [⚙️ MORE!](https://github.com/Silverware-Games/matchy-star-gdd) |
+| https://xanadu.live        | Video     | YouTube Video                | [⚙️ MORE!](https://github.com/Silverware-Games/xanadu-live-gdd) |
+| https://lilysgame.io       | HTML5     | Play on Web                  | [⚙️ MORE!](https://github.com/Silverware-Games/lilys-game-issues) |
+| https://washtowelfill.io   | HTML5     | Play on Web                  | [⚙️ MORE!](https://github.com/Silverware-Games/wash-towel-fill-gdd) |
+| https://firestarter.cc     | HTML5     | Play on Web                  | [⚙️ MORE!](https://github.com/Silverware-Games/firestarter-issues) |
+| https://bobblebonanza.io   | HTML5     | Play on Web                  | [⚙️ MORE!](https://github.com/Silverware-Games/bobble-bonanza-issues) |
+| https://eggfun.io          | HTML5     | Play on Web                  | [⚙️ MORE!](https://github.com/Silverware-Games/eggfun-issues) |
+| https://kingzazz.com       | HTML5     | Play on Web                  | [⚙️ MORE!](https://github.com/Silverware-Games/king-zazz-issues) |
+| https://hundredbullets.com | PC / Xbox | Press Page                   | [⚙️ MORE!](https://github.com/Silverware-Games/Hundred-Bullets-Issues) |
 
 ### Games Page TODOs
 
