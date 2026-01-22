@@ -68,7 +68,7 @@ We actively welcome:
 - Animators
 - Writers
 - Sound designers
-- Curious weirdos with good ideas
+- Curious, good natured weirdos with good ideas
 
 Ways to get involved:
 - Contribute to an existing game repo
