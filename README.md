@@ -110,6 +110,8 @@ If you like talking shop and making things — you’re welcome.
 
 In addition to internal projects, Silverware Games takes on **select client work**.
 
+<img width="1536" height="1024" alt="Silverware Games client Work for $60 an Hour" src="https://github.com/user-attachments/assets/1b1083de-302e-4a1d-80f7-76bc7d4758fe" />
+
 **Rate:** $60/hour  
 **Focus:** Creative-first, indie-friendly, human-scale projects
 
