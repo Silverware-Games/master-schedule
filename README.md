@@ -106,6 +106,11 @@ These include:
 Episodes are intentionally informal and creator-friendly.  
 If you like talking shop and making things — you’re welcome.
 
+### Recent Episodes:
+* [More Doodles with Robert Racek](https://youtube.com/live/c-F2E1yWsXY)
+* [Cha Cha Chat with Ros](https://youtube.com/live/FwvcDDxhP-8)
+* [Doodles w/ Robert Racek](https://youtube.com/live/na_McK3Av3s)
+
 ## Client Work & Consulting
 
 In addition to internal projects, Silverware Games takes on **select client work**.
