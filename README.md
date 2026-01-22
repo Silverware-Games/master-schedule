@@ -80,12 +80,17 @@ If you can explain **why something is fun**, you’re probably a good fit.
 
 ## 🎮 GameDev Feedback Series
 
+[<img width="1280" height="640" alt="GDFThumb" src="https://github.com/user-attachments/assets/064c22a5-e97d-4d6f-b653-b8c85b7f1d7e" />](https://github.com/Silverware-Games/Gamedev-Feedback/)
+
+
 Silverware Games produces a GameDev Feedback video series focused on giving meaningful, honest feedback to indie games that are still in development. This is part of our mission to support other creators, highlight great work, and help devs polish UI/UX, gameplay clarity, and feature design.
 
 This series is open, supportive, and constructive:
 - We review submitted games on our YouTube channel.
 - Feedback covers areas like usability, design clarity, potential features, and overall player experience.
 - We aim to help games become more understandable and fun for broader audiences.
+
+Check out the repo for [Gamedev Feedback](https://github.com/Silverware-Games/Gamedev-Feedback/)
 
 ## Podcasts & Guest Content
 
