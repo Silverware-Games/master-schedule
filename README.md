@@ -31,8 +31,6 @@ Some projects are playful.
 Some are polished.  
 Many are intentionally strange.
 
-## Games Hub
-
 ## 🎮 Games We’re Actively Building
 
 Our public games page lives here:  
