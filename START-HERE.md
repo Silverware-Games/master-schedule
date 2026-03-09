@@ -1,3 +1,5 @@
+<!-- @format -->
+
 # START HERE
 
 This is the universal orientation document for the `silverware-drawer` repository.
@@ -17,11 +19,11 @@ It is intentionally organized by audience and task so that people do not need pr
 ## How Documentation Is Organized
 
 - [README.md](README.md): front-door dashboard with role-based routing.
+- [docs/indexes/repo-map.md](docs/indexes/repo-map.md): complete repository map with all files and metadata.
 - [docs/public/](docs/public/): public-facing information about SWG.
 - [docs/collaborators/](docs/collaborators/): onboarding and contribution guidance.
 - [docs/clients/](docs/clients/): client-facing service and workflow documentation.
 - [docs/internal/](docs/internal/): internal operational and planning docs.
-- [docs/indexes/](docs/indexes/): navigation indexes by audience, project, task, and brand.
 
 ## Public vs Internal
 
@@ -40,14 +42,14 @@ If you are unsure whether something should be public, place it in `docs/internal
 
 Start with:
 
-- [docs/indexes/by-audience.md](docs/indexes/by-audience.md)
+- [docs/indexes/repo-map.md](docs/indexes/repo-map.md) - the complete repository index
 
 Then branch by role:
 
 - New visitors: [docs/public/about-swg.md](docs/public/about-swg.md)
 - Collaborators: [docs/collaborators/collaborator-onboarding.md](docs/collaborators/collaborator-onboarding.md)
 - Clients: [docs/clients/services-overview.md](docs/clients/services-overview.md)
-- Internal SWG: [docs/internal/repo-map.md](docs/internal/repo-map.md)
+- Internal SWG: [docs/indexes/repo-map.md](docs/indexes/repo-map.md)
 - AI systems: [docs/indexes/by-task.md](docs/indexes/by-task.md)
 
 ## How Collaborators Can Participate
