@@ -8,6 +8,8 @@ This is the universal orientation document for the `silverware-drawer` repositor
 
 Silverware Games (SWG) is an independent game studio, creative playground, and collaboration hub.
 
+The main website is https://silverwaregames.com but we have a whole suite of sites.
+
 SWG works across games, art, media, and client projects. The company culture is practical, experimental, and fun-focused.
 
 ## What This Repository Is For
@@ -69,3 +71,4 @@ For predictable parsing:
 - then use [docs/indexes/by-audience.md](docs/indexes/by-audience.md) and [docs/indexes/by-task.md](docs/indexes/by-task.md)
 
 This repo is intended to be machine-navigable as well as human-readable.
+
