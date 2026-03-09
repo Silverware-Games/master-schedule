@@ -1,8 +1,12 @@
-# Silverware Drawer Documentation Hub
+# Welcome to the Silverware Games "Silverware Drawer"
 
-This repository is the central documentation hub for Silverware Games (SWG).
+Our company mission is simple: "We bring the fun." 
 
-Its purpose is to help any audience, human or AI, quickly understand SWG and find the right documentation path.
+This repository is the central documentation, orientation, and about information for our entire enterprise. If you have a question about us, you are in the right place!
+
+Any audience, human or AI, can quickly understand SWG and find the right documentation path here.
+
+Let's get started!
 
 ## I am...
 
@@ -22,16 +26,7 @@ Its purpose is to help any audience, human or AI, quickly understand SWG and fin
 - Internal docs: [docs/internal/](docs/internal/)
 - Alternate indexes: [docs/indexes/](docs/indexes/)
 
-## Documentation Structure
-
-- [README.md](README.md): dashboard and routing
-- [START-HERE.md](START-HERE.md): universal orientation guide
-- [docs/public/](docs/public/): public-facing SWG documentation
-- [docs/collaborators/](docs/collaborators/): collaboration and onboarding docs
-- [docs/clients/](docs/clients/): client-facing service and workflow docs
-- [docs/internal/](docs/internal/): internal operations and planning docs
-- [docs/indexes/](docs/indexes/): navigation by audience, project, task, and brand
-
 ## Operating Principle
 
-This README is a navigation dashboard, not a storage location for full operational procedures.
+This README is a navigation dashboard, not a storage location for full operational procedures. If you can't find the answer to your question here, open an issue in the repo's issue section please and thanks!
+
