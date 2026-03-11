@@ -1,4 +1,5 @@
 <sub><em>Status: Active | Audience: All | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+
 # Operational Docs Index
 
 Use this page when you need detailed, frequently updated procedures.
@@ -13,7 +14,7 @@ Operational docs answer: "how exactly do we do this?"
 
 ## Public Operational Docs
 
-- [docs/public/active-projects.md](../../docs/public/active-projects.md): living snapshot of active and visible work.
+- [docs/indexes/project-index.md](../../docs/indexes/project-index.md): living snapshot of active and visible work.
 
 ## Internal Operational Docs
 

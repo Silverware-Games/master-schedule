@@ -15,7 +15,7 @@ If you are here as a client or collaborator, use your audience entry page first:
 
 ## Recommended Reading Order
 
-1. [active-projects.md](./active-projects.md) for the current project snapshot.
+1. [project-index.md](../indexes/project-index.md) for the current project snapshot.
 2. [philosophy-and-ethos.md](./philosophy-and-ethos.md) for how we think and work.
 3. [podcasts-and-content.md](./podcasts-and-content.md) for long-form media context.
 4. [coffee-doodle-art.md](./coffee-doodle-art.md) for art initiative context.
@@ -26,7 +26,7 @@ If you are here as a client or collaborator, use your audience entry page first:
 
 Read only these two pages first:
 
-1. [active-projects.md](./active-projects.md)
+1. [project-index.md](../indexes/project-index.md)
 2. [philosophy-and-ethos.md](./philosophy-and-ethos.md)
 
 You can safely skip the rest on a first pass and come back as needed.

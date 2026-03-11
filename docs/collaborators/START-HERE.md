@@ -11,7 +11,7 @@ Use this page if you want to contribute to Silverware Games projects.
 ## Recommended Reading Order
 
 1. [collaborator-onboarding.md](./collaborator-onboarding.md) to understand onboarding flow and norms.
-2. [../public/active-projects.md](../public/active-projects.md) to find where contribution is currently useful.
+2. [../indexes/project-index.md](../indexes/project-index.md) to find where contribution is currently useful.
 3. [../public/philosophy-and-ethos.md](../public/philosophy-and-ethos.md) to align with creative and working values.
 4. [../indexes/operational-docs.md](../indexes/operational-docs.md) to find detailed runbooks once your scope is defined.
 5. [../internal/wordpress/workflow-client.md](../internal/wordpress/workflow-client.md) only if you are assigned WordPress workflow tasks.
@@ -21,7 +21,7 @@ Use this page if you want to contribute to Silverware Games projects.
 Read these before doing any work:
 
 1. [collaborator-onboarding.md](./collaborator-onboarding.md)
-2. [../public/active-projects.md](../public/active-projects.md)
+2. [../indexes/project-index.md](../indexes/project-index.md)
 
 Then confirm your scope with the team before touching internal systems.
 

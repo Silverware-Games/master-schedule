@@ -23,7 +23,7 @@ Typical engagement posture:
 ## Recommended Reading Order
 
 1. [services-overview.md](./services-overview.md) for services and engagement baseline.
-2. [../public/active-projects.md](../public/active-projects.md) for visible project examples.
+2. [../indexes/project-index.md](../indexes/project-index.md) for visible project examples.
 3. [../public/philosophy-and-ethos.md](../public/philosophy-and-ethos.md) for working style and values.
 4. [../internal/wordpress/workflow-client.md](../internal/wordpress/workflow-client.md) only if your project uses the WordPress staging workflow.
 
@@ -32,7 +32,7 @@ Typical engagement posture:
 Read these two pages:
 
 1. [services-overview.md](./services-overview.md)
-2. [../public/active-projects.md](../public/active-projects.md)
+2. [../indexes/project-index.md](../indexes/project-index.md)
 
 That is enough for an initial scoping conversation.
 
