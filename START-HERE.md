@@ -53,13 +53,6 @@ Use [docs/indexes/orientation-docs.md](docs/indexes/orientation-docs.md) for ent
 
 Practical rule: if a page grows beyond roughly 500 to 800 words, it is usually no longer an entry doc and should be treated as operational.
 
-## Where To Go Next
-
-- If you are new and need orientation, begin with this page.
-- If you need the authoritative file index, use [docs/indexes/repo-map.md](docs/indexes/repo-map.md).
-- If you want to contribute, start with [docs/collaborators/START-HERE.md](docs/collaborators/START-HERE.md).
-- If you are evaluating SWG as a client, start with [docs/clients/START-HERE.md](docs/clients/START-HERE.md).
-
 ## Notes For AI And Automation
 
 This repo is intended to be machine-navigable as well as human-readable. Automation should treat [docs/indexes/repo-map.md](docs/indexes/repo-map.md) as the authoritative inventory.
