@@ -1,6 +1,6 @@
 <sub><em>Status: Active | Audience: All | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 
-# REPO HUB
+# START HERE
 
 Welcome to the **Silverware Drawer**.
 
@@ -99,7 +99,7 @@ This repository aims to make SWG knowledge:
 - navigable
 - documented
 - improvable over time
- 
+
 When in doubt:
 **Write it down. Improve it later.**
 
@@ -172,5 +172,3 @@ Before making large structural changes, consult:
 
 Silverware Games  
 Organized chaos since the beginning.
-
-

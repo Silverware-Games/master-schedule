@@ -8,7 +8,7 @@ Welcome! This guide covers everything you need to start contributing to Silverwa
 
 New collaborators should complete these steps:
 
-1. **Read [`REPO-HUB.md`](../../REPO-HUB.md)** — Understand the repository structure and navigation.
+1. **Read [`START-HERE.md`](../../START-HERE.md)** — Understand the repository structure and navigation.
 2. **Pick your contribution path** — Choose an area that aligns with your strengths.
 3. **Define your first contribution** — Start small and aligned with project priorities.
 4. **Confirm working scope** — Align with the team on your initial focus area.

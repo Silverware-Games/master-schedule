@@ -20,7 +20,7 @@ If this is your first time exploring the repo:
 
 ➡ **Read the orientation guide**
 
-[REPO-HUB.md](REPO-HUB.md)
+[START-HERE.md](START-HERE.md)
 
 This explains how the repository is structured and where to begin.
 
@@ -42,6 +42,3 @@ Before making large structural changes, consult:
 Silverware Games
 
 Organized chaos since the beginning.
-
-
-
