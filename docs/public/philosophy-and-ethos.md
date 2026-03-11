@@ -9,21 +9,23 @@ Read More: [Art Is Fun](https://silverwaregames.com/plzno/art-should-be-fun/)
 
 ## Our Values
 
-###Fun
+### Fun
 We create amusing, light hearted, cute, and entertaining games that people can easily enjoy. Sometimes it is hard to see the fun side of the world and we strive to make fun experiences that help us find more fun in our everyday lives.
 
-###Imagination
+### Imagination
 Our games have interesting twists, unusual settings, and creative characters. We like combining different games to make new kinds of play and we want to create interesting new universes for people to enjoy.
 
-###People
+### People
 Human connection makes the world go round. We want to make content to share with others because growing and looking after our community is one of our goals. A game isn't truly a game if no one plays it. That is why we seek to communicate with players, so we push ourselves to do the very best we can do.
 
 ## Practical Principles
 
 - Let's not go crazy, don't end up in the hospital for art... it's not worth it!
+- Be kind, respectful, and consider other people's feelings. It's ok to goof around but not by hurting other people.
 - 
 
 ## Culture Summary
 
 SWG aims to keep quality high without removing personality from the work.
+
 
