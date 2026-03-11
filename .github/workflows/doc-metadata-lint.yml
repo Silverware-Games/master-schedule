@@ -6,6 +6,9 @@ on:
       - "**/*.md"
       - "scripts/lint-doc-metadata.ps1"
       - "scripts/verify-repo-map-status.ps1"
+      - "scripts/verify-last-reviewed-updated.ps1"
+      - "scripts/update-last-reviewed-for-staged.ps1"
+      - ".githooks/pre-commit"
       - ".github/workflows/doc-metadata-lint.yml"
   push:
     branches:
@@ -14,6 +17,9 @@ on:
       - "**/*.md"
       - "scripts/lint-doc-metadata.ps1"
       - "scripts/verify-repo-map-status.ps1"
+      - "scripts/verify-last-reviewed-updated.ps1"
+      - "scripts/update-last-reviewed-for-staged.ps1"
+      - ".githooks/pre-commit"
       - ".github/workflows/doc-metadata-lint.yml"
 
 jobs:
@@ -36,3 +42,21 @@ jobs:
       - name: Verify repo-map status matches docs
         shell: pwsh
         run: ./scripts/verify-repo-map-status.ps1 -Root . -RepoMapPath docs/indexes/repo-map.md
+
+  verify-last-reviewed-updated:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Verify Last Reviewed was updated (pull request)
+        if: github.event_name == 'pull_request'
+        shell: pwsh
+        run: ./scripts/verify-last-reviewed-updated.ps1 -BaseRef "${{ github.event.pull_request.base.sha }}" -HeadRef "${{ github.event.pull_request.head.sha }}"
+
+      - name: Verify Last Reviewed was updated (push)
+        if: github.event_name == 'push'
+        shell: pwsh
+        run: ./scripts/verify-last-reviewed-updated.ps1 -BaseRef "${{ github.event.before }}" -HeadRef "${{ github.sha }}"
