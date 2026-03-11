@@ -27,7 +27,7 @@ Choose the path that best matches why you're here.
 
 ## 🌎 Public — What Silverware Games Is
 
-If you want to understand the studio, its philosophy, and its projects:
+You may have stumbled onto one of our games/experiments/youtube videos/art projects and want to know who the heck are these people. You may be a die hard fan who has known about us since we launched "Jezz Cubed" decades ago... 4 people bought that game! Or anywhere inbetween, this is the portal to know us and our public face.
 
 Start here:
 [docs/public/PUBLIC-HUB.md](docs/public/PUBLIC-HUB.md)
@@ -172,3 +172,4 @@ Before making large structural changes, consult:
 
 Silverware Games  
 Organized chaos since the beginning.
+
