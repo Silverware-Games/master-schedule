@@ -70,10 +70,11 @@ But the real question is simpler:
 
 A big part of that question is whether the **core interaction** is enjoyable on its own. If the basic action isn't fun, no amount of rewards, story, or polish will fix it. 
 
-If the SPORK test answer is no, the audience probably won't want to play it even one time.
+If the SPORK test answer is no, the audience probably won't want to play even one time.
 
 This test has several strategic benefits:
 
 - If repetition is enjoyable, the audience can return to the experience again and again.
 - If repetition is enjoyable, creators can iterate without burning out.
 - The more enjoyable polishing and refining a project becomes, the better the final result will be.
+
