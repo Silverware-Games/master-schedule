@@ -1,4 +1,5 @@
 <sub><em>Status: Active | Audience: Collaborators | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+
 # Collaboration Guide
 
 Welcome! This guide covers everything you need to start contributing to Silverware Games projects.
@@ -37,4 +38,4 @@ These norms keep collaboration smooth and documentation maintainable.
 - **Propose changes with context** — Explain the why, not just the what.
 - **Prefer written decisions for traceability** — Document outcomes in the repo.
 - **Document outcomes, not just discussions** — Capture what was decided and why.
-- **Feedback should offer a path forward** — Don't just say "This feature is bad." say "Here's how to improve this feature..."
+- **Feedback should offer a path forward** — Don't just say "This feature is bad," say "Here's how to improve this feature..."

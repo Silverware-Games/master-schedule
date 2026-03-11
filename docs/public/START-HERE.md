@@ -2,7 +2,7 @@
 
 # Ya heard of us?
 
-Visitors, fans, well-wishers, hangers on, aquaintences and ... "our people" Use this page if you are a visitor, fan, or anyone trying to understand Silverware Games from the outside.
+Visitors, fans, well-wishers, hangers-on, acquaintances, and ... "our people." Use this page if you are a visitor, fan, or anyone trying to understand Silverware Games from the outside.
 
 What we are building? What do we value? Where do we follow projects and content?
 
@@ -19,7 +19,6 @@ Maybe... just maybe, you want to give us some support and approval. Let me tell 
 
 (if you are in a rush just read the first 2! There will be a quiz later though.)
 
-## Still have questions? 
+## Still have questions?
 
 That's probably reasonable. Create an issue on this page or reach out to @michaelplzno on social and hit us up!
-

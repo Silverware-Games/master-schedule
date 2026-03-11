@@ -69,7 +69,6 @@ This section explains:
 - Case studies
 - Client workflow
 - FAQs
--
 
 ## 🧠 Internal — SWG Systems & Infrastructure
 
