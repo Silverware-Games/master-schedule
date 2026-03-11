@@ -24,27 +24,6 @@ If this is your first time exploring the repo:
 
 This explains how the repository is structured and where to begin.
 
-# Why This Repo Exists
-
-Most organizations accumulate knowledge in scattered places:
-
-- chat threads
-- private documents
-- personal notes
-- unwritten tribal knowledge
-
-The **Silverware Drawer** exists to solve that problem.
-
-This repository aims to make SWG knowledge:
-
-- discoverable
-- navigable
-- documented
-- improvable over time
- 
-When in doubt:
-**Write it down. Improve it later.**
-
 # Contributing
 
 If you see something that is:
@@ -54,7 +33,7 @@ If you see something that is:
 - broken
 - missing
 
-Please improve it.
+Please improve it. Contact us @michaelplzno on social. Make an issue in the repo and we'll take care of it.
 
 Before making large structural changes, consult:
 
@@ -63,4 +42,5 @@ Before making large structural changes, consult:
 Silverware Games
 
 Organized chaos since the beginning.
+
 
