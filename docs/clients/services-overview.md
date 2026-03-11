@@ -1,21 +1,39 @@
 <sub><em>Status: Needs Review | Audience: Clients | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+
 # Services Overview
 
-We typically work in the `$60/hour` range, and we love helping clients bring ideas to life. Here are some of the ways we can help:
+Silverware Games provides focused creative and technical services for small teams, creators, and growing brands.
+
+Typical rate: `$60/hour`
+
+## What Clients Can Expect
+
+- Fast turnaround for clearly scoped tasks.
+- Staged workflow for higher-risk updates, especially WordPress work.
+- Clear checkpoints for review and approval.
+- Clean handoff with access notes, assets, and next-step guidance.
+
+## Service Areas
 
 - **Website design and development**  
-  Need a website from scratch? We can do that. Simple static sites are often completed in 1-2 hours. If you want hosting too, we can host your site on our server for an additional fee and handle the full setup end-to-end. Leave it to us, all you have to do is send your client to your new domain name!
+  We design and build websites from lightweight static pages to custom implementations. Small static updates are often completed quickly, while larger builds are scoped before implementation. Hosting and end-to-end setup are available as add-on services.
 - **Video editing**  
-  We edit both short and long-form video, from quick social clips to longer pieces. For long footage, editing time includes review time (often at 2x playback), which can affect the total cost.
+  We edit short-form and long-form video, from social clips to extended productions. For long footage, estimates include review passes, which can affect total time and cost.
 - **Copy and content editing**  
-  We can polish your written content, including website copy, books, articles, and other text-based materials.
+  We refine written content for clarity, structure, and tone, including website copy, articles, and long-form text.
 - **Game development**  
-  Have a game idea? We would love to help you build it. We create lightweight HTML5 web applets that run smoothly on most devices using our custom engine.
+  We support game concept development and implementation, including lightweight HTML5 experiences that run on most modern devices.
 - **WordPress troubleshooting and improvements**  
-  If your WordPress site is giving you trouble, we can help clean it up and improve performance, reliability, and overall presentation.
+  We diagnose and improve WordPress performance, reliability, and presentation while minimizing production risk.
 
 ## For WordPress Clients
 
-We take your wordpress install and export it to our sandbox so we can work on a safe to modify copy. Then when you approve we move that copy to the live site.
+To reduce risk, WordPress work follows a staged workflow:
 
-When work starts, please send us your admin access username and password via email so we can access your blog's data.
+1. Export the live site to a safe staging sandbox.
+2. Implement and test changes in staging.
+3. Review with client and capture approval.
+4. Promote approved changes to production.
+5. Verify deployment and deliver handoff notes.
+
+At project start, share admin access details through the agreed channel so we can begin setup and validation.

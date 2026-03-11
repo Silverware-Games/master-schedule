@@ -2,11 +2,11 @@
 
 # Welcome to the Silverware Games™ "Silverware Drawer"
 
-Our company mission is simple: "We bring the fun™"
+Silverware Games' mission is clear: "We bring the fun™"
 
-This repository is the documentation `front door` for Silverware Games.
+This repository is the primary documentation entry point for Silverware Games.
 
-# What do you want to know?
+# What Do You Need?
 
 ## Route By Audience
 

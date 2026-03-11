@@ -2,9 +2,9 @@
 
 # START HERE
 
-This is the human introduction to the `silverware-drawer` repository.
+This page provides a concise introduction to the `silverware-drawer` repository.
 
-If you want the short explanation of what Silverware Games is and how this repo is organized, read this page. If you need the full file inventory, use [docs/indexes/repo-map.md](docs/indexes/repo-map.md).
+If you want a clear overview of Silverware Games and how this repository is organized, start here. If you need the full file inventory, use [docs/indexes/repo-map.md](docs/indexes/repo-map.md).
 
 ## What This Repo Is
 
@@ -12,9 +12,9 @@ If you want the short explanation of what Silverware Games is and how this repo 
 
 ## What Silverware Games Is
 
-Silverware Games (SWG) is an independent game studio, creative playground, and collaboration hub. The company was founded by Michael Silverman, also known online as Michael PLZNO, and incorporated in 2013.
+Silverware Games (SWG) is an independent game studio and collaboration-focused creative company. The company was founded by Michael Silverman, also known online as Michael PLZNO, and incorporated in 2013.
 
-SWG mixes original game development, client work, art experiments, and public-facing content. The main website is https://silverwaregames.com.
+SWG operates across original game development, client work, art initiatives, and public-facing content. The main website is https://silverwaregames.com.
 
 ## What SWG Works On
 
@@ -28,10 +28,10 @@ SWG mixes original game development, client work, art experiments, and public-fa
 
 SWG favors:
 
-- fast iteration
-- practical experimentation
-- collaborative creativity
-- shipping over perfection
+- Fast iteration
+- Practical experimentation
+- Collaborative creativity
+- Delivery over unnecessary delay
 
 For the longer version of that posture, read [docs/public/philosophy-and-ethos.md](docs/public/philosophy-and-ethos.md).
 
@@ -55,7 +55,7 @@ Practical rule: if a page grows beyond roughly 500 to 800 words, it is usually n
 
 ## Where To Go Next
 
-- If you are new and just need orientation, stay here.
+- If you are new and need orientation, begin with this page.
 - If you need the authoritative file index, use [docs/indexes/repo-map.md](docs/indexes/repo-map.md).
 - If you want to contribute, start with [docs/collaborators/START-HERE.md](docs/collaborators/START-HERE.md).
 - If you are evaluating SWG as a client, start with [docs/clients/START-HERE.md](docs/clients/START-HERE.md).
