@@ -28,7 +28,7 @@ SWG favors:
 - collaborative creativity
 - shipping over perfection
 
-More detailed pontifications about our design ethos is at `[/public/philosophy-and-ethos.md](/public/philosophy-and-ethos.md)`
+More detailed pontifications about our design ethos is at [/public/philosophy-and-ethos.md](/public/philosophy-and-ethos.md)
 
 ## How Documentation Is Organized
 
