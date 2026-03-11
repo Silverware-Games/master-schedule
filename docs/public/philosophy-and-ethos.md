@@ -59,3 +59,21 @@ The best work does both — it makes people feel something and gives them someth
 ---
 
 These tensions are part of the creative process. We don't expect to solve them perfectly — we just try to navigate them thoughtfully while making things that bring people joy.
+
+## Our Creative Test
+
+We sometimes joke that every project must pass the **SPORK test**.
+
+But the real question is simpler:
+
+**“Will I want to experience this a hundred times?”**
+
+A big part of that question is whether the **core interaction** is enjoyable on its own. If the basic action isn't fun, no amount of rewards, story, or polish will fix it. 
+
+If the SPORK test answer is no, the audience probably won't want to play it even one time.
+
+This test has several strategic benefits:
+
+- If repetition is enjoyable, the audience can return to the experience again and again.
+- If repetition is enjoyable, creators can iterate without burning out.
+- The more enjoyable polishing and refining a project becomes, the better the final result will be.
