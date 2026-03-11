@@ -2,6 +2,9 @@
 
 # Silverware Drawer
 
+<img width="1280" height="640" alt="silverware-drawer-thumb" src="https://github.com/user-attachments/assets/ae06a45d-ba65-4150-875f-166c27141071" />
+
+
 **The documentation hub for Silverware Games (SWG).**
 
 This repository organizes the knowledge, philosophy, projects, and operational systems behind **Silverware Games**, an independent creative studio building:
@@ -33,4 +36,5 @@ Contact us @michaelplzno on social. Make an issue in the repo and we'll take car
 Silverware Games
 
 Organized chaos since the beginning.
+
 
