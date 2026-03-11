@@ -4,7 +4,8 @@ This document tracks hosting and DNS architecture for Silverware Games propertie
 
 ## Primary Reference
 
-- Migration master plan: `docs/internal/migration.md`
+- Current droplet structure: `docs/internal/droplet.md`
+- Historical migration archive: `docs/internal/migration-from-hostgator.md`
 
 ## Working Conventions
 
@@ -15,4 +16,4 @@ This document tracks hosting and DNS architecture for Silverware Games propertie
 
 ## Maintenance Note
 
-Use this file for current-state hosting conventions. Keep historical migration details in `docs/internal/migration.md`.
+Use this file for current-state hosting conventions. Keep historical migration details in `docs/internal/migration-from-hostgator.md`.

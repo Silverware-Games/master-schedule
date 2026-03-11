@@ -35,9 +35,9 @@ This index lists every tracked file in `silverware-drawer` and explains each one
 
 - [docs/internal/calendar.md](../internal/calendar.md) captures SWG's non-strict work rhythms so collaborators understand expected cadence and momentum patterns.
 - [docs/internal/content-ops.md](../internal/content-ops.md) is the command reference for managing static sites, WordPress staging, and domain setup on the droplet.
-- [docs/internal/hosting-and-dns.md](../internal/hosting-and-dns.md) records current hosting and DNS conventions and points to migration details as the primary reference.
+- [docs/internal/hosting-and-dns.md](../internal/hosting-and-dns.md) records current hosting and DNS conventions and points to current droplet structure plus archived migration context.
 - [docs/internal/legacy-projects.md](../internal/legacy-projects.md) inventories legacy directories and marks what should be archived, migrated, or ignored.
-- [docs/internal/migration.md](../internal/migration.md) is the master plan for completing HostGator-to-DigitalOcean migration and decommissioning old infrastructure safely.
+- [docs/internal/migration-from-hostgator.md](../internal/migration-from-hostgator.md) is the historical archive for the completed HostGator-to-DigitalOcean migration.
 
 ## Indexes (`docs/indexes/`)
 
