@@ -24,21 +24,13 @@ If this is your first time exploring the repo:
 
 This explains how the repository is structured and where to begin.
 
-# Contributing
+# Any Questions?
 
-If you see something that is:
+Contact us @michaelplzno on social. Make an issue in the repo and we'll take care of it.
 
-- outdated
-- unclear
-- broken
-- missing
-
-Please improve it. Contact us @michaelplzno on social. Make an issue in the repo and we'll take care of it.
-
-Before making large structural changes, consult:
-
-[docs/indexes/repo-map.md](docs/indexes/repo-map.md)
+---
 
 Silverware Games
 
 Organized chaos since the beginning.
+
