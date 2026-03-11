@@ -2,12 +2,20 @@
 
 # Silverware Games Repository Map
 
-This index lists every tracked file in `silverware-drawer` and explains each one in a single plain-language sentence.
+This is the authoritative index for `silverware-drawer`.
+
+Canonical entry points:
+
+- [README.md](../../README.md) is the root router by audience and task.
+- [START-HERE.md](../../START-HERE.md) is the human-oriented explanation of what Silverware Games is.
+- [docs/indexes/repo-map.md](repo-map.md) is the complete file index.
+
+Maintenance rule: when a tracked file is added, removed, or renamed, update this page in the same change.
 
 ## Root Files
 
-- [README.md](../../README.md) is the front-door navigation page that routes visitors, collaborators, clients, and AI tools to the right documentation.
-- [START-HERE.md](../../START-HERE.md) is the universal orientation document that explains what Silverware Games is, how the docs are organized, and where each audience should begin.
+- [README.md](../../README.md) is the root navigation page that explains the repo and routes readers by audience and task.
+- [START-HERE.md](../../START-HERE.md) is the human introduction to Silverware Games and the structure of this documentation set.
 
 ## Public Documentation (`docs/public/`)
 
@@ -48,13 +56,9 @@ This index lists every tracked file in `silverware-drawer` and explains each one
 
 ## Indexes (`docs/indexes/`)
 
-- [docs/indexes/repo-map.md](repo-map.md) is this complete one-sentence index of every tracked file in the repository.
+- [docs/indexes/repo-map.md](repo-map.md) is this complete index of every tracked file in the repository.
 
 ## Supporting Folders
 
 - `docs/assets/` stores shared documentation assets and is currently empty.
 - `docs/diagrams/` is reserved for architecture and process diagrams and is currently empty.
-
-## Current Inventory
-
-- The repository currently contains 22 tracked files.

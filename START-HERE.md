@@ -1,21 +1,26 @@
 # START HERE
 
-This is the universal orientation document for the `silverware-drawer` repository.
+This is the human introduction to the `silverware-drawer` repository.
+
+If you want the short explanation of what Silverware Games is and how this repo is organized, read this page. If you need the full file inventory, use [docs/indexes/repo-map.md](docs/indexes/repo-map.md).
+
+## What This Repo Is
+
+`silverware-drawer` is the shared documentation home for Silverware Games. It holds public-facing context, collaborator onboarding, client material, and internal operating notes in one place.
 
 ## What Silverware Games Is
 
-Silverware Games (SWG) is an independent game studio, creative playground, and collaboration hub. Michael Silverman, known as Michael PLZNO (that's "Michael Please No!") on the internet founded the company and we incorporated in 2013. We've bee iterating and growing for decades, learning exactly how to make life more fun for gamers and developers alike.
+Silverware Games (SWG) is an independent game studio, creative playground, and collaboration hub. The company was founded by Michael Silverman, also known online as Michael PLZNO, and incorporated in 2013.
 
-The main website is https://silverwaregames.com but we have a whole suite of sites and projects. 
+SWG mixes original game development, client work, art experiments, and public-facing content. The main website is https://silverwaregames.com.
 
 ## What SWG Works On
 
-- Client work and consulting ["Services Overview"](/public/services-overview.md)
-- Art and media projects. We try to doodle every day for ["Coffee Doodle Art"](/public/coffee-doodle-art.md)
-- Community-facing feedback and content AKA ["Gamedev Feedback"](/public/gamedev-feedback.md)
-- Original games for Web, PC, and XBOX - Learn more about or original HTML5 engine ["HTML5 Engine"](/internal/HTML5-engine.md)
-
-If you want to dive right into our biggest active works check out [/public/active-projects.md](/public/active-projects.md)
+- Client services and consulting: [docs/clients/services-overview.md](docs/clients/services-overview.md)
+- Public art and media projects: [docs/public/coffee-doodle-art.md](docs/public/coffee-doodle-art.md), [docs/public/podcasts-and-content.md](docs/public/podcasts-and-content.md), and [docs/public/social-media-overview.md](docs/public/social-media-overview.md)
+- Community-facing feedback and resources: [docs/public/gamedev-feedback.md](docs/public/gamedev-feedback.md)
+- Original games and technical foundations: [docs/internal/HTML5-engine.md](docs/internal/HTML5-engine.md)
+- Current visible priorities: [docs/public/active-projects.md](docs/public/active-projects.md)
 
 ## Working Style
 
@@ -26,28 +31,24 @@ SWG favors:
 - collaborative creativity
 - shipping over perfection
 
-More detailed pontifications about our design ethos is at [/public/philosophy-and-ethos.md](/public/philosophy-and-ethos.md)
+For the longer version of that posture, read [docs/public/philosophy-and-ethos.md](docs/public/philosophy-and-ethos.md).
 
 ## How Documentation Is Organized
 
-The basic structure is to put a doc in one of 4 categories based on who the audience is:
+The documentation is grouped by audience:
 
-- [docs/public/](docs/public/): public-facing information about SWG, for players, lookeyloos, community members and fans.
-- [docs/collaborators/](docs/collaborators/): We want you! Join up with us and help us make something fun while haing some fun too.
-- [docs/clients/](docs/clients/): If you want us to make something for you we'll get it done fast, cheap, and ultra lux-primo good!
-- [docs/internal/](docs/internal/): If you already work with us and need to understand our systems, archetecture, tech stack, and so on.
+- [docs/public/](docs/public/) for public-facing information about SWG, projects, and media
+- [docs/collaborators/](docs/collaborators/) for onboarding and contributor guidance
+- [docs/clients/](docs/clients/) for client-facing services and engagement context
+- [docs/internal/](docs/internal/) for operating knowledge, systems, and technical references
 
-If you're lost, our whole repo is indexed here, [docs/indexes/repo-map.md](docs/indexes/repo-map.md)  anyone or thing that modifes the repo also needs to keep repo-map current! 
+## Where To Go Next
 
-## How Collaborators Can Participate
-
-Collaborators should follow this order:
-
-1. Read [docs/collaborators/collaborator-onboarding.md](docs/collaborators/collaborator-onboarding.md).
-2. Review [docs/collaborators/contribution-paths.md](docs/collaborators/contribution-paths.md).
-3. Follow [docs/collaborators/repo-and-communication-norms.md](docs/collaborators/repo-and-communication-norms.md).
+- If you are new and just need orientation, stay here.
+- If you need the authoritative file index, use [docs/indexes/repo-map.md](docs/indexes/repo-map.md).
+- If you want to contribute, start with [docs/collaborators/collaborator-onboarding.md](docs/collaborators/collaborator-onboarding.md).
+- If you are evaluating SWG as a client, start with [docs/clients/services-overview.md](docs/clients/services-overview.md).
 
 ## Notes For AI And Automation
 
-This repo is intended to be machine-navigable as well as human-readable.
-
+This repo is intended to be machine-navigable as well as human-readable. Automation should treat [docs/indexes/repo-map.md](docs/indexes/repo-map.md) as the authoritative inventory.
