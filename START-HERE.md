@@ -82,6 +82,27 @@ Internal documentation covers:
 Start here:
 [docs/internal/START-HERE.md](docs/internal/START-HERE.md)
 
+# Why This Repo Exists
+
+Most organizations accumulate knowledge in scattered places:
+
+- chat threads
+- private documents
+- personal notes
+- unwritten tribal knowledge
+
+The **Silverware Drawer** exists to solve that problem.
+
+This repository aims to make SWG knowledge:
+
+- discoverable
+- navigable
+- documented
+- improvable over time
+ 
+When in doubt:
+**Write it down. Improve it later.**
+
 # Repo Navigation
 
 The **master index of all documentation** lives here:
@@ -151,4 +172,5 @@ Before making large structural changes, consult:
 
 Silverware Games  
 Organized chaos since the beginning.
+
 
