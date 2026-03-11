@@ -35,6 +35,8 @@ Giving a player a million items actually means the game isn't fun. The items mea
 Sadly, rules, constraint, that friction of having the system push back seems to be part of fun as much as it stinks that is such a truth. If you get an item after some sacrifice and struggle you'll enjoy using it more... right?
 
 ## Underdog vs World Domination
-We see our studio as a scrappy little under dog... but that mentality keeps us from growing to be as big a deal as we should be.
+We see our studio as a scrappy little under dog... but that mentality keeps us from growing to be as big a deal as we should be. And of course, if we are the outsiders breaking down the system, we don't have to worry about being more serious.
 
 ## Emotion vs Logic
+To reach audiences one must always use emotion, though I'm more a fan of logical appeals that mean something and have a structure under them, the best art makes you feel something. Solving a puzzle or making the audience think is important, and just making something emotional without meaning is bad art... but emotion is in there.
+
