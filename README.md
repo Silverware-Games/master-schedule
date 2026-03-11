@@ -12,7 +12,7 @@ Let's get started!
 
 ## You got questions? We got answers!
 
-- What even is Silverware Games?: [Start Here](START-HERE.md) and [Repo Map](docs/indexes/repo-map.md)
+- What even is Silverware Games?: [Start Here](START-HERE.md)
 - How can I collaborate and work with you?: [Collaborator Onboarding](docs/collaborators/collaborator-onboarding.md)
 - I'm a client... what can you make for me?: [Services Overview](docs/clients/services-overview.md)
 - How does the internal Silverware Games build/tech stack work?: [Repo Map](docs/indexes/repo-map.md)
@@ -23,3 +23,4 @@ Let's get started!
 This README is a navigation dashboard, not a storage location for full operational procedures.
 
 If you can't find the answer to your question here, open an issue in the repo's issue section, please and thanks!
+
