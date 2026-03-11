@@ -1,6 +1,6 @@
 <sub><em>Status: Active | Audience: Internal | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 
-# START HERE (Internal)
+# INTERNAL HUB
 
 Use this page if you are on the internal team or maintaining systems and automation.
 

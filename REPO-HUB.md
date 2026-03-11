@@ -1,6 +1,6 @@
 <sub><em>Status: Active | Audience: All | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 
-# START HERE
+# REPO HUB
 
 Welcome to the **Silverware Drawer**.
 
@@ -30,7 +30,7 @@ Choose the path that best matches why you're here.
 If you want to understand the studio, its philosophy, and its projects:
 
 Start here:
-[docs/public/START-HERE.md](docs/public/START-HERE.md)
+[docs/public/PUBLIC-HUB.md](docs/public/PUBLIC-HUB.md)
 
 From there you can explore:
 
@@ -45,7 +45,7 @@ From there you can explore:
 If you're a developer, artist, or creator interested in collaborating:
 
 Start here:
-[docs/collaborators/START-HERE.md](docs/collaborators/START-HERE.md)
+[docs/collaborators/COLLABORATOR-HUB.md](docs/collaborators/COLLABORATOR-HUB.md)
 
 You'll find:
 
@@ -60,7 +60,7 @@ You'll find:
 If you're here about **design or development services**:
 
 Start here:
-[docs/clients/START-HERE.md](docs/clients/START-HERE.md)
+[docs/clients/CLIENT-HUB.md](docs/clients/CLIENT-HUB.md)
 
 This section explains:
 
@@ -80,7 +80,7 @@ Internal documentation covers:
 - operational procedures
 
 Start here:
-[docs/internal/START-HERE.md](docs/internal/START-HERE.md)
+[docs/internal/INTERNAL-HUB.md](docs/internal/INTERNAL-HUB.md)
 
 # Repo Navigation
 
@@ -109,7 +109,7 @@ Short guides that help readers understand:
 - where to start
 - where to go next
 
-These are typically **START-HERE pages and indexes**.
+These are typically **hub pages and indexes**.
 
 Overview:
 [docs/indexes/orientation-docs.md](docs/indexes/orientation-docs.md)
@@ -160,13 +160,13 @@ Before making large structural changes, consult:
 
 # Quick Links
 
-[Public Overview](docs/public/START-HERE.md)
+[Public Overview](docs/public/PUBLIC-HUB.md)
 
-[Collaborator Onboarding](docs/collaborators/START-HERE.md)
+[Collaborator Onboarding](docs/collaborators/COLLABORATOR-HUB.md)
 
-[Client Services](docs/clients/START-HERE.md)
+[Client Services](docs/clients/CLIENT-HUB.md)
 
-[Internal Systems](docs/internal/START-HERE.md)
+[Internal Systems](docs/internal/INTERNAL-HUB.md)
 
 [Master Documentation Index](docs/indexes/repo-map.md)
 

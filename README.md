@@ -20,7 +20,7 @@ If this is your first time exploring the repo:
 
 ➡ **Read the orientation guide**
 
-[START-HERE.md](START-HERE.md)
+[REPO-HUB.md](REPO-HUB.md)
 
 This explains how the repository is structured and where to begin.
 
@@ -32,25 +32,25 @@ Documentation is organized by **who it is for**.
 
 Studio philosophy, projects, and creative initiatives.
 
-[docs/public/START-HERE.md](docs/public/START-HERE.md)
+[docs/public/PUBLIC-HUB.md](docs/public/PUBLIC-HUB.md)
 
 ### 🤝 Collaborators — Work With Us
 
 How developers, artists, and creators can collaborate.
 
-[docs/collaborators/START-HERE.md](docs/collaborators/START-HERE.md)
+[docs/collaborators/COLLABORATOR-HUB.md](docs/collaborators/COLLABORATOR-HUB.md)
 
 ### 💼 Clients — Hire SWG
 
 Services, engagement model, and client workflow.
 
-[docs/clients/START-HERE.md](docs/clients/START-HERE.md)
+[docs/clients/CLIENT-HUB.md](docs/clients/CLIENT-HUB.md)
 
 ### 🧠 Internal — Systems & Infrastructure
 
 Operational documentation for the SWG stack and workflows.
 
-[docs/internal/START-HERE.md](docs/internal/START-HERE.md)
+[docs/internal/INTERNAL-HUB.md](docs/internal/INTERNAL-HUB.md)
 
 # Master Documentation Index
 
