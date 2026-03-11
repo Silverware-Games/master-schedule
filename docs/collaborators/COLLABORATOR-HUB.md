@@ -2,6 +2,9 @@
 
 # You want to work with us?!
 
+<img width="1280" height="640" alt="collaborator-hub-thumb" src="https://github.com/user-attachments/assets/57458903-2383-423e-8490-3ff6479a5aed" />
+
+
 Use this page if you want to contribute to Silverware Games projects. The simple quick way to get started is to play our games, interact with our social feeds, watch our videos, and suggest some way to make them better! If we don't start yelling like a grumpy baby, you're on track to be one of our favorite people.
 
 ## What This Section Is For
@@ -17,4 +20,5 @@ Use this page if you want to contribute to Silverware Games projects. The simple
 5. [../internal/wordpress/workflow-client.md](../internal/wordpress/workflow-client.md) only if you are assigned WordPress workflow tasks.
 
 If you are rushing, just read the first 2!
+
 
