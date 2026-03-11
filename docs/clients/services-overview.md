@@ -17,7 +17,6 @@ We typically work in the `$60/hour` range, and we love helping clients bring ide
 
 ## For WordPress Clients
 
-- WordPress onboarding: New client setup steps and expectations. `docs/clients/wordpress/onboarding.md`
-- WordPress workflow: How requests, edits, and approvals work. `docs/clients/wordpress/workflow-client.md`
-- WordPress staging architecture: Safe preview environment before going live. `docs/clients/wordpress/staging-server.md`
-- WordPress deployment workflow: Launch checklist and production release process. `docs/clients/wordpress/deployment.md`
+We take your wordpress install and export it to our sandbox so we can work on a safe to modify copy. Then when you approve we move that copy to the live site.
+
+When work starts, please send us your admin access username and password via email so we can access your blog's data.
