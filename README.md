@@ -41,6 +41,9 @@ This repository aims to make SWG knowledge:
 - navigable
 - documented
 - improvable over time
+ 
+When in doubt:
+**Write it down. Improve it later.**
 
 # Contributing
 
@@ -60,3 +63,4 @@ Before making large structural changes, consult:
 Silverware Games
 
 Organized chaos since the beginning.
+
