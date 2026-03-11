@@ -1,17 +1,12 @@
 <sub><em>Status: Active | Audience: Public | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 
-# START HERE (Public)
+# Ya heard of us?
 
-Use this page if you are a visitor, fan, or anyone trying to understand Silverware Games from the outside.
+Visitors, fans, well-wishers, hangers on, aquaintences and ... "our people" Use this page if you are a visitor, fan, or anyone trying to understand Silverware Games from the outside.
 
-## What This Section Is For
+What we are building? What do we value? Where do we follow projects and content?
 
-`docs/public/` is the public-facing section of this repo. It explains what we are building, what we value, and where to follow projects and content.
-
-If you are here as a client or collaborator, use your audience entry page first:
-
-- [docs/clients/START-HERE.md](../clients/START-HERE.md)
-- [docs/collaborators/START-HERE.md](../collaborators/START-HERE.md)
+Maybe... just maybe, you want to give us some support and approval. Let me tell you, we love getting likes on our social media... or even a comment! (We usually reply to everyone who's nice.)
 
 ## Recommended Reading Order
 
@@ -22,18 +17,8 @@ If you are here as a client or collaborator, use your audience entry page first:
 5. [gamedev-feedback.md](./gamedev-feedback.md) for feedback-oriented content.
 6. [social-media-overview.md](./social-media-overview.md) for channel-level updates.
 
-## In A Hurry
+(if you are in a ruch just read the first 2! There will be a quiz later though.)
 
-Read only these two pages first:
+## Still have questions? 
 
-1. [project-index.md](../indexes/project-index.md)
-2. [philosophy-and-ethos.md](./philosophy-and-ethos.md)
-
-You can safely skip the rest on a first pass and come back as needed.
-
-## Should Anything Be Ignored?
-
-Nothing here should be permanently ignored, but some pages are lower priority for first-time readers:
-
-- Pages marked `Draft` or `Needs Review` are useful context, not authoritative orientation.
-- Media-specific pages are optional if you only need the high-level studio overview.
+That's probably reasonable. Create an issue on this page or reach out to @michaelplzno on social and hit us up!
