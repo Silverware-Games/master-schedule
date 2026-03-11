@@ -1,6 +1,6 @@
 <sub><em>Status: Active | Audience: Clients | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 
-# START HERE (Clients)
+# We'll make your ideas into a real product.
 
 Use this page if you are a current client or considering hiring Silverware Games.
 
@@ -27,14 +27,7 @@ Typical engagement posture:
 3. [../public/philosophy-and-ethos.md](../public/philosophy-and-ethos.md) for working style and values.
 4. [../internal/wordpress/workflow-client.md](../internal/wordpress/workflow-client.md) only if your project uses the WordPress staging workflow.
 
-## In A Hurry
-
-Read these two pages:
-
-1. [services-overview.md](./services-overview.md)
-2. [../indexes/project-index.md](../indexes/project-index.md)
-
-That is enough for an initial scoping conversation.
+If you are in a hurry just read the first 2!
 
 ## Should Anything Be Ignored?
 
@@ -42,3 +35,5 @@ Yes, for most clients:
 
 - Ignore `docs/internal/` infrastructure and runbook docs unless we send you a specific link.
 - Ignore collaborator onboarding docs unless you are joining as a contributor.
+
+
