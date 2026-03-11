@@ -2,6 +2,8 @@
 
 # Ya heard of us?
 
+<img width="1280" height="640" alt="public-hub-thumb" src="https://github.com/user-attachments/assets/61ea5da3-b4b2-4ee2-b026-4a3c73b55ad6" />
+
 Visitors, fans, well-wishers, hangers-on, acquaintances, and ... "our people." Use this page if you are a visitor, fan, or anyone trying to understand Silverware Games from the outside.
 
 What we are building? What do we value? Where do we follow projects and content?
@@ -22,3 +24,4 @@ Maybe... just maybe, you want to give us some support and approval. Let me tell 
 ## Still have questions?
 
 That's probably reasonable. Create an issue on this page or reach out to @michaelplzno on social and hit us up!
+
