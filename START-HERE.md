@@ -42,7 +42,7 @@ From there you can explore:
 
 ## 🤝 Collaborators — Work With Us
 
-If you're a developer, artist, or creator interested in collaborating:
+If you're a developer, artist, or creator interested in collaborating. We want to team up! Let's have some fun together and make something everyone is proud of. A good way to start is to just tell us how to make some of our projects better... maybe we'll put you in charge of doing just that.
 
 Start here:
 [docs/collaborators/COLLABORATOR-HUB.md](docs/collaborators/COLLABORATOR-HUB.md)
@@ -57,7 +57,7 @@ You'll find:
 
 ## 💼 Clients — Hire Silverware Games
 
-If you're here about **design or development services**:
+If you're here about **design or development services** we can make a website/logo/video and more for low hourly rates. More details about our process, which protects your site by modifying it in a sandbox, and how we onboard clients is here:
 
 Start here:
 [docs/clients/CLIENT-HUB.md](docs/clients/CLIENT-HUB.md)
@@ -72,7 +72,7 @@ This section explains:
 
 ## 🧠 Internal — SWG Systems & Infrastructure
 
-Internal documentation covers:
+Internal documentation for the people who are already a part of the group. This covers:
 
 - infrastructure
 - workflows
@@ -122,7 +122,7 @@ If you're unsure where something lives, **start there**.
 
 The repository separates two types of documentation:
 
-### Orientation Docs
+## Orientation Docs
 
 Short guides that help readers understand:
 
@@ -135,7 +135,7 @@ These are typically **hub pages and indexes**.
 Overview:
 [docs/indexes/orientation-docs.md](docs/indexes/orientation-docs.md)
 
-### Operational Docs
+## Operational Docs
 
 Detailed procedures, technical documentation, and internal processes.
 
@@ -170,6 +170,9 @@ Before making large structural changes, consult:
 
 [Master Documentation Index](docs/indexes/repo-map.md)
 
+---
+
 Silverware Games  
 Organized chaos since the beginning.
+
 
