@@ -6,53 +6,41 @@ This is the universal orientation document for the `silverware-drawer` repositor
 
 ## What Silverware Games Is
 
-Silverware Games (SWG) is an independent game studio, creative playground, and collaboration hub.
+Silverware Games (SWG) is an independent game studio, creative playground, and collaboration hub. Michael Silverman, known as Michael PLZNO on the internet founded the company and we incorporated in 2013. We've bee iterating and growing for decades, learning exactly how to make life more fun for gamers and developers alike.
 
-The main website is https://silverwaregames.com but we have a whole suite of sites.
+The main website is https://silverwaregames.com but we have a whole suite of sites and projects. If you want to dive right into our biggest active works check out `[/public/active-projects.md](/public/active-projects.md)`
 
-SWG works across games, art, media, and client projects. The company culture is practical, experimental, and fun-focused.
+## What SWG Works On
 
-## What This Repository Is For
+- Original games for web and PC
+- Experimental prototypes and playful systems
+- Art and media projects
+- Community-facing feedback and content
+- Client work and consulting
 
-This repository is a documentation hub that helps humans and AI systems quickly find the right information.
+## Working Style
 
-It is intentionally organized by audience and task so that people do not need prior context to navigate it.
+SWG favors:
+
+- fast iteration
+- practical experimentation
+- collaborative creativity
+- shipping over perfection
 
 ## How Documentation Is Organized
 
-- [README.md](README.md): front-door dashboard with role-based routing.
-- [docs/indexes/repo-map.md](docs/indexes/repo-map.md): complete repository map with all files and metadata.
-- [docs/public/](docs/public/): public-facing information about SWG.
-- [docs/collaborators/](docs/collaborators/): onboarding and contribution guidance.
-- [docs/clients/](docs/clients/): client-facing service and workflow documentation.
-- [docs/internal/](docs/internal/): internal operational and planning docs.
+The basic structure is to put a doc in one of 4 categories based on who the audience is:
 
-## Public vs Internal
+- [docs/public/](docs/public/): public-facing information about SWG, for players, lookeyloos, community members and fans.
+- [docs/collaborators/](docs/collaborators/): We want you! Join up with us and help us make something fun while haing some fun too.
+- [docs/clients/](docs/clients/): If you want us to make something for you we'll get it done fast, cheap, and ultra lux-primo good!
+- [docs/internal/](docs/internal/): If you already work with us and need to understand our systems, archetecture, tech stack, and so on.
 
-Public-safe content lives in:
+## Help, I'm Lost!
 
-- [docs/public/](docs/public/)
-- selected client guidance in [docs/clients/](docs/clients/)
-
-Internal-only or operational content lives in:
-
-- [docs/internal/](docs/internal/)
-
-If you are unsure whether something should be public, place it in `docs/internal/` first and review later.
-
-## Where To Find Things
-
-Start with:
+Our whole repo is indexed here, anyone or thing that modifes the repo also needs to keep repo-map current!
 
 - [docs/indexes/repo-map.md](docs/indexes/repo-map.md) - the complete repository index
-
-Then branch by role:
-
-- New visitors: [docs/public/about-swg.md](docs/public/about-swg.md)
-- Collaborators: [docs/collaborators/collaborator-onboarding.md](docs/collaborators/collaborator-onboarding.md)
-- Clients: [docs/clients/services-overview.md](docs/clients/services-overview.md)
-- Internal SWG: [docs/indexes/repo-map.md](docs/indexes/repo-map.md)
-- AI systems: [docs/indexes/by-task.md](docs/indexes/by-task.md)
 
 ## How Collaborators Can Participate
 
@@ -63,12 +51,6 @@ Collaborators should follow this order:
 3. Follow [docs/collaborators/repo-and-communication-norms.md](docs/collaborators/repo-and-communication-norms.md).
 
 ## Notes For AI And Automation
-
-For predictable parsing:
-
-- start at [README.md](README.md)
-- then read [START-HERE.md](START-HERE.md)
-- then use [docs/indexes/by-audience.md](docs/indexes/by-audience.md) and [docs/indexes/by-task.md](docs/indexes/by-task.md)
 
 This repo is intended to be machine-navigable as well as human-readable.
 
