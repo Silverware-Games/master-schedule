@@ -1,0 +1,42 @@
+name: Generate Incomplete Docs Index
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+      - "scripts/generate-incomplete-index.ps1"
+      - ".github/workflows/generate-incomplete-index.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Use the default GITHUB_TOKEN so the resulting push does not
+          # re-trigger workflows (GitHub skips workflow runs pushed by the
+          # built-in token).
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate incomplete docs index
+        shell: pwsh
+        run: ./scripts/generate-incomplete-index.ps1 -Root . -OutputPath docs/indexes/incomplete-docs.md
+
+      - name: Commit and push if changed
+        shell: bash
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add docs/indexes/incomplete-docs.md
+          if git diff --staged --quiet; then
+            echo "No changes to incomplete-docs.md, skipping commit."
+          else
+            git commit -m "chore: regenerate incomplete docs index [skip ci]"
+            git push
+          fi

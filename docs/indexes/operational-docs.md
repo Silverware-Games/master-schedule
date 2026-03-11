@@ -15,6 +15,7 @@ Operational docs answer: "how exactly do we do this?"
 ## Public Operational Docs
 
 - [docs/indexes/project-index.md](../../docs/indexes/project-index.md): living snapshot of active and visible work.
+- [docs/indexes/incomplete-docs.md](../../docs/indexes/incomplete-docs.md): auto-generated list of all Draft and Needs Review docs — start here to find what needs fixing.
 
 ## Internal Operational Docs
 
