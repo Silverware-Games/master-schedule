@@ -6,6 +6,26 @@ Our company mission is simple: "We bring the fun™"
 
 This repository is the documentation `front door` for Silverware Games.
 
+# What do you want to know?
+
+## Route By Audience
+
+- New to Silverware Games: [START-HERE.md](START-HERE.md)
+- Collaborator or contributor: [docs/collaborators/collaborator-onboarding.md](docs/collaborators/collaborator-onboarding.md)
+- Client or prospective client: [docs/clients/services-overview.md](docs/clients/services-overview.md)
+- Internal team member or automation: [docs/indexes/repo-map.md](docs/indexes/repo-map.md)
+
+## Route By Task
+
+- Learn what Silverware Games is: [START-HERE.md](START-HERE.md)
+- Find a specific document: [docs/indexes/repo-map.md](docs/indexes/repo-map.md)
+- Choose an entry document: [docs/indexes/orientation-docs.md](docs/indexes/orientation-docs.md)
+- Find detailed procedures: [docs/indexes/operational-docs.md](docs/indexes/operational-docs.md)
+- Review active public-facing work: [docs/public/active-projects.md](docs/public/active-projects.md)
+- Start collaborating: [docs/collaborators/collaborator-onboarding.md](docs/collaborators/collaborator-onboarding.md)
+
+# Meta Information
+
 ## Documentation Types
 
 - Orientation docs are stable, short entry pages that answer "what is this?" and route readers onward.
@@ -24,19 +44,3 @@ Every Markdown doc in this repo must begin with this metadata line:
 ```
 
 Use `Canonical: No` for drafts, archived material, and superseded pages.
-
-## Route By Audience
-
-- New to Silverware Games: [START-HERE.md](START-HERE.md)
-- Collaborator or contributor: [docs/collaborators/collaborator-onboarding.md](docs/collaborators/collaborator-onboarding.md)
-- Client or prospective client: [docs/clients/services-overview.md](docs/clients/services-overview.md)
-- Internal team member or automation: [docs/indexes/repo-map.md](docs/indexes/repo-map.md)
-
-## Route By Task
-
-- Learn what Silverware Games is: [START-HERE.md](START-HERE.md)
-- Find a specific document: [docs/indexes/repo-map.md](docs/indexes/repo-map.md)
-- Choose an entry document: [docs/indexes/orientation-docs.md](docs/indexes/orientation-docs.md)
-- Find detailed procedures: [docs/indexes/operational-docs.md](docs/indexes/operational-docs.md)
-- Review active public-facing work: [docs/public/active-projects.md](docs/public/active-projects.md)
-- Start collaborating: [docs/collaborators/collaborator-onboarding.md](docs/collaborators/collaborator-onboarding.md)
