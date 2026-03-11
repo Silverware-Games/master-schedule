@@ -30,14 +30,14 @@ Choose the path that best matches why you're here.
 If you want to understand the studio, its philosophy, and its projects:
 
 Start here:
-docs/public/START-HERE.md
+[docs/public/START-HERE.md](docs/public/START-HERE.md)
 
 From there you can explore:
 
-- Studio philosophy
-- Active projects
-- Coffee Doodle Art
-- GameDev Feedback
+- [Studio philosophy](docs/public/philosophy-and-ethos.md)
+- [Active projects](docs/public/project-index.md)
+- [Coffee Doodle Art](docs/public/coffee-doodle-art.md)
+- [GameDev Feedback](docs/public/gamedev-feedback.md)
 - The broader SWG ecosystem
 
 ## 🤝 Collaborators — Work With Us
@@ -45,9 +45,10 @@ From there you can explore:
 If you're a developer, artist, or creator interested in collaborating:
 
 Start here:
-docs/collaborators/START-HERE.md
+[docs/collaborators/START-HERE.md](docs/collaborators/START-HERE.md)
 
 You'll find:
+
 - Collaboration models
 - Contribution paths
 - Current needs
@@ -59,7 +60,7 @@ You'll find:
 If you're here about **design or development services**:
 
 Start here:
-docs/clients/START-HERE.md
+[docs/clients/START-HERE.md](docs/clients/START-HERE.md)
 
 This section explains:
 
@@ -68,7 +69,8 @@ This section explains:
 - Case studies
 - Client workflow
 - FAQs
-- 
+-
+
 ## 🧠 Internal — SWG Systems & Infrastructure
 
 Internal documentation covers:
@@ -79,14 +81,15 @@ Internal documentation covers:
 - operational procedures
 
 Start here:
-docs/internal/START-HERE.md
+[docs/internal/START-HERE.md](docs/internal/START-HERE.md)
 
 # Repo Navigation
 
 The **master index of all documentation** lives here:
-docs/indexes/repo-map.md
+[docs/indexes/repo-map.md](docs/indexes/repo-map.md)
 
 This file shows:
+
 - every major document
 - its audience
 - its purpose
@@ -102,6 +105,7 @@ The repository separates two types of documentation:
 ### Orientation Docs
 
 Short guides that help readers understand:
+
 - what something is
 - where to start
 - where to go next
@@ -109,17 +113,19 @@ Short guides that help readers understand:
 These are typically **START-HERE pages and indexes**.
 
 Overview:
-docs/indexes/orientation-docs.md
+[docs/indexes/orientation-docs.md](docs/indexes/orientation-docs.md)
 
 ### Operational Docs
+
 Detailed procedures, technical documentation, and internal processes.
 
 Overview:
-docs/indexes/operational-docs.md
+[docs/indexes/operational-docs.md](docs/indexes/operational-docs.md)
 
 # The Philosophy Behind This Repo
 
 Most organizations keep their internal knowledge scattered across:
+
 - emails
 - Slack threads
 - random documents
@@ -128,6 +134,7 @@ Most organizations keep their internal knowledge scattered across:
 The **Silverware Drawer** exists to avoid that.
 
 Our goal is to keep SWG knowledge:
+
 - discoverable
 - documented
 - navigable
@@ -150,25 +157,19 @@ Please improve it.
 This repo is designed to be a **living knowledge system**.
 
 Before making large structural changes, consult:
-docs/indexes/repo-map.md
-
+[docs/indexes/repo-map.md](docs/indexes/repo-map.md)
 
 # Quick Links
 
-Public Overview  
-docs/public/START-HERE.md
+[Public Overview](docs/public/START-HERE.md)
 
-Collaborator Onboarding  
-docs/collaborators/START-HERE.md
+[Collaborator Onboarding](docs/collaborators/START-HERE.md)
 
-Client Services  
-docs/clients/START-HERE.md
+[Client Services](docs/clients/START-HERE.md)
 
-Internal Systems  
-docs/internal/START-HERE.md
+[Internal Systems](docs/internal/START-HERE.md)
 
-Master Documentation Index  
-docs/indexes/repo-map.md
+[Master Documentation Index](docs/indexes/repo-map.md)
 
 Silverware Games  
 Organized chaos since the beginning.
