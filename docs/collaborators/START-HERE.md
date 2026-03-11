@@ -1,6 +1,6 @@
 <sub><em>Status: Active | Audience: Collaborators | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 
-# START HERE (Collaborators)
+# You want to work with us?!
 
 Use this page if you want to contribute to Silverware Games projects. The simple quick way to get started is to play our games, interact with our social feeds, watch our videos, and suggest some way to make them better! If we don't start yelling like a grumpy baby, you're on track to be one of our favorite people.
 
@@ -17,3 +17,4 @@ Use this page if you want to contribute to Silverware Games projects. The simple
 5. [../internal/wordpress/workflow-client.md](../internal/wordpress/workflow-client.md) only if you are assigned WordPress workflow tasks.
 
 If you are rushing, just read the first 2!
+
