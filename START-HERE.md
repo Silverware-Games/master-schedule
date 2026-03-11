@@ -121,27 +121,6 @@ Detailed procedures, technical documentation, and internal processes.
 Overview:
 [docs/indexes/operational-docs.md](docs/indexes/operational-docs.md)
 
-# The Philosophy Behind This Repo
-
-Most organizations keep their internal knowledge scattered across:
-
-- emails
-- Slack threads
-- random documents
-- tribal knowledge
-
-The **Silverware Drawer** exists to avoid that.
-
-Our goal is to keep SWG knowledge:
-
-- discoverable
-- documented
-- navigable
-- continuously improving
-
-When in doubt:
-**Write it down. Improve it later.**
-
 # How to Contribute
 
 If you see something that is:
@@ -172,3 +151,4 @@ Before making large structural changes, consult:
 
 Silverware Games  
 Organized chaos since the beginning.
+
