@@ -17,8 +17,9 @@ Maybe... just maybe, you want to give us some support and approval. Let me tell 
 5. [gamedev-feedback.md](./gamedev-feedback.md) for feedback-oriented content.
 6. [social-media-overview.md](./social-media-overview.md) for channel-level updates.
 
-(if you are in a ruch just read the first 2! There will be a quiz later though.)
+(if you are in a rush just read the first 2! There will be a quiz later though.)
 
 ## Still have questions? 
 
 That's probably reasonable. Create an issue on this page or reach out to @michaelplzno on social and hit us up!
+
