@@ -1,8 +1,4 @@
-Status: Needs Review
-Audience: Internal
-Owner: Michael
-Last Reviewed: 2026-03-11
-Canonical: Yes
+<sub><em>Status: Needs Review | Audience: Internal | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 # Silverware Games WordPress Deployment Workflow
 
 This document explains how approved changes are safely transferred from the staging environment to the client's live website.

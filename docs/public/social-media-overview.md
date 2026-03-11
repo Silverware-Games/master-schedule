@@ -1,8 +1,4 @@
-Status: Draft
-Audience: Public
-Owner: Michael
-Last Reviewed: 2026-03-11
-Canonical: No
+<sub><em>Status: Draft | Audience: Public | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: No</em></sub>
 # Social Media Overview
 
 This document will map SWG social channels, posting formats, and publishing cadence.

@@ -1,8 +1,4 @@
-Status: Active
-Audience: All
-Owner: Michael
-Last Reviewed: 2026-03-11
-Canonical: Yes
+<sub><em>Status: Active | Audience: All | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 
 # Silverware Games Repository Map
 
@@ -15,11 +11,7 @@ Any human or AI that adds, removes, renames, or materially changes a major doc m
 Every Markdown doc must begin with:
 
 ```text
-Status: <Active|Draft|Needs Review|Archived|Replaced By>
-Audience: <target readers>
-Owner: <primary owner>
-Last Reviewed: <YYYY-MM-DD>
-Canonical: <Yes|No>
+<sub><em>Status: <Active|Draft|Needs Review|Archived|Replaced By> | Audience: <target readers> | Owner: <primary owner> | Last Reviewed: <YYYY-MM-DD> | Canonical: <Yes|No></em></sub>
 ```
 
 ## Status Legend

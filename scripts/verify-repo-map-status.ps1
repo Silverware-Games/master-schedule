@@ -7,7 +7,22 @@ $ErrorActionPreference = "Stop"
 
 $allowedStatus = @("Active", "Draft", "Needs Review", "Archived", "Replaced By")
 $utf8BomChar = [char]0xFEFF
+$metadataPattern = '^<sub><(?:em|i)>\s*Status:\s*(?<Status>[^|]+?)\s*\|\s*Audience:\s*(?<Audience>[^|]+?)\s*\|\s*Owner:\s*(?<Owner>[^|]+?)\s*\|\s*Last Reviewed:\s*(?<LastReviewed>[^|]+?)\s*\|\s*Canonical:\s*(?<Canonical>[^|<]+?)\s*</(?:em|i)></sub>$'
 $failures = New-Object System.Collections.Generic.List[string]
+
+function Get-StatusFromMetadataLine {
+    param(
+        [string]$Line
+    )
+
+    $lineWithoutBom = $Line.TrimStart($utf8BomChar)
+
+    if ($lineWithoutBom -notmatch $metadataPattern) {
+        return $null
+    }
+
+    return $Matches['Status'].Trim()
+}
 
 $rootResolved = Resolve-Path -LiteralPath $Root
 $rootPath = $rootResolved.ProviderPath
@@ -93,13 +108,18 @@ foreach ($row in $registryRows) {
 
     $firstLine = $firstLine.TrimStart($utf8BomChar)
 
-    if ($firstLine -notmatch '^Status:\s*(.+)$') {
+    $docStatus = Get-StatusFromMetadataLine -Line $firstLine
+    if (-not $docStatus) {
         $relativeTarget = Resolve-Path -LiteralPath $targetPath -Relative
-        $failures.Add("${RepoMapPath}: linked file '$relativeTarget' is missing top 'Status:' header.")
+        $failures.Add("${RepoMapPath}: linked file '$relativeTarget' is missing the required metadata line format.")
         continue
     }
 
-    $docStatus = $Matches[1].Trim()
+    if ($allowedStatus -notcontains $docStatus) {
+        $relativeTarget = Resolve-Path -LiteralPath $targetPath -Relative
+        $failures.Add("${RepoMapPath}: linked file '$relativeTarget' has invalid Status '$docStatus'.")
+        continue
+    }
 
     if ($docStatus -ne $tableStatus) {
         $relativeTarget = Resolve-Path -LiteralPath $targetPath -Relative

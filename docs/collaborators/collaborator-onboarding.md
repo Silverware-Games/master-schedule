@@ -1,8 +1,4 @@
-Status: Active
-Audience: Collaborators
-Owner: Michael
-Last Reviewed: 2026-03-11
-Canonical: Yes
+<sub><em>Status: Active | Audience: Collaborators | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 # Collaboration Guide
 
 Welcome! This guide covers everything you need to start contributing to Silverware Games projects.

@@ -1,8 +1,4 @@
-Status: Needs Review
-Audience: Public
-Owner: Michael
-Last Reviewed: 2026-03-11
-Canonical: Yes
+<sub><em>Status: Needs Review | Audience: Public | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 # Active Projects
 
 This page provides a high-level list of active or visible SWG projects.

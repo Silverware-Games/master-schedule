@@ -1,8 +1,4 @@
-Status: Active
-Audience: All
-Owner: Michael
-Last Reviewed: 2026-03-11
-Canonical: Yes
+<sub><em>Status: Active | Audience: All | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 
 # Welcome to the Silverware Games™ "Silverware Drawer"
 
@@ -21,14 +17,10 @@ Practical rule: entry docs should mostly link outward and stay below about 500 t
 
 ## Metadata Header Contract
 
-Every Markdown doc in this repo must begin with these fields:
+Every Markdown doc in this repo must begin with this metadata line:
 
 ```text
-Status: <Active|Draft|Needs Review|Archived|Replaced By>
-Audience: <target readers>
-Owner: <primary owner>
-Last Reviewed: <YYYY-MM-DD>
-Canonical: <Yes|No>
+<sub><em>Status: <Active|Draft|Needs Review|Archived|Replaced By> | Audience: <target readers> | Owner: <primary owner> | Last Reviewed: <YYYY-MM-DD> | Canonical: <Yes|No></em></sub>
 ```
 
 Use `Canonical: No` for drafts, archived material, and superseded pages.

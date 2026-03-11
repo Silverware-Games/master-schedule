@@ -7,6 +7,27 @@ $ErrorActionPreference = "Stop"
 $allowedStatus = @("Active", "Draft", "Needs Review", "Archived", "Replaced By")
 $allowedCanonical = @("Yes", "No")
 $utf8BomChar = [char]0xFEFF
+$metadataPattern = '^<sub><(?:em|i)>\s*Status:\s*(?<Status>[^|]+?)\s*\|\s*Audience:\s*(?<Audience>[^|]+?)\s*\|\s*Owner:\s*(?<Owner>[^|]+?)\s*\|\s*Last Reviewed:\s*(?<LastReviewed>[^|]+?)\s*\|\s*Canonical:\s*(?<Canonical>[^|<]+?)\s*</(?:em|i)></sub>$'
+
+function Parse-MetadataLine {
+    param(
+        [string]$Line
+    )
+
+    $lineWithoutBom = $Line.TrimStart($utf8BomChar)
+
+    if ($lineWithoutBom -notmatch $metadataPattern) {
+        return $null
+    }
+
+    return @{
+        Status = $Matches['Status'].Trim()
+        Audience = $Matches['Audience'].Trim()
+        Owner = $Matches['Owner'].Trim()
+        LastReviewed = $Matches['LastReviewed'].Trim()
+        Canonical = $Matches['Canonical'].Trim()
+    }
+}
 
 $markdownFiles = Get-ChildItem -Path $Root -Recurse -File -Filter *.md |
     Where-Object { $_.FullName -notmatch "[\\/]\\.git[\\/]" } |
@@ -30,33 +51,21 @@ foreach ($file in $markdownFiles) {
 
     $lines = Get-Content -Path $file.FullName
 
-    if ($lines.Count -lt 5) {
-        $failures.Add("${relativePath}: expected at least 5 lines for metadata header.")
+    if ($lines.Count -lt 1) {
+        $failures.Add("${relativePath}: expected metadata on line 1.")
         continue
     }
 
-    $checks = @(
-        @{ Key = "Status"; Pattern = "^Status:\s*(.+)$" },
-        @{ Key = "Audience"; Pattern = "^Audience:\s*(.+)$" },
-        @{ Key = "Owner"; Pattern = "^Owner:\s*(.+)$" },
-        @{ Key = "Last Reviewed"; Pattern = "^Last Reviewed:\s*(.+)$" },
-        @{ Key = "Canonical"; Pattern = "^Canonical:\s*(.+)$" }
-    )
+    $line1 = $lines[0]
+    $metadata = Parse-MetadataLine -Line $line1
 
-    foreach ($index in 0..($checks.Count - 1)) {
-        $key = $checks[$index].Key
-        $pattern = $checks[$index].Pattern
-        $line = $lines[$index]
-        if ($index -eq 0) {
-            $line = $line.TrimStart($utf8BomChar)
-        }
+    if (-not $metadata) {
+        $failures.Add("${relativePath}: line 1 must match '<sub><em>Status: <...> | Audience: <...> | Owner: <...> | Last Reviewed: <YYYY-MM-DD> | Canonical: <Yes|No></em></sub>' (found '$line1').")
+        continue
+    }
 
-        if ($line -notmatch $pattern) {
-            $failures.Add("${relativePath}: line $($index + 1) must be '${key}: <value>' (found '$line').")
-            continue
-        }
-
-        $value = $Matches[1].Trim()
+    foreach ($key in @("Status", "Audience", "Owner", "LastReviewed", "Canonical")) {
+        $value = $metadata[$key]
 
         switch ($key) {
             "Status" {
@@ -74,13 +83,13 @@ foreach ($file in $markdownFiles) {
                     $failures.Add("${relativePath}: Owner cannot be empty.")
                 }
             }
-            "Last Reviewed" {
+            "LastReviewed" {
                 if ($value -notmatch "^\d{4}-\d{2}-\d{2}$") {
                     $failures.Add("${relativePath}: Last Reviewed must use YYYY-MM-DD (found '$value').")
                 }
                 else {
                     try {
-                        [void][datetime]::ParseExact($value, "yyyy-MM-dd", $null)
+                        [void][datetime]::ParseExact($value, "yyyy-MM-dd", [Globalization.CultureInfo]::InvariantCulture)
                     }
                     catch {
                         $failures.Add("${relativePath}: Last Reviewed is not a valid date ('$value').")

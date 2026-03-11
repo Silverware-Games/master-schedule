@@ -1,8 +1,4 @@
-Status: Active
-Audience: All
-Owner: Michael
-Last Reviewed: 2026-03-11
-Canonical: Yes
+<sub><em>Status: Active | Audience: All | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 # START HERE
 
 This is the human introduction to the `silverware-drawer` repository.

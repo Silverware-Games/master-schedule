@@ -1,8 +1,4 @@
-Status: Needs Review
-Audience: Internal
-Owner: Michael
-Last Reviewed: 2026-03-11
-Canonical: Yes
+<sub><em>Status: Needs Review | Audience: Internal | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 # Silverware Games – Living Calendar
 
 This is a **living, non-strict calendar** for Silverware Games.

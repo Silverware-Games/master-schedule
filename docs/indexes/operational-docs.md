@@ -1,8 +1,4 @@
-Status: Active
-Audience: All
-Owner: Michael
-Last Reviewed: 2026-03-11
-Canonical: Yes
+<sub><em>Status: Active | Audience: All | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 # Operational Docs Index
 
 Use this page when you need detailed, frequently updated procedures.
