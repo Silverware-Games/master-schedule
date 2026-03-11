@@ -8,15 +8,17 @@ This is the universal orientation document for the `silverware-drawer` repositor
 
 Silverware Games (SWG) is an independent game studio, creative playground, and collaboration hub. Michael Silverman, known as Michael PLZNO (that's "Michael Please No!") on the internet founded the company and we incorporated in 2013. We've bee iterating and growing for decades, learning exactly how to make life more fun for gamers and developers alike.
 
-The main website is https://silverwaregames.com but we have a whole suite of sites and projects. If you want to dive right into our biggest active works check out [/public/active-projects.md](/public/active-projects.md)
+The main website is https://silverwaregames.com but we have a whole suite of sites and projects. 
 
 ## What SWG Works On
 
 - Original games for web and PC
 - Experimental prototypes and playful systems
 - Art and media projects
-- Community-facing feedback and content AKA [https://github.com/Silverware-Games/Gamedev-Feedback]("Gamedev Feedback")
+- Community-facing feedback and content AKA ["Gamedev Feedback"](https://github.com/Silverware-Games/Gamedev-Feedback)
 - Client work and consulting
+
+If you want to dive right into our biggest active works check out [/public/active-projects.md](/public/active-projects.md)
 
 ## Working Style
 
@@ -29,7 +31,6 @@ SWG favors:
 
 More detailed pontifications about our design ethos is at `[/public/philosophy-and-ethos.md](/public/philosophy-and-ethos.md)`
 
-
 ## How Documentation Is Organized
 
 The basic structure is to put a doc in one of 4 categories based on who the audience is:
@@ -39,11 +40,7 @@ The basic structure is to put a doc in one of 4 categories based on who the audi
 - [docs/clients/](docs/clients/): If you want us to make something for you we'll get it done fast, cheap, and ultra lux-primo good!
 - [docs/internal/](docs/internal/): If you already work with us and need to understand our systems, archetecture, tech stack, and so on.
 
-## Help, I'm Lost!
-
-Our whole repo is indexed here, anyone or thing that modifes the repo also needs to keep repo-map current!
-
-- [docs/indexes/repo-map.md](docs/indexes/repo-map.md) - the complete repository index
+If you're lost, our whole repo is indexed here, [docs/indexes/repo-map.md](docs/indexes/repo-map.md)  anyone or thing that modifes the repo also needs to keep repo-map current! 
 
 ## How Collaborators Can Participate
 
