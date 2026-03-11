@@ -1,9 +1,15 @@
+Status: Replaced By
+Audience: Internal
+Owner: Michael
+Last Reviewed: 2026-03-11
+Canonical: No
+
 # HostGator Migration Archive
 
 ## Silverware Games: HostGator to DigitalOcean
 
 `Status`: Completed  
-`Document status`: Archive (historical reference only)
+`Document status`: Replaced By `docs/internal/droplet/droplet.md` (historical reference only)
 
 The HostGator migration is finished. This file is kept only as a historical archive and should not be used as the active operations guide.
 

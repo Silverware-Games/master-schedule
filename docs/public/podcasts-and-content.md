@@ -1,3 +1,8 @@
+Status: Needs Review
+Audience: Public
+Owner: Michael
+Last Reviewed: 2026-03-11
+Canonical: Yes
 # Podcasts And Content
 
 Silverware Games publishes and appears in long-form and short-form content, including podcasts and creator conversations.

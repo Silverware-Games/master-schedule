@@ -1,4 +1,8 @@
-
+Status: Needs Review
+Audience: Clients
+Owner: Michael
+Last Reviewed: 2026-03-11
+Canonical: Yes
 # Services Overview
 
 We typically work in the `$60/hour` range, and we love helping clients bring ideas to life. Here are some of the ways we can help:

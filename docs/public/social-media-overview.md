@@ -1,6 +1,9 @@
+Status: Draft
+Audience: Public
+Owner: Michael
+Last Reviewed: 2026-03-11
+Canonical: No
 # Social Media Overview
-
-Status: Placeholder
 
 This document will map SWG social channels, posting formats, and publishing cadence.
 

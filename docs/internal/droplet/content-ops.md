@@ -1,3 +1,8 @@
+Status: Needs Review
+Audience: Internal
+Owner: Michael
+Last Reviewed: 2026-03-11
+Canonical: Yes
 # Content Ops - Server Command Reference
 
 ## Static Sites, WordPress Staging, and Client Infrastructure

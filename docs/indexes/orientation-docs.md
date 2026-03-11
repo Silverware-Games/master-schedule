@@ -1,3 +1,8 @@
+Status: Active
+Audience: All
+Owner: Michael
+Last Reviewed: 2026-03-11
+Canonical: Yes
 # Orientation Docs Index
 
 Use this page when you need stable, short, human-readable entry points.

@@ -1,3 +1,8 @@
+Status: Active
+Audience: Internal
+Owner: Michael
+Last Reviewed: 2026-03-11
+Canonical: Yes
 # DigitalOcean Droplet Structure
 
 This document is the source of truth for how the Silverware Games production droplet is organized.

@@ -1,3 +1,9 @@
+Status: Active
+Audience: All
+Owner: Michael
+Last Reviewed: 2026-03-11
+Canonical: Yes
+
 # Welcome to the Silverware Games™ "Silverware Drawer"
 
 Our company mission is simple: "We bring the fun™"
@@ -12,6 +18,20 @@ This repository is the documentation `front door` for Silverware Games.
 - Use [docs/indexes/operational-docs.md](docs/indexes/operational-docs.md) for living procedures and runbooks.
 
 Practical rule: entry docs should mostly link outward and stay below about 500 to 800 words.
+
+## Metadata Header Contract
+
+Every Markdown doc in this repo must begin with these fields:
+
+```text
+Status: <Active|Draft|Needs Review|Archived|Replaced By>
+Audience: <target readers>
+Owner: <primary owner>
+Last Reviewed: <YYYY-MM-DD>
+Canonical: <Yes|No>
+```
+
+Use `Canonical: No` for drafts, archived material, and superseded pages.
 
 ## Route By Audience
 

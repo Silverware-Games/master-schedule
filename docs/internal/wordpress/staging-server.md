@@ -1,3 +1,8 @@
+Status: Needs Review
+Audience: Internal
+Owner: Michael
+Last Reviewed: 2026-03-11
+Canonical: Yes
 # Silverware Games WordPress Staging Server Architecture
 
 This document describes the staging server used for WordPress development at Silverware Games.

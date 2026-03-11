@@ -1,3 +1,8 @@
+Status: Needs Review
+Audience: Internal
+Owner: Michael
+Last Reviewed: 2026-03-11
+Canonical: Yes
 # Silverware Games WordPress Client Onboarding
 
 This document describes the steps used when starting work on a new WordPress client site.

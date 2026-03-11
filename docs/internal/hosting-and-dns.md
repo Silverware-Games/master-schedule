@@ -1,3 +1,8 @@
+Status: Needs Review
+Audience: Internal
+Owner: Michael
+Last Reviewed: 2026-03-11
+Canonical: Yes
 # Hosting And DNS
 
 This document tracks hosting and DNS architecture for Silverware Games properties.

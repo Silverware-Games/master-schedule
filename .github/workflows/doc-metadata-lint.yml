@@ -1,0 +1,38 @@
+name: Doc Metadata Lint
+
+on:
+  pull_request:
+    paths:
+      - "**/*.md"
+      - "scripts/lint-doc-metadata.ps1"
+      - "scripts/verify-repo-map-status.ps1"
+      - ".github/workflows/doc-metadata-lint.yml"
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+      - "scripts/lint-doc-metadata.ps1"
+      - "scripts/verify-repo-map-status.ps1"
+      - ".github/workflows/doc-metadata-lint.yml"
+
+jobs:
+  lint-doc-metadata:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Lint markdown metadata headers
+        shell: pwsh
+        run: ./scripts/lint-doc-metadata.ps1 -Root .
+
+  verify-repo-map-status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verify repo-map status matches docs
+        shell: pwsh
+        run: ./scripts/verify-repo-map-status.ps1 -Root . -RepoMapPath docs/indexes/repo-map.md

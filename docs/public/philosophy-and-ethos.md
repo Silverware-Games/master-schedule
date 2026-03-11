@@ -1,3 +1,8 @@
+Status: Active
+Audience: Public
+Owner: Michael
+Last Reviewed: 2026-03-11
+Canonical: Yes
 # Philosophy And Ethos
 
 Silverware Games is guided by a simple working philosophy:

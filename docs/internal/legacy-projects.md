@@ -1,3 +1,8 @@
+Status: Archived
+Audience: Internal
+Owner: Michael
+Last Reviewed: 2026-03-11
+Canonical: No
 # File listing of archived files from Hostgator Migration
 
 ## /home1/msilver/public_html/xgames/Xworldsaver/*
