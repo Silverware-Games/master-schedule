@@ -6,16 +6,16 @@ This is the universal orientation document for the `silverware-drawer` repositor
 
 ## What Silverware Games Is
 
-Silverware Games (SWG) is an independent game studio, creative playground, and collaboration hub. Michael Silverman, known as Michael PLZNO on the internet founded the company and we incorporated in 2013. We've bee iterating and growing for decades, learning exactly how to make life more fun for gamers and developers alike.
+Silverware Games (SWG) is an independent game studio, creative playground, and collaboration hub. Michael Silverman, known as Michael PLZNO (that's "Michael Please No!") on the internet founded the company and we incorporated in 2013. We've bee iterating and growing for decades, learning exactly how to make life more fun for gamers and developers alike.
 
-The main website is https://silverwaregames.com but we have a whole suite of sites and projects. If you want to dive right into our biggest active works check out `[/public/active-projects.md](/public/active-projects.md)`
+The main website is https://silverwaregames.com but we have a whole suite of sites and projects. If you want to dive right into our biggest active works check out [/public/active-projects.md](/public/active-projects.md)
 
 ## What SWG Works On
 
 - Original games for web and PC
 - Experimental prototypes and playful systems
 - Art and media projects
-- Community-facing feedback and content
+- Community-facing feedback and content AKA [https://github.com/Silverware-Games/Gamedev-Feedback]("Gamedev Feedback")
 - Client work and consulting
 
 ## Working Style
@@ -26,6 +26,9 @@ SWG favors:
 - practical experimentation
 - collaborative creativity
 - shipping over perfection
+
+More detailed pontifications about our design ethos is at `[/public/philosophy-and-ethos.md](/public/philosophy-and-ethos.md)`
+
 
 ## How Documentation Is Organized
 
