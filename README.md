@@ -1,5 +1,3 @@
-<!-- @format -->
-
 # Welcome to the Silverware Games™ "Silverware Drawer"
 
 Our company mission is simple: "We bring the fun™"

@@ -1,5 +1,3 @@
-<!-- @format -->
-
 # START HERE
 
 This is the universal orientation document for the `silverware-drawer` repository.
@@ -12,10 +10,10 @@ The main website is https://silverwaregames.com but we have a whole suite of sit
 
 ## What SWG Works On
 
-- Original games for Web, PC, and XBOX - Learn more about or original HTML5 engine (TODO: ENGINE LINK)
+- Client work and consulting ["Services Overview"](/public/services-overview.md)
 - Art and media projects. We try to doodle every day for ["Coffee Doodle Art"](/public/coffee-doodle-art.md)
-- Community-facing feedback and content AKA ["Gamedev Feedback"](https://github.com/Silverware-Games/Gamedev-Feedback)
-- Client work and consulting
+- Community-facing feedback and content AKA ["Gamedev Feedback"](/public/gamedev-feedback.md)
+- Original games for Web, PC, and XBOX - Learn more about or original HTML5 engine ["HTML5 Engine"](/internal/HTML5-engine.md)
 
 If you want to dive right into our biggest active works check out [/public/active-projects.md](/public/active-projects.md)
 
