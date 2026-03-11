@@ -1,47 +1,124 @@
 <sub><em>Status: Active | Audience: All | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 
-# Welcome to the Silverware Games™ "Silverware Drawer"
+# Silverware Drawer
 
-Silverware Games' mission is clear: "We bring the fun™"
+**The documentation hub for Silverware Games (SWG).**
 
-This repository is the primary documentation entry point for Silverware Games.
+This repository organizes the knowledge, philosophy, projects, and operational systems behind **Silverware Games**, an independent creative studio building:
 
-# What Do You Need?
+- games
+- interactive experiences
+- experimental media
+- creative tooling
+- collaborative projects
 
-## Route By Audience
+The **Silverware Drawer** acts as a structured knowledge base so that anyone — human or machine — can quickly understand how the SWG ecosystem works.
 
-- New to Silverware Games: [START-HERE.md](START-HERE.md)
-- Public visitor or fan: [docs/public/START-HERE.md](docs/public/START-HERE.md)
-- Collaborator or contributor: [docs/collaborators/START-HERE.md](docs/collaborators/START-HERE.md)
-- Client or prospective client: [docs/clients/START-HERE.md](docs/clients/START-HERE.md)
-- Internal team member or automation: [docs/internal/START-HERE.md](docs/internal/START-HERE.md)
+# Start Here
 
-## Route By Task
+If this is your first time exploring the repo:
 
-- Learn what Silverware Games is: [START-HERE.md](START-HERE.md)
-- Find a specific document: [docs/indexes/repo-map.md](docs/indexes/repo-map.md)
-- Choose an entry document: [docs/indexes/orientation-docs.md](docs/indexes/orientation-docs.md)
-- Find detailed procedures: [docs/indexes/operational-docs.md](docs/indexes/operational-docs.md)
-- Review active public-facing work: [docs/public/START-HERE.md](docs/public/START-HERE.md)
-- Start collaborating: [docs/collaborators/START-HERE.md](docs/collaborators/START-HERE.md)
+➡ **Read the orientation guide**
 
-# Meta Information
+[START-HERE.md](START-HERE.md)
 
-## Documentation Types
+This explains how the repository is structured and where to begin.
 
-- Orientation docs are stable, short entry pages that answer "what is this?" and route readers onward.
-- Operational docs are detailed, frequently updated references that answer "how exactly do we do this?"
-- Use [docs/indexes/orientation-docs.md](docs/indexes/orientation-docs.md) for entry docs.
-- Use [docs/indexes/operational-docs.md](docs/indexes/operational-docs.md) for living procedures and runbooks.
+# Explore by Audience
 
-Practical rule: entry docs should mostly link outward and stay below about 500 to 800 words.
+Documentation is organized by **who it is for**.
 
-## Metadata Header Contract
+### 🌎 Public — Learn About SWG
 
-Every Markdown doc in this repo must begin with this metadata line:
+Studio philosophy, projects, and creative initiatives.
 
-```text
-<sub><em>Status: <Active|Draft|Needs Review|Archived|Replaced By> | Audience: <target readers> | Owner: <primary owner> | Last Reviewed: <YYYY-MM-DD> | Canonical: <Yes|No></em></sub>
-```
+[docs/public/START-HERE.md](docs/public/START-HERE.md)
 
-Use `Canonical: No` for drafts, archived material, and superseded pages.
+### 🤝 Collaborators — Work With Us
+
+How developers, artists, and creators can collaborate.
+
+[docs/collaborators/START-HERE.md](docs/collaborators/START-HERE.md)
+
+### 💼 Clients — Hire SWG
+
+Services, engagement model, and client workflow.
+
+[docs/clients/START-HERE.md](docs/clients/START-HERE.md)
+
+### 🧠 Internal — Systems & Infrastructure
+
+Operational documentation for the SWG stack and workflows.
+
+[docs/internal/START-HERE.md](docs/internal/START-HERE.md)
+
+# Master Documentation Index
+
+The complete index of documentation lives here:
+
+[docs/indexes/repo-map.md](docs/indexes/repo-map.md)
+
+This file lists:
+
+- every major document
+- its audience
+- its purpose
+- its status
+- when it was last reviewed
+
+If you're unsure where something lives, start there.
+
+# What Is Silverware Games?
+
+Silverware Games is an independent creative studio exploring the intersection of:
+
+- games
+- art
+- storytelling
+- internet culture
+- creative experimentation
+
+Projects range from traditional games to experimental interactive media, community content, and creative tools.
+
+The studio operates with a philosophy of:
+
+- **creative exploration**
+- **open collaboration**
+- **clear documentation**
+- **continuous iteration**
+
+# Why This Repo Exists
+
+Most organizations accumulate knowledge in scattered places:
+
+- chat threads
+- private documents
+- personal notes
+- unwritten tribal knowledge
+
+The **Silverware Drawer** exists to solve that problem.
+
+This repository aims to make SWG knowledge:
+
+- discoverable
+- navigable
+- documented
+- improvable over time
+
+# Contributing
+
+If you see something that is:
+
+- outdated
+- unclear
+- broken
+- missing
+
+Please improve it.
+
+Before making large structural changes, consult:
+
+[docs/indexes/repo-map.md](docs/indexes/repo-map.md)
+
+Silverware Games
+Organized chaos since the beginning.
