@@ -23,6 +23,22 @@ Think of the **Silverware Drawer** as the place where everything is organized so
 
 Documentation is organized **by audience first**.
 
+Repository Map
+
+```
+README
+  ↓
+START-HERE
+  ↓
+Audience Hubs
+   ├─ Public (fans, players)
+   ├─ Collaborators (devs, partners)
+   ├─ Clients (design services)
+   └─ Internal (team operations)
+```
+
+Each hub links to deeper documentation and project details.
+
 Choose the path that best matches why you're here.
 
 ## 🌎 Public — What Silverware Games Is
@@ -174,5 +190,6 @@ Before making large structural changes, consult:
 
 Silverware Games  
 Organized chaos since the beginning.
+
 
 
