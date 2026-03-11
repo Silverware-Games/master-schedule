@@ -88,26 +88,10 @@ Onboarding, contribution guidance, and collaboration norms for contributors.
 
 ### [docs/collaborators/collaborator-onboarding.md](../collaborators/collaborator-onboarding.md)
 
-**Description:** Primary onboarding checklist and flow for new collaborators.  
-**Tasks:** Onboard as collaborator, understand contribution workflow  
+**Description:** Comprehensive collaboration guide covering onboarding, contribution paths, and team norms.  
+**Tasks:** Onboard as collaborator, understand contribution workflow, find contribution opportunities, follow repo conventions  
 **Brands:** Silverware Games  
 **Audiences:** Collaborators  
-**Projects:** Core SWG Documentation
-
-### [docs/collaborators/contribution-paths.md](../collaborators/contribution-paths.md)
-
-**Description:** Different ways to contribute to SWG projects and initiatives.  
-**Tasks:** Find contribution opportunities, choose contribution path  
-**Brands:** Silverware Games  
-**Audiences:** Collaborators  
-**Projects:** Core SWG Documentation
-
-### [docs/collaborators/repo-and-communication-norms.md](../collaborators/repo-and-communication-norms.md)
-
-**Description:** Repository conventions, communication standards, and team norms.  
-**Tasks:** Understand collaboration norms, follow repo conventions  
-**Brands:** Silverware Games  
-**Audiences:** Collaborators, internal  
 **Projects:** Core SWG Documentation
 
 ---
