@@ -24,68 +24,6 @@ If this is your first time exploring the repo:
 
 This explains how the repository is structured and where to begin.
 
-# Explore by Audience
-
-Documentation is organized by **who it is for**.
-
-### 🌎 Public — Learn About SWG
-
-Studio philosophy, projects, and creative initiatives.
-
-[docs/public/PUBLIC-HUB.md](docs/public/PUBLIC-HUB.md)
-
-### 🤝 Collaborators — Work With Us
-
-How developers, artists, and creators can collaborate.
-
-[docs/collaborators/COLLABORATOR-HUB.md](docs/collaborators/COLLABORATOR-HUB.md)
-
-### 💼 Clients — Hire SWG
-
-Services, engagement model, and client workflow.
-
-[docs/clients/CLIENT-HUB.md](docs/clients/CLIENT-HUB.md)
-
-### 🧠 Internal — Systems & Infrastructure
-
-Operational documentation for the SWG stack and workflows.
-
-[docs/internal/INTERNAL-HUB.md](docs/internal/INTERNAL-HUB.md)
-
-# Master Documentation Index
-
-The complete index of documentation lives here:
-
-[docs/indexes/repo-map.md](docs/indexes/repo-map.md)
-
-This file lists:
-
-- every major document
-- its audience
-- its purpose
-- its status
-- when it was last reviewed
-
-If you're unsure where something lives, start there.
-
-# Why This Repo Exists
-
-Most organizations accumulate knowledge in scattered places:
-
-- chat threads
-- private documents
-- personal notes
-- unwritten tribal knowledge
-
-The **Silverware Drawer** exists to solve that problem.
-
-This repository aims to make SWG knowledge:
-
-- discoverable
-- navigable
-- documented
-- improvable over time
-
 # Contributing
 
 If you see something that is:
@@ -95,11 +33,15 @@ If you see something that is:
 - broken
 - missing
 
-Please improve it.
+Please improve it. Contact us @michaelplzno on social. Make an issue in the repo and we'll take care of it.
 
 Before making large structural changes, consult:
 
 [docs/indexes/repo-map.md](docs/indexes/repo-map.md)
 
 Silverware Games
+
 Organized chaos since the beginning.
+
+
+

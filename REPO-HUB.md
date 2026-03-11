@@ -82,6 +82,27 @@ Internal documentation covers:
 Start here:
 [docs/internal/INTERNAL-HUB.md](docs/internal/INTERNAL-HUB.md)
 
+# Why This Repo Exists
+
+Most organizations accumulate knowledge in scattered places:
+
+- chat threads
+- private documents
+- personal notes
+- unwritten tribal knowledge
+
+The **Silverware Drawer** exists to solve that problem.
+
+This repository aims to make SWG knowledge:
+
+- discoverable
+- navigable
+- documented
+- improvable over time
+ 
+When in doubt:
+**Write it down. Improve it later.**
+
 # Repo Navigation
 
 The **master index of all documentation** lives here:
@@ -121,27 +142,6 @@ Detailed procedures, technical documentation, and internal processes.
 Overview:
 [docs/indexes/operational-docs.md](docs/indexes/operational-docs.md)
 
-# The Philosophy Behind This Repo
-
-Most organizations keep their internal knowledge scattered across:
-
-- emails
-- Slack threads
-- random documents
-- tribal knowledge
-
-The **Silverware Drawer** exists to avoid that.
-
-Our goal is to keep SWG knowledge:
-
-- discoverable
-- documented
-- navigable
-- continuously improving
-
-When in doubt:
-**Write it down. Improve it later.**
-
 # How to Contribute
 
 If you see something that is:
@@ -172,3 +172,5 @@ Before making large structural changes, consult:
 
 Silverware Games  
 Organized chaos since the beginning.
+
+
