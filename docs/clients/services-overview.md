@@ -1,4 +1,3 @@
-<!-- @format -->
 
 # Services Overview
 

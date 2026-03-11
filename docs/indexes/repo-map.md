@@ -1,4 +1,3 @@
-<!-- @format -->
 
 # Silverware Games Repository Map
 
@@ -8,7 +7,7 @@ Canonical entry points:
 
 - [README.md](../../README.md) is the root router by audience and task.
 - [START-HERE.md](../../START-HERE.md) is the human-oriented explanation of what Silverware Games is.
-- [docs/indexes/repo-map.md](repo-map.md) is the complete file index.
+- [docs/indexes/repo-map.md](../../docs/indexes/repo-map.md) is the complete file index.
 
 Maintenance rule: when a tracked file is added, removed, or renamed, update this page in the same change.
 
@@ -19,44 +18,44 @@ Maintenance rule: when a tracked file is added, removed, or renamed, update this
 
 ## Public Documentation (`docs/public/`)
 
-- [docs/public/active-projects.md](../public/active-projects.md) lists the studio's active and visible projects with platform notes, links, and collaboration context.
-- [docs/public/coffee-doodle-art.md](../public/coffee-doodle-art.md) is a placeholder page for the Coffee Doodle Art initiative, its publishing rhythm, and archive links.
-- [docs/public/gamedev-feedback.md](../public/gamedev-feedback.md) is currently an empty placeholder reserved for future GameDev Feedback documentation.
-- [docs/public/philosophy-and-ethos.md](../public/philosophy-and-ethos.md) summarizes Silverware Games' creative values, practical principles, and cultural posture.
-- [docs/public/podcasts-and-content.md](../public/podcasts-and-content.md) serves as the public landing page for podcasts, creator conversations, and related media output.
-- [docs/public/social-media-overview.md](../public/social-media-overview.md) is a placeholder document for social channels, posting formats, and publishing cadence.
+- [docs/public/active-projects.md](../../docs/public/active-projects.md) lists the studio's active and visible projects with platform notes, links, and collaboration context.
+- [docs/public/coffee-doodle-art.md](../../docs/public/coffee-doodle-art.md) is a placeholder page for the Coffee Doodle Art initiative, its publishing rhythm, and archive links.
+- [docs/public/gamedev-feedback.md](../../docs/public/gamedev-feedback.md) is currently an empty placeholder reserved for future GameDev Feedback documentation.
+- [docs/public/philosophy-and-ethos.md](../../docs/public/philosophy-and-ethos.md) summarizes Silverware Games' creative values, practical principles, and cultural posture.
+- [docs/public/podcasts-and-content.md](../../docs/public/podcasts-and-content.md) serves as the public landing page for podcasts, creator conversations, and related media output.
+- [docs/public/social-media-overview.md](../../docs/public/social-media-overview.md) is a placeholder document for social channels, posting formats, and publishing cadence.
 
 ## Collaborator Documentation (`docs/collaborators/`)
 
-- [docs/collaborators/collaborator-onboarding.md](../collaborators/collaborator-onboarding.md) explains onboarding steps, contribution paths, and collaboration norms for new contributors.
+- [docs/collaborators/collaborator-onboarding.md](../../docs/collaborators/collaborator-onboarding.md) explains onboarding steps, contribution paths, and collaboration norms for new contributors.
 
 ## Client Documentation (`docs/clients/`)
 
-- [docs/clients/services-overview.md](../clients/services-overview.md) describes Silverware Games client services, pricing posture, and the baseline WordPress engagement model.
+- [docs/clients/services-overview.md](../../docs/clients/services-overview.md) describes Silverware Games client services, pricing posture, and the baseline WordPress engagement model.
 
 ## Internal Documentation (`docs/internal/`)
 
-- [docs/internal/calendar.md](../internal/calendar.md) captures Silverware Games' living work rhythms so collaborators understand the company's cadence and expectations.
-- [docs/internal/hosting-and-dns.md](../internal/hosting-and-dns.md) records current hosting and DNS conventions and points readers to the active droplet layout and historical migration archive.
-- [docs/internal/HTML5-engine.md](../internal/HTML5-engine.md) is currently an empty placeholder reserved for future documentation of the studio's HTML5 engine.
-- [docs/internal/legacy-projects.md](../internal/legacy-projects.md) inventories legacy directories and marks what should be archived, migrated, or ignored.
-- [docs/internal/migration-from-hostgator.md](../internal/migration-from-hostgator.md) is the historical archive for the completed HostGator-to-DigitalOcean migration.
+- [docs/internal/calendar.md](../../docs/internal/calendar.md) captures Silverware Games' living work rhythms so collaborators understand the company's cadence and expectations.
+- [docs/internal/hosting-and-dns.md](../../docs/internal/hosting-and-dns.md) records current hosting and DNS conventions and points readers to the active droplet layout and historical migration archive.
+- [docs/internal/HTML5-engine.md](../../docs/internal/HTML5-engine.md) is currently an empty placeholder reserved for future documentation of the studio's HTML5 engine.
+- [docs/internal/legacy-projects.md](../../docs/internal/legacy-projects.md) inventories legacy directories and marks what should be archived, migrated, or ignored.
+- [docs/internal/migration-from-hostgator.md](../../docs/internal/migration-from-hostgator.md) is the historical archive for the completed HostGator-to-DigitalOcean migration.
 
 ### Internal Droplet (`docs/internal/droplet/`)
 
-- [docs/internal/droplet/content-ops.md](../internal/droplet/content-ops.md) is the server command reference for managing static sites, WordPress staging, and client infrastructure on the droplet.
-- [docs/internal/droplet/droplet.md](../internal/droplet/droplet.md) defines the active DigitalOcean droplet layout, hostname model, and operational baseline for hosted properties.
+- [docs/internal/droplet/content-ops.md](../../docs/internal/droplet/content-ops.md) is the server command reference for managing static sites, WordPress staging, and client infrastructure on the droplet.
+- [docs/internal/droplet/droplet.md](../../docs/internal/droplet/droplet.md) defines the active DigitalOcean droplet layout, hostname model, and operational baseline for hosted properties.
 
 ### Internal WordPress Workflow (`docs/internal/wordpress/`)
 
-- [docs/internal/wordpress/deployment.md](../internal/wordpress/deployment.md) explains how approved staging changes are safely backed up, imported, and verified on a client's live WordPress site.
-- [docs/internal/wordpress/onboarding.md](../internal/wordpress/onboarding.md) defines the onboarding workflow for cloning a client's WordPress site into a secure staging environment.
-- [docs/internal/wordpress/staging-server.md](../internal/wordpress/staging-server.md) documents the WordPress staging architecture, DNS model, and server conventions used on the Silverware Games droplet.
-- [docs/internal/wordpress/workflow-client.md](../internal/wordpress/workflow-client.md) explains the client-facing WordPress workflow from backup through staging, review, and approval.
+- [docs/internal/wordpress/deployment.md](../../docs/internal/wordpress/deployment.md) explains how approved staging changes are safely backed up, imported, and verified on a client's live WordPress site.
+- [docs/internal/wordpress/onboarding.md](../../docs/internal/wordpress/onboarding.md) defines the onboarding workflow for cloning a client's WordPress site into a secure staging environment.
+- [docs/internal/wordpress/staging-server.md](../../docs/internal/wordpress/staging-server.md) documents the WordPress staging architecture, DNS model, and server conventions used on the Silverware Games droplet.
+- [docs/internal/wordpress/workflow-client.md](../../docs/internal/wordpress/workflow-client.md) explains the client-facing WordPress workflow from backup through staging, review, and approval.
 
 ## Indexes (`docs/indexes/`)
 
-- [docs/indexes/repo-map.md](repo-map.md) is this complete index of every tracked file in the repository.
+- [docs/indexes/repo-map.md](../../docs/indexes/repo-map.md) is this complete index of every tracked file in the repository.
 
 ## Supporting Folders
 
