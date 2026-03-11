@@ -42,6 +42,15 @@ The documentation is grouped by audience:
 - [docs/clients/](docs/clients/) for client-facing services and engagement context
 - [docs/internal/](docs/internal/) for operating knowledge, systems, and technical references
 
+The documentation is also grouped by document type:
+
+- Orientation docs are short, stable entry points that explain context and route readers.
+- Operational docs are detailed, living references for execution.
+
+Use [docs/indexes/orientation-docs.md](docs/indexes/orientation-docs.md) for entry docs and [docs/indexes/operational-docs.md](docs/indexes/operational-docs.md) for procedures.
+
+Practical rule: if a page grows beyond roughly 500 to 800 words, it is usually no longer an entry doc and should be treated as operational.
+
 ## Where To Go Next
 
 - If you are new and just need orientation, stay here.
