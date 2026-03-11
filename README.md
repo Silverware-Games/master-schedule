@@ -11,9 +11,10 @@ This repository is the documentation `front door` for Silverware Games.
 ## Route By Audience
 
 - New to Silverware Games: [START-HERE.md](START-HERE.md)
-- Collaborator or contributor: [docs/collaborators/collaborator-onboarding.md](docs/collaborators/collaborator-onboarding.md)
-- Client or prospective client: [docs/clients/services-overview.md](docs/clients/services-overview.md)
-- Internal team member or automation: [docs/indexes/repo-map.md](docs/indexes/repo-map.md)
+- Public visitor or fan: [docs/public/START-HERE.md](docs/public/START-HERE.md)
+- Collaborator or contributor: [docs/collaborators/START-HERE.md](docs/collaborators/START-HERE.md)
+- Client or prospective client: [docs/clients/START-HERE.md](docs/clients/START-HERE.md)
+- Internal team member or automation: [docs/internal/START-HERE.md](docs/internal/START-HERE.md)
 
 ## Route By Task
 
@@ -21,8 +22,8 @@ This repository is the documentation `front door` for Silverware Games.
 - Find a specific document: [docs/indexes/repo-map.md](docs/indexes/repo-map.md)
 - Choose an entry document: [docs/indexes/orientation-docs.md](docs/indexes/orientation-docs.md)
 - Find detailed procedures: [docs/indexes/operational-docs.md](docs/indexes/operational-docs.md)
-- Review active public-facing work: [docs/public/active-projects.md](docs/public/active-projects.md)
-- Start collaborating: [docs/collaborators/collaborator-onboarding.md](docs/collaborators/collaborator-onboarding.md)
+- Review active public-facing work: [docs/public/START-HERE.md](docs/public/START-HERE.md)
+- Start collaborating: [docs/collaborators/START-HERE.md](docs/collaborators/START-HERE.md)
 
 # Meta Information
 

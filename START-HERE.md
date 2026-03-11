@@ -1,4 +1,5 @@
 <sub><em>Status: Active | Audience: All | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+
 # START HERE
 
 This is the human introduction to the `silverware-drawer` repository.
@@ -38,10 +39,10 @@ For the longer version of that posture, read [docs/public/philosophy-and-ethos.m
 
 The documentation is grouped by audience:
 
-- [docs/public/](docs/public/) for public-facing information about SWG, projects, and media
-- [docs/collaborators/](docs/collaborators/) for onboarding and contributor guidance
-- [docs/clients/](docs/clients/) for client-facing services and engagement context
-- [docs/internal/](docs/internal/) for operating knowledge, systems, and technical references
+- [docs/public/START-HERE.md](docs/public/START-HERE.md) for public-facing information about SWG, projects, and media
+- [docs/collaborators/START-HERE.md](docs/collaborators/START-HERE.md) for onboarding and contributor guidance
+- [docs/clients/START-HERE.md](docs/clients/START-HERE.md) for client-facing services and engagement context
+- [docs/internal/START-HERE.md](docs/internal/START-HERE.md) for operating knowledge, systems, and technical references
 
 The documentation is also grouped by document type:
 
@@ -56,8 +57,8 @@ Practical rule: if a page grows beyond roughly 500 to 800 words, it is usually n
 
 - If you are new and just need orientation, stay here.
 - If you need the authoritative file index, use [docs/indexes/repo-map.md](docs/indexes/repo-map.md).
-- If you want to contribute, start with [docs/collaborators/collaborator-onboarding.md](docs/collaborators/collaborator-onboarding.md).
-- If you are evaluating SWG as a client, start with [docs/clients/services-overview.md](docs/clients/services-overview.md).
+- If you want to contribute, start with [docs/collaborators/START-HERE.md](docs/collaborators/START-HERE.md).
+- If you are evaluating SWG as a client, start with [docs/clients/START-HERE.md](docs/clients/START-HERE.md).
 
 ## Notes For AI And Automation
 
