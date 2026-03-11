@@ -12,9 +12,8 @@ The main website is https://silverwaregames.com but we have a whole suite of sit
 
 ## What SWG Works On
 
-- Original games for web and PC
-- Experimental prototypes and playful systems
-- Art and media projects
+- Original games for Web, PC, and XBOX - Learn more about or original HTML5 engine (TODO: ENGINE LINK)
+- Art and media projects. We try to doodle every day for ["Coffee Doodle Art"](/public/coffee-doodle-art.md)
 - Community-facing feedback and content AKA ["Gamedev Feedback"](https://github.com/Silverware-Games/Gamedev-Feedback)
 - Client work and consulting
 
