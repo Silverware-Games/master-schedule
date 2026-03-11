@@ -68,25 +68,6 @@ This file lists:
 
 If you're unsure where something lives, start there.
 
-# What Is Silverware Games?
-
-Silverware Games is an independent creative studio exploring the intersection of:
-
-- games
-- art
-- storytelling
-- internet culture
-- creative experimentation
-
-Projects range from traditional games to experimental interactive media, community content, and creative tools.
-
-The studio operates with a philosophy of:
-
-- **creative exploration**
-- **open collaboration**
-- **clear documentation**
-- **continuous iteration**
-
 # Why This Repo Exists
 
 Most organizations accumulate knowledge in scattered places:
