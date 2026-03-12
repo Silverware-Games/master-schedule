@@ -6,11 +6,12 @@ param(
 $ErrorActionPreference = "Stop"
 
 $allowedStatus = @("Active", "Draft", "Needs Review", "Archived", "Replaced By")
+$allowedDocTypes = @("Orientation", "Reference", "Workflow")
 $utf8BomChar = [char]0xFEFF
-$metadataPattern = '^<sub><(?:em|i)>\s*Status:\s*(?<Status>[^|]+?)\s*\|\s*Audience:\s*(?<Audience>[^|]+?)\s*\|\s*Owner:\s*(?<Owner>[^|]+?)\s*\|\s*Last Reviewed:\s*(?<LastReviewed>[^|]+?)\s*\|\s*Canonical:\s*(?<Canonical>[^|<]+?)\s*</(?:em|i)></sub>$'
+$metadataPattern = '^<sub><(?:em|i)>\s*Status:\s*(?<Status>[^|]+?)\s*\|\s*Audience:\s*(?<Audience>[^|]+?)\s*\|\s*Doc-Type:\s*(?<DocType>[^|]+?)\s*\|\s*Owner:\s*(?<Owner>[^|]+?)\s*\|\s*Last Reviewed:\s*(?<LastReviewed>[^|]+?)\s*\|\s*Canonical:\s*(?<Canonical>[^|<]+?)\s*</(?:em|i)></sub>$'
 $failures = New-Object System.Collections.Generic.List[string]
 
-function Get-StatusFromMetadataLine {
+function Get-MetadataFromMetadataLine {
     param(
         [string]$Line
     )
@@ -21,7 +22,10 @@ function Get-StatusFromMetadataLine {
         return $null
     }
 
-    return $Matches['Status'].Trim()
+    return @{
+        Status = $Matches['Status'].Trim()
+        DocType = $Matches['DocType'].Trim()
+    }
 }
 
 $rootResolved = Resolve-Path -LiteralPath $Root
@@ -67,7 +71,7 @@ if ($registryRows.Count -eq 0) {
     exit 1
 }
 
-$rowPattern = '^\|\s*\[(?<docText>[^\]]+)\]\((?<link>[^)]+)\)\s*\|\s*(?<title>.*?)\s*\|\s*(?<audience>.*?)\s*\|\s*(?<purpose>.*?)\s*\|\s*(?<status>.*?)\s*\|\s*(?<owner>.*?)\s*\|\s*(?<reviewed>.*?)\s*\|$'
+$rowPattern = '^\|\s*\[(?<docText>[^\]]+)\]\((?<link>[^)]+)\)\s*\|\s*(?<title>.*?)\s*\|\s*(?<audience>.*?)\s*\|\s*(?<purpose>.*?)\s*\|\s*(?<docType>.*?)\s*\|\s*(?<status>.*?)\s*\|\s*(?<owner>.*?)\s*\|\s*(?<reviewed>.*?)\s*\|$'
 
 foreach ($row in $registryRows) {
     if ($row -notmatch $rowPattern) {
@@ -76,7 +80,13 @@ foreach ($row in $registryRows) {
     }
 
     $link = $Matches['link'].Trim()
+    $tableDocType = $Matches['docType'].Trim()
     $tableStatus = $Matches['status'].Trim()
+
+    if ($allowedDocTypes -notcontains $tableDocType) {
+        $failures.Add("${RepoMapPath}: invalid Doc-Type '$tableDocType' in row link '$link'.")
+        continue
+    }
 
     if ($allowedStatus -notcontains $tableStatus) {
         $failures.Add("${RepoMapPath}: invalid status '$tableStatus' in row link '$link'.")
@@ -108,12 +118,15 @@ foreach ($row in $registryRows) {
 
     $firstLine = $firstLine.TrimStart($utf8BomChar)
 
-    $docStatus = Get-StatusFromMetadataLine -Line $firstLine
-    if (-not $docStatus) {
+    $docMetadata = Get-MetadataFromMetadataLine -Line $firstLine
+    if (-not $docMetadata) {
         $relativeTarget = Resolve-Path -LiteralPath $targetPath -Relative
         $failures.Add("${RepoMapPath}: linked file '$relativeTarget' is missing the required metadata line format.")
         continue
     }
+
+    $docStatus = $docMetadata.Status
+    $docDocType = $docMetadata.DocType
 
     if ($allowedStatus -notcontains $docStatus) {
         $relativeTarget = Resolve-Path -LiteralPath $targetPath -Relative
@@ -121,9 +134,20 @@ foreach ($row in $registryRows) {
         continue
     }
 
+    if ($allowedDocTypes -notcontains $docDocType) {
+        $relativeTarget = Resolve-Path -LiteralPath $targetPath -Relative
+        $failures.Add("${RepoMapPath}: linked file '$relativeTarget' has invalid Doc-Type '$docDocType'.")
+        continue
+    }
+
     if ($docStatus -ne $tableStatus) {
         $relativeTarget = Resolve-Path -LiteralPath $targetPath -Relative
         $failures.Add("${RepoMapPath}: status mismatch for '$relativeTarget' (table='$tableStatus', doc='$docStatus').")
+    }
+
+    if ($docDocType -ne $tableDocType) {
+        $relativeTarget = Resolve-Path -LiteralPath $targetPath -Relative
+        $failures.Add("${RepoMapPath}: Doc-Type mismatch for '$relativeTarget' (table='$tableDocType', doc='$docDocType').")
     }
 }
 

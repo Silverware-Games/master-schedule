@@ -1,4 +1,5 @@
-<sub><em>Status: Needs Review | Audience: Internal | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Needs Review | Audience: Internal | Doc-Type: Workflow | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+
 # Silverware Games – Living Calendar
 
 This is a **living, non-strict calendar** for Silverware Games.
@@ -7,6 +8,7 @@ It does not represent fixed dates, deadlines, or daily output expectations.
 Instead, it documents the **recurring rhythms** of how work actually happens here.
 
 Work at Silverware Games is:
+
 - Bursty
 - Iterative
 - Multi-disciplinary
@@ -100,6 +102,7 @@ Client work may temporarily reduce public output while still being highly produc
 - Not a productivity scoreboard
 
 Silverware Games values:
+
 - Sustainable creativity
 - Enjoyment of the process
 - Shipping work that feels good to make

@@ -1,4 +1,5 @@
-<sub><em>Status: Needs Review | Audience: Internal | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Needs Review | Audience: Internal | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+
 # Silverware Games WordPress Staging Server Architecture
 
 This document describes the staging server used for WordPress development at Silverware Games.
@@ -48,7 +49,7 @@ Examples for multiple clients:
 
 facilitatewell.silverwaregames.com  
 valscolorfulworld.silverwaregames.com  
-exampleclient.silverwaregames.com  
+exampleclient.silverwaregames.com
 
 These domains point to the Silverware Games droplet.
 
@@ -61,7 +62,7 @@ A wildcard DNS record is used so new staging sites can be created without adding
 Example record:
 
 Type: A  
-Name: *  
+Name: \*  
 Value: [Droplet IP Address]
 
 This allows any subdomain of silverwaregames.com to resolve to the server.
@@ -70,7 +71,7 @@ Example valid subdomains:
 
 client1.silverwaregames.com  
 client2.silverwaregames.com  
-anything.silverwaregames.com  
+anything.silverwaregames.com
 
 # SSL Configuration
 
@@ -78,7 +79,7 @@ A wildcard SSL certificate is used to secure all staging subdomains.
 
 Example certificate coverage:
 
-*.silverwaregames.com  
+\*.silverwaregames.com  
 silverwaregames.com
 
 SSL certificates are generated using Certbot and Let's Encrypt.
@@ -99,7 +100,7 @@ Example structure:
 
 /var/www/clients/facilitatewell  
 /var/www/clients/valscolorfulworld  
-/var/www/clients/exampleclient  
+/var/www/clients/exampleclient
 
 Each directory contains a full WordPress installation.
 
@@ -115,13 +116,13 @@ Typical contents:
 
 wp-admin/  
 wp-content/  
-wp-includes/  
+wp-includes/
 
 Within wp-content:
 
 themes/  
 plugins/  
-uploads/  
+uploads/
 
 The uploads folder contains media files and is not tracked in version control.
 
@@ -167,7 +168,7 @@ Development is performed locally using:
 
 Visual Studio Code  
 GitHub repositories  
-PowerShell / SSH for deployment  
+PowerShell / SSH for deployment
 
 Code is edited locally and then deployed to the staging server.
 

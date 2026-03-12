@@ -1,9 +1,8 @@
-<sub><em>Status: Active | Audience: Clients | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Clients | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 
 # We'll make your ideas into a real product.
 
 <img width="1280" height="640" alt="client-hub-thumb" src="https://github.com/user-attachments/assets/8be4c2f2-703a-4ef6-886c-7e4924156c0d" />
-
 
 Use this page if you are a current client or considering hiring Silverware Games.
 
@@ -38,6 +37,3 @@ Yes, for most clients:
 
 - Ignore `docs/internal/` infrastructure and runbook docs unless we send you a specific link.
 - Ignore collaborator onboarding docs unless you are joining as a contributor.
-
-
-

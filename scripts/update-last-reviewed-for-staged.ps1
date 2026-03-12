@@ -4,7 +4,7 @@ param(
 
 $ErrorActionPreference = "Stop"
 
-$metadataPattern = '^<sub><(?<Tag>em|i)>\s*Status:\s*(?<Status>[^|]+?)\s*\|\s*Audience:\s*(?<Audience>[^|]+?)\s*\|\s*Owner:\s*(?<Owner>[^|]+?)\s*\|\s*Last Reviewed:\s*(?<LastReviewed>[^|]+?)\s*\|\s*Canonical:\s*(?<Canonical>[^|<]+?)\s*</\k<Tag>></sub>$'
+$metadataPattern = '^<sub><(?<Tag>em|i)>\s*Status:\s*(?<Status>[^|]+?)\s*\|\s*Audience:\s*(?<Audience>[^|]+?)\s*\|\s*Doc-Type:\s*(?<DocType>[^|]+?)\s*\|\s*Owner:\s*(?<Owner>[^|]+?)\s*\|\s*Last Reviewed:\s*(?<LastReviewed>[^|]+?)\s*\|\s*Canonical:\s*(?<Canonical>[^|<]+?)\s*</\k<Tag>></sub>$'
 
 function Invoke-Git {
     param(
@@ -96,6 +96,7 @@ foreach ($file in $stagedMarkdownFiles) {
     $tag = $Matches['Tag'].Trim()
     $status = $Matches['Status'].Trim()
     $audience = $Matches['Audience'].Trim()
+    $docType = $Matches['DocType'].Trim()
     $owner = $Matches['Owner'].Trim()
     $lastReviewed = $Matches['LastReviewed'].Trim()
     $canonical = $Matches['Canonical'].Trim()
@@ -105,7 +106,7 @@ foreach ($file in $stagedMarkdownFiles) {
         continue
     }
 
-    $lines[0] = "<sub><$tag>Status: $status | Audience: $audience | Owner: $owner | Last Reviewed: $Date | Canonical: $canonical</$tag></sub>"
+    $lines[0] = "<sub><$tag>Status: $status | Audience: $audience | Doc-Type: $docType | Owner: $owner | Last Reviewed: $Date | Canonical: $canonical</$tag></sub>"
     $newText = $lines -join $newline
 
     $encoding = [System.Text.UTF8Encoding]::new($fileData.HasBom)

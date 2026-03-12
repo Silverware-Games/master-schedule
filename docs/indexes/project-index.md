@@ -1,4 +1,4 @@
-<sub><em>Status: Needs Review | Audience: Public, Clients, Collaborators | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Needs Review | Audience: Public, Clients, Collaborators | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 
 # Project Index
 

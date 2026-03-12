@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Internal | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Internal | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 
 # INTERNAL HUB
 

@@ -1,4 +1,5 @@
-<sub><em>Status: Needs Review | Audience: Internal | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Needs Review | Audience: Internal | Doc-Type: Workflow | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+
 # Content Ops - Server Command Reference
 
 ## Static Sites, WordPress Staging, and Client Infrastructure
@@ -67,7 +68,6 @@ These are full standalone sites with their own nginx configuration and SSL certi
 ├─ silverware.design
 │ └─ public_html
 
-
 # File Ownership Model
 
 Static sites and client folders use this ownership model:
@@ -77,13 +77,12 @@ deploy-user : www-data
 Example:
 deploy:www-data
 
-
 Permissions:
 
-| Type | Permission |
-|-----|-----|
-| directories | `2775` |
-| files | `664` |
+| Type        | Permission |
+| ----------- | ---------- |
+| directories | `2775`     |
+| files       | `664`      |
 
 This allows:
 
@@ -113,7 +112,6 @@ Purpose:
 - identify WordPress vs static sites
 - monitor disk usage
 
-
 # Static Client Commands
 
 ## static-new-client
@@ -135,7 +133,6 @@ Creates:
 Accessible at:
 https://awesomeclientsite.silverwaregames.com
 
-
 The script also generates:
 
 index.html
@@ -153,7 +150,6 @@ sudo static-remove-client <client-slug>
 
 Example:
 sudo static-remove-client awesomeclientsite
-
 
 Removes:
 /var/www/clients/awesomeclientsite
@@ -175,14 +171,11 @@ sudo wp-new-client alokothai "Aloko Thai Staging" michael@silverwaregames.com
 Creates:
 /var/www/clients/alokothai
 
-
 Access:
 https://alokothai.silverwaregames.com
 
-
 Admin panel:
 https://alokothai.silverwaregames.com/wp-admin
-
 
 Credentials are saved to:
 /root/wp-client-secrets/
@@ -193,7 +186,6 @@ Deletes a WordPress staging environment.
 
 Usage:
 sudo wp-remove-client <client-slug>
-
 
 Example:
 sudo wp-remove-client alokothai
@@ -263,10 +255,10 @@ Repository name must match client slug.
 
 Example:
 
-| Repo | Deploy Directory |
-|-----|-----|
+| Repo              | Deploy Directory                     |
+| ----------------- | ------------------------------------ |
 | awesomeclientsite | `/var/www/clients/awesomeclientsite` |
-| alokothai | `/var/www/clients/alokothai` |
+| alokothai         | `/var/www/clients/alokothai`         |
 
 This keeps deployments automatic.
 
@@ -274,7 +266,7 @@ This keeps deployments automatic.
 
 Wildcard DNS must already be configured:
 
-*.silverwaregames.com → droplet IP
+\*.silverwaregames.com → droplet IP
 
 This allows automatic subdomain routing.
 
@@ -318,14 +310,11 @@ sudo wp-new-client slug "Site Title" email@example.com
 Delete WordPress staging:
 sudo wp-remove-client slug
 
-
 Create top-level domain:
 sudo new-top-domain domain.com "Site Title"
 
-
 List all clients:
 client-list
-
 
 # Future Improvements
 

@@ -5,9 +5,10 @@ param(
 $ErrorActionPreference = "Stop"
 
 $allowedStatus = @("Active", "Draft", "Needs Review", "Archived", "Replaced By")
+$allowedDocTypes = @("Orientation", "Reference", "Workflow")
 $allowedCanonical = @("Yes", "No")
 $utf8BomChar = [char]0xFEFF
-$metadataPattern = '^<sub><(?:em|i)>\s*Status:\s*(?<Status>[^|]+?)\s*\|\s*Audience:\s*(?<Audience>[^|]+?)\s*\|\s*Owner:\s*(?<Owner>[^|]+?)\s*\|\s*Last Reviewed:\s*(?<LastReviewed>[^|]+?)\s*\|\s*Canonical:\s*(?<Canonical>[^|<]+?)\s*</(?:em|i)></sub>$'
+$metadataPattern = '^<sub><(?:em|i)>\s*Status:\s*(?<Status>[^|]+?)\s*\|\s*Audience:\s*(?<Audience>[^|]+?)\s*\|\s*Doc-Type:\s*(?<DocType>[^|]+?)\s*\|\s*Owner:\s*(?<Owner>[^|]+?)\s*\|\s*Last Reviewed:\s*(?<LastReviewed>[^|]+?)\s*\|\s*Canonical:\s*(?<Canonical>[^|<]+?)\s*</(?:em|i)></sub>$'
 
 function Parse-MetadataLine {
     param(
@@ -23,6 +24,7 @@ function Parse-MetadataLine {
     return @{
         Status = $Matches['Status'].Trim()
         Audience = $Matches['Audience'].Trim()
+        DocType = $Matches['DocType'].Trim()
         Owner = $Matches['Owner'].Trim()
         LastReviewed = $Matches['LastReviewed'].Trim()
         Canonical = $Matches['Canonical'].Trim()
@@ -60,17 +62,22 @@ foreach ($file in $markdownFiles) {
     $metadata = Parse-MetadataLine -Line $line1
 
     if (-not $metadata) {
-        $failures.Add("${relativePath}: line 1 must match '<sub><em>Status: <...> | Audience: <...> | Owner: <...> | Last Reviewed: <YYYY-MM-DD> | Canonical: <Yes|No></em></sub>' (found '$line1').")
+        $failures.Add("${relativePath}: line 1 must match '<sub><em>Status: <...> | Audience: <...> | Doc-Type: <Orientation|Reference|Workflow> | Owner: <...> | Last Reviewed: <YYYY-MM-DD> | Canonical: <Yes|No></em></sub>' (found '$line1').")
         continue
     }
 
-    foreach ($key in @("Status", "Audience", "Owner", "LastReviewed", "Canonical")) {
+    foreach ($key in @("Status", "Audience", "DocType", "Owner", "LastReviewed", "Canonical")) {
         $value = $metadata[$key]
 
         switch ($key) {
             "Status" {
                 if ($allowedStatus -notcontains $value) {
                     $failures.Add("${relativePath}: invalid Status '$value'. Allowed: $($allowedStatus -join ", ").")
+                }
+            }
+            "DocType" {
+                if ($allowedDocTypes -notcontains $value) {
+                    $failures.Add("${relativePath}: invalid Doc-Type '$value'. Allowed: $($allowedDocTypes -join ", ").")
                 }
             }
             "Audience" {

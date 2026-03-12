@@ -1,4 +1,5 @@
-<sub><em>Status: Needs Review | Audience: Internal | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Needs Review | Audience: Internal | Doc-Type: Workflow | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+
 # Silverware Games WordPress Development Process
 
 ## Our Guiding Rule

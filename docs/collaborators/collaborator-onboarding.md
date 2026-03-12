@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Collaborators | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Collaborators | Doc-Type: Workflow | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 
 # Collaboration Guide
 

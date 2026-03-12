@@ -8,7 +8,7 @@ $ErrorActionPreference = "Stop"
 
 $targetStatuses = @("Draft", "Needs Review")
 $utf8BomChar    = [char]0xFEFF
-$metadataPattern = '^<sub><(?:em|i)>\s*Status:\s*(?<Status>[^|]+?)\s*\|\s*Audience:\s*(?<Audience>[^|]+?)\s*\|\s*Owner:\s*(?<Owner>[^|]+?)\s*\|\s*Last Reviewed:\s*(?<LastReviewed>[^|]+?)\s*\|\s*Canonical:\s*(?<Canonical>[^|<]+?)\s*</(?:em|i)></sub>$'
+$metadataPattern = '^<sub><(?:em|i)>\s*Status:\s*(?<Status>[^|]+?)\s*\|\s*Audience:\s*(?<Audience>[^|]+?)\s*\|\s*Doc-Type:\s*(?<DocType>[^|]+?)\s*\|\s*Owner:\s*(?<Owner>[^|]+?)\s*\|\s*Last Reviewed:\s*(?<LastReviewed>[^|]+?)\s*\|\s*Canonical:\s*(?<Canonical>[^|<]+?)\s*</(?:em|i)></sub>$'
 
 function Parse-Metadata {
     param([string]$Line)
@@ -17,6 +17,7 @@ function Parse-Metadata {
     return @{
         Status       = $Matches['Status'].Trim()
         Audience     = $Matches['Audience'].Trim()
+        DocType      = $Matches['DocType'].Trim()
         Owner        = $Matches['Owner'].Trim()
         LastReviewed = $Matches['LastReviewed'].Trim()
         Canonical    = $Matches['Canonical'].Trim()
@@ -79,6 +80,7 @@ foreach ($file in $markdownFiles) {
         RelLink      = $relLink
         Title        = $title
         Audience     = $meta.Audience
+        DocType      = $meta.DocType
         LastReviewed = $meta.LastReviewed
     })
 }
@@ -90,7 +92,7 @@ $totalCount = ($buckets.Values | ForEach-Object { $_.Count } | Measure-Object -S
 
 $lines = [System.Collections.Generic.List[string]]::new()
 
-$lines.Add("<sub><em>Status: Active | Audience: Internal | Owner: $Owner | Last Reviewed: $today | Canonical: Yes</em></sub>")
+$lines.Add("<sub><em>Status: Active | Audience: Internal | Doc-Type: Workflow | Owner: $Owner | Last Reviewed: $today | Canonical: Yes</em></sub>")
 $lines.Add("")
 $lines.Add("# Incomplete Docs Index")
 $lines.Add("")
@@ -122,10 +124,10 @@ foreach ($status in $targetStatuses) {
     if ($entries.Count -eq 0) {
         $lines.Add("_No files currently have this status._")
     } else {
-        $lines.Add("| Doc | Title | Audience | Last Reviewed |")
-        $lines.Add("| --- | ----- | -------- | ------------- |")
+        $lines.Add("| Doc | Title | Audience | Doc Type | Last Reviewed |")
+        $lines.Add("| --- | ----- | -------- | -------- | ------------- |")
         foreach ($entry in ($entries | Sort-Object DisplayPath)) {
-            $lines.Add("| [$($entry.DisplayPath)]($($entry.RelLink)) | $($entry.Title) | $($entry.Audience) | $($entry.LastReviewed) |")
+            $lines.Add("| [$($entry.DisplayPath)]($($entry.RelLink)) | $($entry.Title) | $($entry.Audience) | $($entry.DocType) | $($entry.LastReviewed) |")
         }
     }
 }

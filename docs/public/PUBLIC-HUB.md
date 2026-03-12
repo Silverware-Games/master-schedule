@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Public | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Public | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 
 # Ya heard of us?
 

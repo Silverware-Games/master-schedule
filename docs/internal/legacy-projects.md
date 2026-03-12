@@ -1,15 +1,16 @@
-<sub><em>Status: Archived | Audience: Internal | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: No</em></sub>
+<sub><em>Status: Archived | Audience: Internal | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: No</em></sub>
+
 # File listing of archived files from Hostgator Migration
 
-## /home1/msilver/public_html/xgames/Xworldsaver/*
+## /home1/msilver/public_html/xgames/Xworldsaver/\*
 
 **Desc:**
-Old IGF Build Repo with different builds 
+Old IGF Build Repo with different builds
 
 **Status:**
 Archive, do not upload.
 
-## /home1/msilver/public_html/xgames/*
+## /home1/msilver/public_html/xgames/\*
 
 **Desc:**
 Old Games Page From day zero.
@@ -17,15 +18,15 @@ Old Games Page From day zero.
 **Status:**
 Archive, do not upload.
 
-## /home1/msilver/public_html/wtf/*
+## /home1/msilver/public_html/wtf/\*
 
-**Desc:** 
+**Desc:**
 Old WTF Repo - Unclear what version but this is all saved somewhere else now.
 
-**Status:** 
+**Status:**
 Archive, do not upload.
 
-## /home1/msilver/public_html/wp-*
+## /home1/msilver/public_html/wp-\*
 
 **Desc:**
 Old Wordpress Install - We don't use this anymore safe to archive.
@@ -33,15 +34,15 @@ Old Wordpress Install - We don't use this anymore safe to archive.
 **Status:**
 Archive, do not upload.
 
-## /home1/msilver/public_html/wiki/*
+## /home1/msilver/public_html/wiki/\*
 
-**Desc:** 
+**Desc:**
 Old Wiki Install - We migrated this already.
 
-**Status:** 
+**Status:**
 Migration complete.
 
-## /home1/msilver/public_html/test/*
+## /home1/msilver/public_html/test/\*
 
 **Desc:**
 My first HTML5 prototype - Doesn't do much but worth archiving.
@@ -50,7 +51,9 @@ My first HTML5 prototype - Doesn't do much but worth archiving.
 Archive, do not upload.
 
 ## Silverwaregames Main Site
+
 **Dir:**
+
 ```
 /home1/msilver/public_html/swg/*
 /home1/msilver/public_html/plzno/*
@@ -67,6 +70,7 @@ Archive, do not upload.
 /home1/msilver/public_html/about/index.html
 /home1/msilver/public_html/SWG_Thumb.png
 ```
+
 **Desc:**
 New html renderings of main silverwaregames.com site functionality.
 
@@ -74,7 +78,9 @@ New html renderings of main silverwaregames.com site functionality.
 This should be uploaded to the dropplet via github workflow.
 
 ## Misc / Unknown / Obsolete Files
+
 **Dir:**
+
 ```
 - /home1/msilver/public_html/reorganize-urls.ps1
 - /home1/msilver/public_html/scripts.js
@@ -128,14 +134,17 @@ This should be uploaded to the dropplet via github workflow.
 - /home1/msilver/public_html/JezzCubedPAD.xml
 - /home1/msilver/public_html/LICENSE_1_0.txt
 ```
-**Desc:** 
+
+**Desc:**
 Misc unknown stuff. Or too old to matter.
 
-**Status:** 
+**Status:**
 Archive, do not upload.
 
 ## Important Misc Assets
+
 **Dir:**
+
 ```
 - /home1/msilver/public_html/logo512.png
 - /home1/msilver/public_html/logo192.png
@@ -145,46 +154,51 @@ Archive, do not upload.
 - /home1/msilver/public_html/Matchy_Star_PC_Build_v0.0.1.4.zip
 - /home1/msilver/public_html/Matchy_Star_PC_Build_v0.0.2.3.zip
 ```
+
 **Desc:**
 Misc but important stuff that may be indexed elsewhere.
 
 **Status:**
-Upload to same relative path on droplet. 
+Upload to same relative path on droplet.
 
-## /home1/msilver/public_html/static/*
+## /home1/msilver/public_html/static/\*
+
 **Desc:**
 Unknown what this is.
 
-**Status:** 
+**Status:**
 Archive, do not upload.
 
 ## Alternate Speedway Heroes Sites
+
 ```
 - /home1/msilver/public_html/sporkspeedway/*
 - /home1/msilver/public_html/leagueofracers.com/*
 ```
-**Desc:** 
+
+**Desc:**
 Alternate names for speedway heroes, I don't think we own these domains anymore.
 
 **Status:**
 Archive, do not upload.
 
-## /home1/msilver/public_html/speedwayheroes.com/*
-**Desc:** 
+## /home1/msilver/public_html/speedwayheroes.com/\*
+
+**Desc:**
 Legacy Page for Speedway Heroes, contains some builds and other info that may need to be used.
 
-**Status:** 
+**Status:**
 Rewrite and include this data on droplett.
 
-## /home1/msilver/public_html/server/*
+## /home1/msilver/public_html/server/\*
 
-**Desc:** 
+**Desc:**
 I think this was some kind of backend attempt that never worked because of hostgator limitations.
 
-**Status:** 
+**Status:**
 Archive, do not upload.
 
-## /home1/msilver/public_html/rebirth/*
+## /home1/msilver/public_html/rebirth/\*
 
 **Desc:**
 Game I started and abandoned based on bobble bonanza.
@@ -192,15 +206,15 @@ Game I started and abandoned based on bobble bonanza.
 **Status:**
 Archive, do not upload.
 
-## /home1/msilver/public_html/press-archive/*
+## /home1/msilver/public_html/press-archive/\*
 
-**Desc:** 
+**Desc:**
 Archive of my old Vlambeer style press page.
 
-**Status:** 
+**Status:**
 Add images to press page .zip download.
 
-## /home1/msilver/public_html/officegame/*
+## /home1/msilver/public_html/officegame/\*
 
 **Desc:**
 I was going to make a game about a sneaky guy taking over an office by manipulating the scenery and so on, branching narrative, going back and affecting causality. Never got anywhere.
@@ -210,7 +224,7 @@ Archive, do not upload.
 
 ## /home1/msilver/public_html/kmtchemestry/
 
-**Desc** 
+**Desc**
 Mockup of site I made for my friend Ryan many years ago.
 
 **Status:**
@@ -226,7 +240,7 @@ Archive, do not upload.
 
 ## /home1/msilver/public_html/compositionj/
 
-**Desc** 
+**Desc**
 Some builds and such for old game Composition J
 
 **Status:**
@@ -245,10 +259,10 @@ Archive, do not upload. (Make sure domain indiegame.guru points to silverwaregam
 **Desc:**
 Image directory for all active and inactive images, this is important!
 
-**Status:** 
+**Status:**
 Upload to the same relative directory in dropplet.
 
-## /home1/msilver/public_html/games/zazz/*
+## /home1/msilver/public_html/games/zazz/\*
 
 **Desc:**
 HTML5 applet for King Zazz Game, this should be uploaded via github workflow.
@@ -269,7 +283,7 @@ Make site washtowelfill.io on dropplet.
 **Desc:**
 HTML5 applet for Firestarter Game, this should be uploaded via github workflow.
 
-**Status:** 
+**Status:**
 Make site firestarter.cc on dropplet.
 
 ## /home1/msilver/public_html/games/eggfun/
@@ -277,19 +291,20 @@ Make site firestarter.cc on dropplet.
 **Desc:**
 HTML5 applet for Eggfun Game, this should be uploaded via github workflow.
 
-**Status:** 
+**Status:**
 Make site eggfun.io on dropplet.
 
 ## /home1/msilver/public_html/games/bobble/
-**Desc:** 
+
+**Desc:**
 HTML5 applet for Bobble Bonanza, this should be uploaded via github workflow.
 
-**Status:** 
+**Status:**
 Make site bobblebonanza.io on dropplet.
 
 ## /home1/msilver/public_html/forum/
 
-**Desc:** 
+**Desc:**
 We had an old forum software installed that was only used for a few months and then died. There may be MySQL db associated with this.
 
 **Status:**
@@ -300,12 +315,12 @@ Archive, do not upload.
 **Desc:**
 Client project that will eventually migrate to a new site once I have access.
 
-**Status:** 
+**Status:**
 Upload to same relative path on Dropplet.
 
 ## /home1/msilver/public_html/chesssecret/
 
-**Desc:** 
+**Desc:**
 First attempt at trying to do client work, didn't get any interest.
 
 **Status:**
@@ -313,21 +328,24 @@ Archive, do not upload.
 
 # /home1/msilver/public_html/black-and-white-stones/
 
-**Desc:** 
+**Desc:**
 Client work, and he didn't even pay. This should upload via github workflow but also it should be it's own site at https://blackandwhitestones.com
 
-**Status:** 
+**Status:**
 Make it work on the dropplet.
 
 ## /home1/msilver/public_html/art_repo_5793_12345/
-**Desc:** 
+
+**Desc:**
 Attempt to display and organize ALL of my thousands of drawings.
-**Status:** 
+**Status:**
 Archive for now, maybe worth attempting again someday.
 
 ## Misc Images
+
 **Dir**
-``` 
+
+```
 - /home1/msilver/public_html/ToonTest1.png
 - /home1/msilver/public_html/ShootTheMoon/PlanR_ConceptMockup1.png
 ```
@@ -335,7 +353,7 @@ Archive for now, maybe worth attempting again someday.
 **Desc:**
 Not sure how this image made it to the top level domain, just move it to images/
 
-**Status:** 
+**Status:**
 Move files.
 
 ## /home1/msilver/public_html/SpaceBoss_v0.01.zip
@@ -343,12 +361,12 @@ Move files.
 **Desc:**
 Build of Space Boss an abandoned game.
 
-**Status:** 
+**Status:**
 Archive ... or maybe add to some misc prototype page with some other stuff no one wants.
 
 ## /home1/msilver/public_html/Snake/
 
-**Desc:** 
+**Desc:**
 Implementation of snake in flash, will not run on today's hardware.
 
 **Status:**
@@ -356,8 +374,8 @@ Archive, do not upload.
 
 ## /home1/msilver/public_html/STM/
 
-**Desc:** 
+**Desc:**
 Abandoned project "Shoot the moon" about collecting creatures and playing hearts with 4 people
 
-**Status:** 
+**Status:**
 Archive, do not upload. (Or add this to the MISC FAILED PROJECTS section.)

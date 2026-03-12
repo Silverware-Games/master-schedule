@@ -7,7 +7,8 @@ param(
 $ErrorActionPreference = "Stop"
 
 $utf8BomChar = [char]0xFEFF
-$metadataPattern = '^<sub><(?:em|i)>\s*Status:\s*(?<Status>[^|]+?)\s*\|\s*Audience:\s*(?<Audience>[^|]+?)\s*\|\s*Owner:\s*(?<Owner>[^|]+?)\s*\|\s*Last Reviewed:\s*(?<LastReviewed>[^|]+?)\s*\|\s*Canonical:\s*(?<Canonical>[^|<]+?)\s*</(?:em|i)></sub>$'
+$metadataPatternWithDocType = '^<sub><(?:em|i)>\s*Status:\s*(?<Status>[^|]+?)\s*\|\s*Audience:\s*(?<Audience>[^|]+?)\s*\|\s*Doc-Type:\s*(?<DocType>[^|]+?)\s*\|\s*Owner:\s*(?<Owner>[^|]+?)\s*\|\s*Last Reviewed:\s*(?<LastReviewed>[^|]+?)\s*\|\s*Canonical:\s*(?<Canonical>[^|<]+?)\s*</(?:em|i)></sub>$'
+$legacyMetadataPattern = '^<sub><(?:em|i)>\s*Status:\s*(?<Status>[^|]+?)\s*\|\s*Audience:\s*(?<Audience>[^|]+?)\s*\|\s*Owner:\s*(?<Owner>[^|]+?)\s*\|\s*Last Reviewed:\s*(?<LastReviewed>[^|]+?)\s*\|\s*Canonical:\s*(?<Canonical>[^|<]+?)\s*</(?:em|i)></sub>$'
 
 function Invoke-Git {
     param(
@@ -31,7 +32,7 @@ function Test-GitCommitRef {
     return ($LASTEXITCODE -eq 0)
 }
 
-function Get-LastReviewedFromLine {
+function Get-MetadataFromLine {
     param(
         [string]$Line
     )
@@ -41,7 +42,12 @@ function Get-LastReviewedFromLine {
     }
 
     $clean = $Line.TrimStart($utf8BomChar)
-    if ($clean -notmatch $metadataPattern) {
+    $hasDocType = $false
+
+    if ($clean -match $metadataPatternWithDocType) {
+        $hasDocType = $true
+    }
+    elseif ($clean -notmatch $legacyMetadataPattern) {
         return $null
     }
 
@@ -50,7 +56,10 @@ function Get-LastReviewedFromLine {
         return $null
     }
 
-    return $value
+    return @{
+        LastReviewed = $value
+        HasDocType = $hasDocType
+    }
 }
 
 if ($BaseRef -match '^0+$') {
@@ -94,20 +103,27 @@ foreach ($file in $changedMarkdownFiles) {
     $baseLine1 = if ($baseContent.Count -gt 0) { $baseContent[0] } else { "" }
     $headLine1 = if ($headContent.Count -gt 0) { $headContent[0] } else { "" }
 
-    $baseLastReviewed = Get-LastReviewedFromLine -Line $baseLine1
-    $headLastReviewed = Get-LastReviewedFromLine -Line $headLine1
+    $baseMetadata = Get-MetadataFromLine -Line $baseLine1
+    $headMetadata = Get-MetadataFromLine -Line $headLine1
 
-    if (-not $baseLastReviewed) {
+    if (-not $baseMetadata) {
         $failures.Add("${file}: base revision metadata line is invalid or missing Last Reviewed value.")
         continue
     }
 
-    if (-not $headLastReviewed) {
+    if (-not $headMetadata) {
         $failures.Add("${file}: head revision metadata line is invalid or missing Last Reviewed value.")
         continue
     }
 
+    $baseLastReviewed = $baseMetadata.LastReviewed
+    $headLastReviewed = $headMetadata.LastReviewed
+
     if ($baseLastReviewed -eq $headLastReviewed) {
+        if ((-not $baseMetadata.HasDocType) -and $headMetadata.HasDocType) {
+            continue
+        }
+
         $failures.Add("${file}: Last Reviewed was not updated (still '$headLastReviewed').")
     }
 }

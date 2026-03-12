@@ -1,9 +1,8 @@
-<sub><em>Status: Active | Audience: All | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 
 # Silverware Drawer
 
 <img width="1280" height="640" alt="silverware-drawer-thumb" src="https://github.com/user-attachments/assets/ae06a45d-ba65-4150-875f-166c27141071" />
-
 
 **The documentation hub for Silverware Games (SWG).**
 
@@ -36,5 +35,3 @@ Contact us @michaelplzno on social. Make an issue in the repo and we'll take car
 Silverware Games
 
 Organized chaos since the beginning.
-
-

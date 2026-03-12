@@ -1,4 +1,5 @@
-<sub><em>Status: Needs Review | Audience: Internal | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Needs Review | Audience: Internal | Doc-Type: Workflow | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+
 # Silverware Games WordPress Client Onboarding
 
 This document describes the steps used when starting work on a new WordPress client site.
@@ -12,9 +13,11 @@ All development work will take place on the staging copy.
 The client must provide at least one of the following:
 
 Preferred:
+
 - WordPress administrator login (wp-admin)
 
 Optional but helpful:
+
 - hosting panel access
 - FTP / SFTP access
 - domain DNS access
