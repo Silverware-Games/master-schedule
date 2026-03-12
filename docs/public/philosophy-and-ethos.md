@@ -86,6 +86,5 @@ This test has several strategic benefits:
 
 - If repetition is enjoyable, the audience can return to the experience again and again.
 - If repetition is enjoyable, creators can iterate without burning out.
+- If repetition is enjoyable, practicing over and over is fun, not work.
 - If repetition is enjoyable, polishing and refining is more enjoyable, so the final result is better.
-
-
