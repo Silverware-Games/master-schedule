@@ -21,22 +21,6 @@ Our games explore unusual settings, unexpected mechanics, and playful characters
 Human connection makes the world go round. We create content to share with others because growing and supporting our community is one of our goals. **A game isn't truly a game if no one plays it.** That’s why we stay connected with our players and community.
 <sub><em>Status: Active | Audience: Public | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 
-# Philosophy And Ethos
-
-Silverware Games is guided by a simple working philosophy:
-
-- be kind
-- be curious
-- ship useful and playful things
-- protect the creative spark
-
-## Practical Principles
-
-- Don’t destroy yourself for art. Creative work should enhance life, not harm it.
-- Be kind and respectful. Humor is welcome, cruelty is not.
-- Keep projects small enough to finish.
-- Share work early and improve it through feedback.
-
 ## The Eternal Struggle
 Like any creative studio, we constantly balance competing ideas about art, design, and creativity.
 
@@ -88,3 +72,4 @@ This test has several strategic benefits:
 - If repetition is enjoyable, creators can iterate without burning out.
 - If repetition is enjoyable, practicing over and over is fun, not work.
 - If repetition is enjoyable, polishing and refining is more enjoyable, so the final result is better.
+
