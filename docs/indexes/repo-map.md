@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: All | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: All | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-03-13 | Canonical: Yes</em></sub>
 
 # Silverware Games Repository Map
 
@@ -41,7 +41,7 @@ Every Markdown doc must begin with:
 | [docs/indexes/orientation-docs.md](./orientation-docs.md)                                    | Orientation Docs Index                                  | Everyone                       | Index of stable entry-point docs.                               | Orientation | Active       | Michael | 2026-03-11    |
 | [docs/indexes/operational-docs.md](./operational-docs.md)                                    | Operational Docs Index                                  | Internal and collaborators     | Index of procedure-heavy, living runbooks.                      | Orientation | Active       | Michael | 2026-03-11    |
 | [docs/indexes/repo-map.md](./repo-map.md)                                                    | Silverware Games Repository Map                         | Maintainers and AI             | Canonical inventory and metadata map for docs.                  | Reference   | Active       | Michael | 2026-03-11    |
-| [docs/indexes/project-index.md](./project-index.md)                                          | Project Index                                           | Public, clients, collaborators | Snapshot of active and visible projects.                        | Reference   | Needs Review | Michael | 2026-03-11    |
+| [docs/ip/IP-HUB.md](../ip/IP-HUB.md)                                                         | IP HUB                                                  | Public, clients, collaborators | Hub and snapshot of active and visible projects.                | Orientation | Needs Review | Michael | 2026-03-13    |
 | [docs/indexes/incomplete-docs.md](./incomplete-docs.md)                                      | Incomplete Docs Index                                   | Internal                       | Auto-generated index of all Draft and Needs Review documents.   | Workflow    | Active       | Michael | 2026-03-11    |
 | [docs/public/coffee-doodle-art.md](../public/coffee-doodle-art.md)                           | Coffee Doodle Art                                       | Public                         | Landing page for the Coffee Doodle Art initiative.              | Reference   | Draft        | Michael | 2026-03-11    |
 | [docs/public/gamedev-feedback.md](../public/gamedev-feedback.md)                             | GameDev Feedback (TBD)                                  | Public                         | Reserved for future feedback and review content.                | Reference   | Draft        | Michael | 2026-03-11    |
@@ -66,3 +66,4 @@ Every Markdown doc must begin with:
 
 - `docs/assets/` stores shared documentation assets and is currently empty.
 - `docs/diagrams/` is reserved for architecture and process diagrams and is currently empty.
+- `docs/ip/` stores canonical docs for active creative work and project IP.

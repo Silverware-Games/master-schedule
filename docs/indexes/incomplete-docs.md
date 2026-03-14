@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Internal | Doc-Type: Workflow | Owner: Michael | Last Reviewed: 2026-03-12 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Internal | Doc-Type: Workflow | Owner: Michael | Last Reviewed: 2026-03-13 | Canonical: Yes</em></sub>
 
 # Incomplete Docs Index
 
@@ -26,7 +26,6 @@ Content exists but must be validated before relying on it.
 | Doc | Title | Audience | Doc Type | Last Reviewed |
 | --- | ----- | -------- | -------- | ------------- |
 | [docs/clients/services-overview.md](../clients/services-overview.md) | Services Overview | Clients | Orientation | 2026-03-11 |
-| [docs/indexes/project-index.md](project-index.md) | Project Index | Public, Clients, Collaborators | Reference | 2026-03-11 |
 | [docs/internal/calendar.md](../internal/calendar.md) | Silverware Games – Living Calendar | Internal | Workflow | 2026-03-11 |
 | [docs/internal/droplet/content-ops.md](../internal/droplet/content-ops.md) | Content Ops - Server Command Reference | Internal | Workflow | 2026-03-11 |
 | [docs/internal/hosting-and-dns.md](../internal/hosting-and-dns.md) | Hosting And DNS | Internal | Reference | 2026-03-11 |
@@ -34,4 +33,5 @@ Content exists but must be validated before relying on it.
 | [docs/internal/wordpress/onboarding.md](../internal/wordpress/onboarding.md) | Silverware Games WordPress Client Onboarding | Internal | Workflow | 2026-03-11 |
 | [docs/internal/wordpress/staging-server.md](../internal/wordpress/staging-server.md) | Silverware Games WordPress Staging Server Architecture | Internal | Reference | 2026-03-11 |
 | [docs/internal/wordpress/workflow-client.md](../internal/wordpress/workflow-client.md) | Silverware Games WordPress Development Process | Internal | Workflow | 2026-03-11 |
+| [docs/ip/IP-HUB.md](../ip/IP-HUB.md) | IP HUB | Public, Clients, Collaborators | Orientation | 2026-03-13 |
 | [docs/public/podcasts-and-content.md](../public/podcasts-and-content.md) | Podcasts And Content | Public | Reference | 2026-03-11 |

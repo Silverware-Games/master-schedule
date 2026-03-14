@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-13 | Canonical: Yes</em></sub>
 
 # Orientation Docs Index
 
@@ -17,6 +17,7 @@ Orientation docs answer: "what is this?" and "where do I go next?"
 - [README.md](../../README.md): root router by audience and task.
 - [START-HERE.md](../../START-HERE.md): human introduction to Silverware Games and this repo.
 - [docs/public/PUBLIC-HUB.md](../../docs/public/PUBLIC-HUB.md): public audience landing page.
+- [docs/ip/IP-HUB.md](../../docs/ip/IP-HUB.md): IP hub and active creative work snapshot.
 - [docs/collaborators/COLLABORATOR-HUB.md](../../docs/collaborators/COLLABORATOR-HUB.md): collaborator audience landing page.
 - [docs/clients/CLIENT-HUB.md](../../docs/clients/CLIENT-HUB.md): client audience landing page.
 - [docs/internal/INTERNAL-HUB.md](../../docs/internal/INTERNAL-HUB.md): internal audience landing page.

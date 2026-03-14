@@ -1,10 +1,12 @@
-<sub><em>Status: Needs Review | Audience: Public, Clients, Collaborators | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Needs Review | Audience: Public, Clients, Collaborators | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-13 | Canonical: Yes</em></sub>
 
-# Project Index
+# IP HUB
 
-This page provides a high-level list of active or visible SWG projects.
+`docs/ip/` is the home for documentation about Silverware Games creative work.
 
-## Game Projects
+Use this page to get the current snapshot of active and visible projects.
+
+## Active IP Projects
 
 It features a curated selection of our best and most representative work. Each project below is actively evolving and open to collaboration in design, engineering, UX, systems, or content—depending on the game.
 
@@ -79,6 +81,12 @@ King Zazz’s Algorithm is fundamentally a pattern-prediction and debugging game
 **Design & Issues:** https://github.com/Silverware-Games/Hundred-Bullets-Issues
 
 Hundred Bullets is a puzzle shmup where the core challenge isn’t enemy fire—it’s your own. Players must dodge the bullets they create, turning traditional shooter instincts inside out. The project blends reflexes with spatial reasoning and intentional shot placement, creating a more thoughtful take on the genre. Development and discussion focus on clarity, difficulty tuning, platform considerations, and presentation for a broader audience. This is a strong project for collaborators interested in action–puzzle hybrids, controller feel, and platform-scale production.
+
+## Related Docs
+
+- [PUBLIC-HUB.md](../public/PUBLIC-HUB.md)
+- [philosophy-and-ethos.md](../public/philosophy-and-ethos.md)
+- [podcasts-and-content.md](../public/podcasts-and-content.md)
 
 ## Supporting Links
 

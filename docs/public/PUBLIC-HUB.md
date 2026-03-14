@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Public | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Public | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-13 | Canonical: Yes</em></sub>
 
 # Ya heard of us?
 
@@ -12,7 +12,7 @@ Maybe... just maybe, you want to give us some support and approval. Let me tell 
 
 ## Recommended Reading Order
 
-1. [project-index.md](../indexes/project-index.md) for the current project snapshot.
+1. [IP-HUB.md](../ip/IP-HUB.md) for the current project snapshot.
 2. [philosophy-and-ethos.md](./philosophy-and-ethos.md) for how we think and work.
 3. [podcasts-and-content.md](./podcasts-and-content.md) for long-form media context.
 4. [coffee-doodle-art.md](./coffee-doodle-art.md) for art initiative context.
@@ -24,4 +24,3 @@ Maybe... just maybe, you want to give us some support and approval. Let me tell 
 ## Still have questions?
 
 That's probably reasonable. Create an issue on this page or reach out to @michaelplzno on social and hit us up!
-

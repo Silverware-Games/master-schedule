@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Public | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Public | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-13 | Canonical: Yes</em></sub>
 # Philosophy and Ethos
 
 <img width="1536" height="1024" alt="ChatGPT Image Mar 11, 2026, 05_44_21 PM" src="https://github.com/user-attachments/assets/e7dd89d4-4bc0-4581-aeb9-e31af55f8e4f" />
@@ -19,7 +19,6 @@ Our games explore unusual settings, unexpected mechanics, and playful characters
 
 ### People
 Human connection makes the world go round. We create content to share with others because growing and supporting our community is one of our goals. **A game isn't truly a game if no one plays it.** That’s why we stay connected with our players and community.
-<sub><em>Status: Active | Audience: Public | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
 
 ## The Eternal Struggle
 Like any creative studio, we constantly balance competing ideas about art, design, and creativity.

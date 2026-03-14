@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-13 | Canonical: Yes</em></sub>
 
 # START HERE
 
@@ -51,7 +51,7 @@ Start here:
 From there you can explore:
 
 - [Studio philosophy](docs/public/philosophy-and-ethos.md)
-- [Active projects](docs/public/project-index.md)
+- [Active projects](docs/ip/IP-HUB.md)
 - [Coffee Doodle Art](docs/public/coffee-doodle-art.md)
 - [GameDev Feedback](docs/public/gamedev-feedback.md)
 - The broader SWG ecosystem
