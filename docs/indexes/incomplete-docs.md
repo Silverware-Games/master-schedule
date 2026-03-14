@@ -15,7 +15,7 @@ Incomplete or planned content - not yet authoritative.
 | Doc | Title | Audience | Doc Type | Last Reviewed |
 | --- | ----- | -------- | -------- | ------------- |
 | [docs/internal/HTML5-engine.md](../internal/HTML5-engine.md) | (untitled) | Internal | Reference | 2026-03-11 |
-| [docs/ip/grubolis-concept-bible.md](../ip/grubolis-concept-bible.md) | Gruboli’s Concept Bible | Public, Clients, Collaborators | Reference | 2026-03-13 |
+| [docs/ip/gruboli-concept-bible.md](../ip/gruboli-concept-bible.md) | Gruboli’s Concept Bible | Public, Clients, Collaborators | Reference | 2026-03-13 |
 | [docs/public/coffee-doodle-art.md](../public/coffee-doodle-art.md) | Coffee Doodle Art | Public | Reference | 2026-03-11 |
 | [docs/public/gamedev-feedback.md](../public/gamedev-feedback.md) | (untitled) | Public | Reference | 2026-03-11 |
 | [docs/public/social-media-overview.md](../public/social-media-overview.md) | Social Media Overview | Public | Reference | 2026-03-11 |
