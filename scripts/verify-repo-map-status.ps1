@@ -153,7 +153,7 @@ if (-not $lines -or $lines.Count -lt 1) {
 
 $sectionStart = -1
 for ($i = 0; $i -lt $lines.Count; $i++) {
-    if ($lines[$i] -match '^(?i)#{2,6}\s+Major\s+Document\s+Registry\b.*$') {
+    if ($lines[$i] -match '^(?i)\s*#{2,6}\s+Major\s+Document\s+Registry\b.*$') {
         $sectionStart = $i
         break
     }
@@ -161,31 +161,39 @@ for ($i = 0; $i -lt $lines.Count; $i++) {
 
 if ($sectionStart -lt 0) {
     for ($i = 0; $i -lt $lines.Count; $i++) {
-        if ($lines[$i] -match '^(?i)\|\s*Doc\s*\|\s*Title\s*\|\s*Audience\s*\|\s*Purpose\s*\|\s*Doc\s*Type\s*\|\s*Status\s*\|\s*Owner\s*\|\s*Last\s*Reviewed\s*\|\s*$') {
+        if ($lines[$i] -match '^(?i)\s*\|\s*Doc\s*\|\s*Title\s*\|\s*Audience\s*\|\s*Purpose\s*\|\s*Doc\s*Type\s*\|\s*Status\s*\|\s*Owner\s*\|\s*Last\s*Reviewed\s*\|\s*$') {
             $sectionStart = $i
             break
         }
     }
 }
 
-if ($sectionStart -lt 0) {
-    Write-Host "Could not find the Major Document Registry section or table header in '$RepoMapPath'."
-    exit 1
-}
-
 $registryRows = New-Object System.Collections.Generic.List[object]
-for ($i = $sectionStart + 1; $i -lt $lines.Count; $i++) {
-    $line = $lines[$i]
+if ($sectionStart -ge 0) {
+    for ($i = $sectionStart + 1; $i -lt $lines.Count; $i++) {
+        $line = $lines[$i]
 
-    if ($line -match '^##\s+') {
-        break
+        if ($line -match '^\s*##\s+') {
+            break
+        }
+
+        if ($line -match '^\s*\|\s*\[') {
+            $registryRows.Add([pscustomobject]@{
+                LineIndex = $i
+                RowText = $line
+            })
+        }
     }
-
-    if ($line -match '^\|\s*\[') {
-        $registryRows.Add([pscustomobject]@{
-            LineIndex = $i
-            RowText = $line
-        })
+}
+else {
+    for ($i = 0; $i -lt $lines.Count; $i++) {
+        $line = $lines[$i]
+        if ($line -match '^\s*\|\s*\[') {
+            $registryRows.Add([pscustomobject]@{
+                LineIndex = $i
+                RowText = $line
+            })
+        }
     }
 }
 
