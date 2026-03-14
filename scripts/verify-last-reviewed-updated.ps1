@@ -92,6 +92,8 @@ if (-not $changedMarkdownFiles -or $changedMarkdownFiles.Count -eq 0) {
 }
 
 $failures = New-Object System.Collections.Generic.List[string]
+$todayLocal = (Get-Date).ToString('yyyy-MM-dd')
+$todayUtc = (Get-Date).ToUniversalTime().ToString('yyyy-MM-dd')
 
 foreach ($file in $changedMarkdownFiles) {
     $baseSpec = "{0}:{1}" -f $BaseRef, $file
@@ -121,6 +123,10 @@ foreach ($file in $changedMarkdownFiles) {
 
     if ($baseLastReviewed -eq $headLastReviewed) {
         if ((-not $baseMetadata.HasDocType) -and $headMetadata.HasDocType) {
+            continue
+        }
+
+        if (($headLastReviewed -eq $todayLocal) -or ($headLastReviewed -eq $todayUtc)) {
             continue
         }
 
