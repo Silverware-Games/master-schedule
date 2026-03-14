@@ -21,19 +21,13 @@ They are:
 
 A Gruboli should feel like it escaped from a forgotten children’s show, got rejected for being too strange, and then found its true purpose in the Michaelplzno / Silverware creative universe.
 
----
-
 ## One-Sentence Definition
 
 **Gruboli’s are expressive misfit creatures with puppet energy, doodle-DNA, and outsider charm—characters that look rejected by polished children’s media and embraced by imagination instead.**
 
----
-
 ## Short Version for Public-Facing Copy
 
 **Gruboli’s are weird, lovable misfit creatures—like characters rejected from the Muppets and adopted by a more chaotic, more creative universe.**
-
----
 
 ## Expanded Definition
 
@@ -61,8 +55,6 @@ They can work as:
 - social media reaction characters
 - worldbuilding elements in a larger Silverware ecosystem
 
----
-
 ## The Emotional Thesis
 
 A Gruboli exists at the intersection of four feelings:
@@ -83,8 +75,6 @@ Even a gross or chaotic Gruboli should usually have some spark of innocence, vul
 
 A Gruboli should feel like permission to make something stranger, looser, and more alive than polished mainstream character design usually allows.
 
----
-
 ## Brand Positioning
 
 The Gruboli’s are not simply “monster characters.” They are best understood as a **misfit character platform**.
@@ -102,8 +92,6 @@ That means they can support multiple creative uses under one umbrella:
 - licensing-ready mascot families
 
 In other words, **Gruboli’s are not just a cast; they are a framework.**
-
----
 
 ## The Big Hook
 
@@ -135,8 +123,6 @@ That means their design language can pull from:
 - mascot branding
 
 without becoming a copy of any one thing.
-
----
 
 ## What Makes a Gruboli a Gruboli?
 
@@ -172,8 +158,6 @@ A character feels like a true Gruboli when most of these are present:
 - not overexplained
 - instantly suggestive of a life beyond the image
 
----
-
 ## The Core Contradiction
 
 A Gruboli should usually contain a contradiction. That tension is where the life comes from.
@@ -190,8 +174,6 @@ Examples:
 - rejected but unforgettable
 
 Without contradiction, a Gruboli risks becoming just another goofy monster.
-
----
 
 ## Why They Matter
 
@@ -216,8 +198,6 @@ People can pick a favorite, identify with one, or use one as a mini-identity.
 ### They fit the Michaelplzno ethos
 
 They feel handmade, funny, odd, expressive, and anti-corporate in the best way.
-
----
 
 ## Avatar System Potential
 
@@ -266,8 +246,6 @@ Or:
 
 **Pick the creature you would have been if children’s TV said “absolutely not.”**
 
----
-
 ## Archetype System
 
 To make the concept scalable, Gruboli’s should have recognizable archetypes.
@@ -306,8 +284,6 @@ Part creature, part mascot, part unconvincing species mashup.
 
 These categories should not feel restrictive; they are handles for expansion.
 
----
-
 ## Visual Style Pillars
 
 ### Pillar 1: **Handmade first**
@@ -330,8 +306,6 @@ The design can be weird, but it cannot be muddy.
 
 Awkwardness must feel chosen, not accidental or lazy.
 
----
-
 ## Design Rules
 
 ### Must-have qualities
@@ -352,8 +326,6 @@ Awkwardness must feel chosen, not accidental or lazy.
 - meanness without charm
 - grossness without wit
 - copyright-adjacent mimicry of known puppet franchises
-
----
 
 ## Voice and Tone
 
@@ -383,8 +355,6 @@ Gruboli voice should feel like:
 - horror-first creepiness
 - cynical irony with no heart
 
----
-
 ## Lore Frame Options
 
 The Gruboli’s do not need one rigid canon, but they benefit from a flexible frame.
@@ -406,8 +376,6 @@ They are emotional creature-forms people adopt as identities.
 They are the surviving creations from an alternate children’s media factory where the strangest ideas slipped through.
 
 The best approach may be to keep all of these as overlapping truths depending on format.
-
----
 
 ## Story Logic
 
@@ -431,8 +399,6 @@ That makes them especially good for:
 - animated loops
 - social posts
 
----
-
 ## Relationship to Education / Alphabet Content
 
 The alphabet-book angle is strong because it creates a built-in comic contrast between **educational certainty** and **Gruboli chaos**.
@@ -451,8 +417,6 @@ Possible recurring themes:
 That gives Gruboli’s a powerful lane:
 **fake educational media that reveals character instead of teaching correctly.**
 
----
-
 ## What the Name “Gruboli” Suggests
 
 The word “Gruboli” feels:
@@ -469,8 +433,6 @@ That is good. It sounds like a species, a problem, and a brand at the same time.
 
 That ambiguity is an asset.
 
----
-
 ## The Michaelplzno Connection
 
 Gruboli’s make sense inside the Michaelplzno universe because they align with recurring strengths:
@@ -484,8 +446,6 @@ Gruboli’s make sense inside the Michaelplzno universe because they align with 
 - commercial potential without sanding off the weirdness
 
 They feel like a natural extension of the coffee-doodle / warped-character / emotionally loud visual language you already gravitate toward.
-
----
 
 ## Commercial / Practical Applications
 
@@ -507,8 +467,6 @@ Gruboli’s could live as:
 - apparel graphics
 - creator-collab templates
 
----
-
 ## The Key Test
 
 When evaluating a new Gruboli, ask:
@@ -524,8 +482,6 @@ When evaluating a new Gruboli, ask:
 - Does it feel rejected by polish and rescued by personality?
 
 If yes, it’s probably working.
-
----
 
 ## Positioning Statements
 
@@ -545,8 +501,6 @@ If yes, it’s probably working.
 
 **Gruboli’s are expressive creature-avatars for people who would rather be memorable than normal.**
 
----
-
 ## Draft Manifesto
 
 Gruboli’s are not clean. They are not perfect. They are not focus-grouped into harmlessness.
@@ -565,8 +519,6 @@ Because once a character stops trying to behave, it can finally become itself.
 
 That is a Gruboli.
 
----
-
 ## Working Article Structure
 
 If you want to turn this into a polished article, a strong structure would be:
@@ -580,8 +532,6 @@ If you want to turn this into a polished article, a strong structure would be:
 7. What makes a Gruboli visually and emotionally successful
 8. Why the concept fits your broader creative universe
 9. Closing manifesto / invitation
-
----
 
 ## Possible Closing Line
 
