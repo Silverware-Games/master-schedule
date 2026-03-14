@@ -1,6 +1,9 @@
 param(
     [string]$Root = ".",
-    [string]$RepoMapPath = "docs/indexes/repo-map.md"
+    [string]$RepoMapPath = "docs/indexes/repo-map.md",
+    [switch]$Regenerate,
+    [switch]$Stage,
+    [switch]$OnlyChangedDocs
 )
 
 $ErrorActionPreference = "Stop"
@@ -8,8 +11,47 @@ $ErrorActionPreference = "Stop"
 $allowedStatus = @("Active", "Draft", "Needs Review", "Archived", "Replaced By")
 $allowedDocTypes = @("Orientation", "Reference", "Workflow")
 $utf8BomChar = [char]0xFEFF
-$metadataPattern = '^<sub><(?:em|i)>\s*Status:\s*(?<Status>[^|]+?)\s*\|\s*Audience:\s*(?<Audience>[^|]+?)\s*\|\s*Doc-Type:\s*(?<DocType>[^|]+?)\s*\|\s*Owner:\s*(?<Owner>[^|]+?)\s*\|\s*Last Reviewed:\s*(?<LastReviewed>[^|]+?)\s*\|\s*Canonical:\s*(?<Canonical>[^|<]+?)\s*</(?:em|i)></sub>$'
+$metadataPattern = '^<sub><(?<Tag>em|i)>\s*Status:\s*(?<Status>[^|]+?)\s*\|\s*Audience:\s*(?<Audience>[^|]+?)\s*\|\s*Doc-Type:\s*(?<DocType>[^|]+?)\s*\|\s*Owner:\s*(?<Owner>[^|]+?)\s*\|\s*Last Reviewed:\s*(?<LastReviewed>[^|]+?)\s*\|\s*Canonical:\s*(?<Canonical>[^|<]+?)\s*</\k<Tag>></sub>$'
 $failures = New-Object System.Collections.Generic.List[string]
+
+function Invoke-Git {
+    param(
+        [string[]]$Arguments
+    )
+
+    $output = & git @Arguments 2>&1
+    if ($LASTEXITCODE -ne 0) {
+        $rendered = if ($null -eq $output) { "" } else { @($output) -join [Environment]::NewLine }
+        throw "git $($Arguments -join ' ') failed: $rendered"
+    }
+
+    if ($null -eq $output) {
+        return @()
+    }
+
+    return @($output)
+}
+
+function Read-Utf8TextFile {
+    param(
+        [string]$Path
+    )
+
+    $bytes = [System.IO.File]::ReadAllBytes($Path)
+    $hasBom = $bytes.Length -ge 3 -and $bytes[0] -eq 0xEF -and $bytes[1] -eq 0xBB -and $bytes[2] -eq 0xBF
+
+    if ($hasBom) {
+        $text = [System.Text.Encoding]::UTF8.GetString($bytes, 3, $bytes.Length - 3)
+    }
+    else {
+        $text = [System.Text.Encoding]::UTF8.GetString($bytes)
+    }
+
+    return @{
+        Text = $text
+        HasBom = $hasBom
+    }
+}
 
 function Get-MetadataFromMetadataLine {
     param(
@@ -23,14 +65,76 @@ function Get-MetadataFromMetadataLine {
     }
 
     return @{
+        Tag = $Matches['Tag'].Trim()
         Status = $Matches['Status'].Trim()
+        Audience = $Matches['Audience'].Trim()
         DocType = $Matches['DocType'].Trim()
+        Owner = $Matches['Owner'].Trim()
+        LastReviewed = $Matches['LastReviewed'].Trim()
+        Canonical = $Matches['Canonical'].Trim()
     }
+}
+
+function Get-DocTitle {
+    param(
+        [string[]]$Lines
+    )
+
+    foreach ($line in $Lines) {
+        if ($line -match '^#+\s+(.+)$') {
+            return $Matches[1].Trim()
+        }
+    }
+
+    return $null
+}
+
+function Build-RegistryRow {
+    param(
+        [string]$DocText,
+        [string]$Link,
+        [string]$Title,
+        [string]$Audience,
+        [string]$Purpose,
+        [string]$DocType,
+        [string]$Status,
+        [string]$Owner,
+        [string]$LastReviewed
+    )
+
+    return "| [$DocText]($Link) | $Title | $Audience | $Purpose | $DocType | $Status | $Owner | $LastReviewed |"
 }
 
 $rootResolved = Resolve-Path -LiteralPath $Root
 $rootPath = $rootResolved.ProviderPath
 $repoMapFullPath = Join-Path $rootPath $RepoMapPath
+$rootUri = [System.Uri]::new($rootPath.TrimEnd([System.IO.Path]::DirectorySeparatorChar) + [System.IO.Path]::DirectorySeparatorChar)
+
+$changedMarkdownSet = $null
+if ($Regenerate -and $OnlyChangedDocs) {
+    Push-Location $rootPath
+    try {
+        $changedMarkdownFiles = Invoke-Git -Arguments @(
+            "diff",
+            "--cached",
+            "--name-only",
+            "--diff-filter=ACMR",
+            "--",
+            "*.md"
+        ) |
+            Where-Object { -not [string]::IsNullOrWhiteSpace($_) } |
+            ForEach-Object { ($_ -replace '\\', '/').Trim() } |
+            Sort-Object -Unique
+    }
+    finally {
+        Pop-Location
+    }
+
+    $changedMarkdownSet = [System.Collections.Generic.HashSet[string]]::new([System.StringComparer]::OrdinalIgnoreCase)
+    foreach ($file in $changedMarkdownFiles) {
+        $changedMarkdownSet.Add($file) | Out-Null
+    }
+}
 
 if (-not (Test-Path -LiteralPath $repoMapFullPath -PathType Leaf)) {
     Write-Host "Repo map file not found at '$RepoMapPath'."
@@ -38,7 +142,14 @@ if (-not (Test-Path -LiteralPath $repoMapFullPath -PathType Leaf)) {
 }
 
 $repoMapDir = Split-Path -Path $repoMapFullPath -Parent
-$lines = Get-Content -Path $repoMapFullPath
+$repoMapFile = Read-Utf8TextFile -Path $repoMapFullPath
+$newline = if ($repoMapFile.Text -match "`r`n") { "`r`n" } else { "`n" }
+$lines = $repoMapFile.Text -split "`r`n|`n", -1
+
+if (-not $lines -or $lines.Count -lt 1) {
+    Write-Host "Repo map file '$RepoMapPath' is empty."
+    exit 1
+}
 
 $sectionStart = -1
 for ($i = 0; $i -lt $lines.Count; $i++) {
@@ -53,7 +164,7 @@ if ($sectionStart -lt 0) {
     exit 1
 }
 
-$registryRows = New-Object System.Collections.Generic.List[string]
+$registryRows = New-Object System.Collections.Generic.List[object]
 for ($i = $sectionStart + 1; $i -lt $lines.Count; $i++) {
     $line = $lines[$i]
 
@@ -62,7 +173,10 @@ for ($i = $sectionStart + 1; $i -lt $lines.Count; $i++) {
     }
 
     if ($line -match '^\|\s*\[') {
-        $registryRows.Add($line)
+        $registryRows.Add([pscustomobject]@{
+            LineIndex = $i
+            RowText = $line
+        })
     }
 }
 
@@ -72,23 +186,33 @@ if ($registryRows.Count -eq 0) {
 }
 
 $rowPattern = '^\|\s*\[(?<docText>[^\]]+)\]\((?<link>[^)]+)\)\s*\|\s*(?<title>.*?)\s*\|\s*(?<audience>.*?)\s*\|\s*(?<purpose>.*?)\s*\|\s*(?<docType>.*?)\s*\|\s*(?<status>.*?)\s*\|\s*(?<owner>.*?)\s*\|\s*(?<reviewed>.*?)\s*\|$'
+$rowsUpdated = 0
+$repoMapHeaderUpdated = $false
 
-foreach ($row in $registryRows) {
+foreach ($rowEntry in $registryRows) {
+    $row = $rowEntry.RowText
+
     if ($row -notmatch $rowPattern) {
         $failures.Add("${RepoMapPath}: could not parse registry row: $row")
         continue
     }
 
+    $docText = $Matches['docText'].Trim()
     $link = $Matches['link'].Trim()
+    $tableTitle = $Matches['title'].Trim()
+    $tableAudience = $Matches['audience'].Trim()
+    $tablePurpose = $Matches['purpose'].Trim()
     $tableDocType = $Matches['docType'].Trim()
     $tableStatus = $Matches['status'].Trim()
+    $tableOwner = $Matches['owner'].Trim()
+    $tableReviewed = $Matches['reviewed'].Trim()
 
-    if ($allowedDocTypes -notcontains $tableDocType) {
+    if ((-not $Regenerate) -and ($allowedDocTypes -notcontains $tableDocType)) {
         $failures.Add("${RepoMapPath}: invalid Doc-Type '$tableDocType' in row link '$link'.")
         continue
     }
 
-    if ($allowedStatus -notcontains $tableStatus) {
+    if ((-not $Regenerate) -and ($allowedStatus -notcontains $tableStatus)) {
         $failures.Add("${RepoMapPath}: invalid status '$tableStatus' in row link '$link'.")
         continue
     }
@@ -109,14 +233,14 @@ foreach ($row in $registryRows) {
         continue
     }
 
-    $firstLine = Get-Content -Path $targetPath -TotalCount 1
-    if (-not $firstLine) {
+    $targetLines = Get-Content -Path $targetPath -Encoding UTF8 -ErrorAction SilentlyContinue
+    if (-not $targetLines -or $targetLines.Count -lt 1) {
         $relativeTarget = Resolve-Path -LiteralPath $targetPath -Relative
         $failures.Add("${RepoMapPath}: linked file '$relativeTarget' is empty.")
         continue
     }
 
-    $firstLine = $firstLine.TrimStart($utf8BomChar)
+    $firstLine = $targetLines[0].TrimStart($utf8BomChar)
 
     $docMetadata = Get-MetadataFromMetadataLine -Line $firstLine
     if (-not $docMetadata) {
@@ -126,7 +250,17 @@ foreach ($row in $registryRows) {
     }
 
     $docStatus = $docMetadata.Status
+    $docAudience = $docMetadata.Audience
     $docDocType = $docMetadata.DocType
+    $docOwner = $docMetadata.Owner
+    $docLastReviewed = $docMetadata.LastReviewed
+    $docTitle = Get-DocTitle -Lines $targetLines
+    $syncedTitle = if ([string]::IsNullOrWhiteSpace($docTitle)) { $tableTitle } else { $docTitle }
+    $targetRepoRelative = $rootUri.MakeRelativeUri([System.Uri]::new($targetPath)).ToString() -replace '%20', ' '
+
+    if ($Regenerate -and $OnlyChangedDocs -and (-not $changedMarkdownSet.Contains($targetRepoRelative))) {
+        continue
+    }
 
     if ($allowedStatus -notcontains $docStatus) {
         $relativeTarget = Resolve-Path -LiteralPath $targetPath -Relative
@@ -137,6 +271,23 @@ foreach ($row in $registryRows) {
     if ($allowedDocTypes -notcontains $docDocType) {
         $relativeTarget = Resolve-Path -LiteralPath $targetPath -Relative
         $failures.Add("${RepoMapPath}: linked file '$relativeTarget' has invalid Doc-Type '$docDocType'.")
+        continue
+    }
+
+    if ($Regenerate) {
+        $needsUpdate =
+            $tableTitle -ne $syncedTitle -or
+            $tableAudience -ne $docAudience -or
+            $tableDocType -ne $docDocType -or
+            $tableStatus -ne $docStatus -or
+            $tableOwner -ne $docOwner -or
+            $tableReviewed -ne $docLastReviewed
+
+        if ($needsUpdate) {
+            $lines[$rowEntry.LineIndex] = Build-RegistryRow -DocText $docText -Link $link -Title $syncedTitle -Audience $docAudience -Purpose $tablePurpose -DocType $docDocType -Status $docStatus -Owner $docOwner -LastReviewed $docLastReviewed
+            $rowsUpdated++
+        }
+
         continue
     }
 
@@ -151,10 +302,56 @@ foreach ($row in $registryRows) {
     }
 }
 
+if ($Regenerate -and $rowsUpdated -gt 0) {
+    $repoMapMetadata = Get-MetadataFromMetadataLine -Line $lines[0]
+    if (-not $repoMapMetadata) {
+        $failures.Add("${RepoMapPath}: metadata header is invalid; could not update Last Reviewed after regeneration.")
+    }
+    else {
+        $today = (Get-Date).ToString("yyyy-MM-dd")
+        if ($repoMapMetadata.LastReviewed -ne $today) {
+            $tag = $repoMapMetadata.Tag
+            $lines[0] = "<sub><$tag>Status: $($repoMapMetadata.Status) | Audience: $($repoMapMetadata.Audience) | Doc-Type: $($repoMapMetadata.DocType) | Owner: $($repoMapMetadata.Owner) | Last Reviewed: $today | Canonical: $($repoMapMetadata.Canonical)</$tag></sub>"
+            $repoMapHeaderUpdated = $true
+        }
+    }
+}
+
 if ($failures.Count -gt 0) {
     Write-Host "Repo map status verification failed with $($failures.Count) issue(s):"
     $failures | ForEach-Object { Write-Host "- $_" }
     exit 1
+}
+
+if ($Regenerate -and ($rowsUpdated -gt 0 -or $repoMapHeaderUpdated)) {
+    $content = $lines -join $newline
+    if (-not $content.EndsWith($newline)) {
+        $content += $newline
+    }
+
+    [System.IO.File]::WriteAllText($repoMapFullPath, $content, [System.Text.UTF8Encoding]::new($false))
+
+    if ($Stage) {
+        Push-Location $rootPath
+        try {
+            Invoke-Git -Arguments @("add", "--", $RepoMapPath) | Out-Null
+        }
+        finally {
+            Pop-Location
+        }
+
+        Write-Host "Repo map regenerated and staged: updated $rowsUpdated registry row(s)."
+    }
+    else {
+        Write-Host "Repo map regenerated: updated $rowsUpdated registry row(s)."
+    }
+
+    exit 0
+}
+
+if ($Regenerate) {
+    Write-Host "Repo map already up to date for $($registryRows.Count) registry row(s)."
+    exit 0
 }
 
 Write-Host "Repo map status verification passed for $($registryRows.Count) registry row(s)."

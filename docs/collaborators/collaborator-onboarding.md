@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Collaborators | Doc-Type: Workflow | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Collaborators | Doc-Type: Workflow | Owner: Michael | Last Reviewed: 2026-03-14 | Canonical: Yes</em></sub>
 
 # Collaboration Guide
 
@@ -30,6 +30,7 @@ These norms keep collaboration smooth and documentation maintainable.
 - **Keep files in audience-appropriate folders** — Use [`public/`](../public/), [`collaborators/`](./), [`clients/`](../clients/), or [`internal/`](../internal/).
 - **Prefer clear file names over clever names** — Optimize for scanning and searchability.
 - **Keep index pages current when adding docs** — Update [`repo-map.md`](../indexes/repo-map.md) and other indexes.
+- **Review auto-synced index updates before commit** — Pre-commit now regenerates and stages matching `repo-map.md` rows for staged Markdown docs; verify those staged changes before you finalize the commit.
 - **Avoid storing operational procedures in [`README.md`](../../README.md)** — Root README is for navigation only.
 
 ### Communication Norms
