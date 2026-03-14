@@ -1,4 +1,4 @@
-<sub><em>Status: Approved | Audience: Public | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-03-14 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Public | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-03-14 | Canonical: Yes</em></sub>
 
 # Gamedev Feedback
 
