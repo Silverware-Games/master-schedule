@@ -12,12 +12,11 @@ Maybe... just maybe, you want to give us some support and approval. Let me tell 
 
 ## Recommended Reading Order
 
-1. [IP-HUB.md](../ip/IP-HUB.md) for the current project snapshot.
-2. [philosophy-and-ethos.md](./philosophy-and-ethos.md) for how we think and work.
-3. [podcasts-and-content.md](./podcasts-and-content.md) for long-form media context.
-4. [coffee-doodle-art.md](./coffee-doodle-art.md) for art initiative context.
-5. [gamedev-feedback.md](./gamedev-feedback.md) for feedback-oriented content.
-6. [social-media-overview.md](./social-media-overview.md) for channel-level updates.
+1. [philosophy-and-ethos.md](./philosophy-and-ethos.md) for how we think and work.
+2. [podcasts-and-content.md](./podcasts-and-content.md) for long-form media context.
+3. [coffee-doodle-art.md](./coffee-doodle-art.md) for art initiative context.
+4. [gamedev-feedback.md](./gamedev-feedback.md) for feedback-oriented content.
+5. [social-media-overview.md](./social-media-overview.md) for channel-level updates.
 
 (if you are in a rush just read the first 2! There will be a quiz later though.)
 
