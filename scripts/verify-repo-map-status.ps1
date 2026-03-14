@@ -153,7 +153,7 @@ else {
     "`n"
 }
 
-$lines = $repoMapFile.Text -split "`r`n|`n|`r", -1
+$lines = $repoMapFile.Text -split "`r`n|`n|`r"
 
 if (-not $lines -or $lines.Count -lt 1) {
     Write-Host "Repo map file '$RepoMapPath' is empty."

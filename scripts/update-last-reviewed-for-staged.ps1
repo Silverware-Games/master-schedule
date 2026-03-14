@@ -80,7 +80,7 @@ foreach ($file in $stagedMarkdownFiles) {
     }
 
     $newline = if ($text -match "`r`n") { "`r`n" } else { "`n" }
-    $lines = $text -split "`r`n|`n", -1
+    $lines = $text -split "`r`n|`n"
 
     if ($lines.Count -lt 1 -or [string]::IsNullOrEmpty($lines[0])) {
         $failures.Add("${file}: missing metadata on line 1.")
