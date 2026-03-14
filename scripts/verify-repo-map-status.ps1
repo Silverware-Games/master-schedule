@@ -143,8 +143,17 @@ if (-not (Test-Path -LiteralPath $repoMapFullPath -PathType Leaf)) {
 
 $repoMapDir = Split-Path -Path $repoMapFullPath -Parent
 $repoMapFile = Read-Utf8TextFile -Path $repoMapFullPath
-$newline = if ($repoMapFile.Text -match "`r`n") { "`r`n" } else { "`n" }
-$lines = $repoMapFile.Text -split "`r`n|`n", -1
+$newline = if ($repoMapFile.Text -match "`r`n") {
+    "`r`n"
+}
+elseif ($repoMapFile.Text -match "`r") {
+    "`r"
+}
+else {
+    "`n"
+}
+
+$lines = $repoMapFile.Text -split "`r`n|`n|`r", -1
 
 if (-not $lines -or $lines.Count -lt 1) {
     Write-Host "Repo map file '$RepoMapPath' is empty."
@@ -235,6 +244,8 @@ if ($registryRows.Count -eq 0) {
     }
 
     Write-Host "- Scan range: lines $($scanStartLineIndex + 1)-$($scanEndLineIndex + 1)"
+    Write-Host "- File length (chars): $($repoMapFile.Text.Length)"
+    Write-Host "- Newline style detected: $(if ($newline -eq "`r`n") { "CRLF" } elseif ($newline -eq "`r") { "CR" } else { "LF/none" })"
     Write-Host "- Table-like lines found: $($tableLikeLines.Count)"
 
     if ($tableLikeLines.Count -gt 0) {
@@ -253,7 +264,7 @@ if ($registryRows.Count -eq 0) {
     exit 1
 }
 
-$rowPattern = '^\|\s*\[(?<docText>[^\]]+)\]\((?<link>[^)]+)\)\s*\|\s*(?<title>.*?)\s*\|\s*(?<audience>.*?)\s*\|\s*(?<purpose>.*?)\s*\|\s*(?<docType>.*?)\s*\|\s*(?<status>.*?)\s*\|\s*(?<owner>.*?)\s*\|\s*(?<reviewed>.*?)\s*\|$'
+$rowPattern = '^\s*\|\s*\[(?<docText>[^\]]+)\]\((?<link>[^)]+)\)\s*\|\s*(?<title>.*?)\s*\|\s*(?<audience>.*?)\s*\|\s*(?<purpose>.*?)\s*\|\s*(?<docType>.*?)\s*\|\s*(?<status>.*?)\s*\|\s*(?<owner>.*?)\s*\|\s*(?<reviewed>.*?)\s*\|\s*$'
 $rowsUpdated = 0
 $repoMapHeaderUpdated = $false
 
