@@ -2,6 +2,8 @@
 
 # Gruboli’s Concept Bible
 
+![Gruboli Thumb](../assets/Gruboli_Thumb.png)
+
 ## Core Premise
 
 **Gruboli’s are characters that feel like they were rejected from the Muppets.**
