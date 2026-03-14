@@ -19,28 +19,6 @@ If you want to understand:
 
 Think of the **Silverware Drawer** as the place where everything is organized so anyone — human or machine — can quickly understand the SWG ecosystem.
 
-# How This Repo Is Organized
-
-Documentation is organized **by audience first**.
-
-Repository Map
-
-```
-README
-  ↓
-START-HERE
-  ↓
-Audience Hubs
-   ├─ Public (fans, players)
-   ├─ Collaborators (devs, partners)
-   ├─ Clients (design services)
-   └─ Internal (team operations)
-```
-
-Each hub links to deeper documentation and project details.
-
-Choose the path that best matches why you're here.
-
 ## 🌎 Public — What Silverware Games Is
 
 You may have stumbled onto one of our games/experiments/youtube videos/art projects and want to know who the heck are these people. You may be a die hard fan who has known about us since we launched "Jezz Cubed" decades ago... 4 people bought that game! Or anywhere inbetween, this is the portal to know us and our public face.
@@ -54,7 +32,7 @@ From there you can explore:
 - [Active projects](docs/ip/IP-HUB.md)
 - [Coffee Doodle Art](docs/public/coffee-doodle-art.md)
 - [GameDev Feedback](docs/public/gamedev-feedback.md)
-- The broader SWG ecosystem
+- [The broader SWG ecosystem](docs/indexes/repo-map.md)
 
 ## 🤝 Collaborators — Work With Us
 
@@ -65,11 +43,11 @@ Start here:
 
 You'll find:
 
-- Collaboration models
-- Contribution paths
-- Current needs
-- Communication norms
-- How to plug into SWG projects
+- [Collaboration models](docs/collaborators/collaborator-onboarding.md#contribution-paths)
+- [Contribution paths](docs/collaborators/collaborator-onboarding.md#contribution-paths)
+- [Current needs](docs/ip/IP-HUB.md#active-ip-projects)
+- [Communication norms](docs/collaborators/collaborator-onboarding.md#repo-and-communication-norms)
+- [How to plug into SWG projects](docs/collaborators/COLLABORATOR-HUB.md#recommended-reading-order)
 
 ## 💼 Clients — Hire Silverware Games
 
@@ -80,23 +58,36 @@ Start here:
 
 This section explains:
 
-- Services offered
-- Engagement model
-- Case studies
-- Client workflow
-- FAQs
+- [Services offered](docs/clients/services-overview.md#service-areas)
+- [Engagement model](docs/clients/services-overview.md#what-clients-can-expect)
+- [Case studies](docs/ip/IP-HUB.md#active-ip-projects)
+- [Client workflow](docs/internal/wordpress/workflow-client.md#how-the-process-works)
+- [FAQs](docs/clients/CLIENT-HUB.md)
 
 ## 🧠 Internal — SWG Systems & Infrastructure
 
 Internal documentation for the people who are already a part of the group. This covers:
 
-- infrastructure
-- workflows
-- architecture
-- operational procedures
+- [infrastructure](docs/internal/droplet/droplet.md)
+- [workflows](docs/indexes/operational-docs.md)
+- [architecture](docs/internal/hosting-and-dns.md)
+- [operational procedures](docs/internal/droplet/content-ops.md)
 
 Start here:
 [docs/internal/INTERNAL-HUB.md](docs/internal/INTERNAL-HUB.md)
+
+## 🎮 IP — Active Projects & Creative Direction
+
+This section tracks Silverware Games creative IP, including active projects, current visibility, and where to contribute.
+
+Start here:
+[docs/ip/IP-HUB.md](docs/ip/IP-HUB.md)
+
+You'll find:
+
+- [Active IP project snapshot](docs/ip/IP-HUB.md#active-ip-projects)
+- [Related public-facing context](docs/ip/IP-HUB.md#related-docs)
+- [Long-form concept notes](docs/ip/gruboli-concept-bible.md)
 
 # Why This Repo Exists
 
@@ -118,6 +109,29 @@ This repository aims to make SWG knowledge:
 
 When in doubt:
 **Write it down. Improve it later.**
+
+# How This Repo Is Organized
+
+Documentation is organized **by audience first**.
+
+Repository Map
+
+```
+README
+  ↓
+START-HERE
+  ↓
+Audience Hubs
+  ├─ Public (fans, players)
+  ├─ Collaborators (devs, partners)
+  ├─ Clients (design services)
+  ├─ Internal (team operations)
+  └─ IP (active projects)
+```
+
+Each hub links to deeper documentation and project details.
+
+Choose the path that best matches why you're here.
 
 # Repo Navigation
 
@@ -183,6 +197,8 @@ Before making large structural changes, consult:
 [Client Services](docs/clients/CLIENT-HUB.md)
 
 [Internal Systems](docs/internal/INTERNAL-HUB.md)
+
+[IP Projects](docs/ip/IP-HUB.md)
 
 [Master Documentation Index](docs/indexes/repo-map.md)
 
