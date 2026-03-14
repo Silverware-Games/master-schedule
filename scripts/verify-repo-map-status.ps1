@@ -153,14 +153,23 @@ if (-not $lines -or $lines.Count -lt 1) {
 
 $sectionStart = -1
 for ($i = 0; $i -lt $lines.Count; $i++) {
-    if ($lines[$i] -match '^##\s+Major Document Registry\s*$') {
+    if ($lines[$i] -match '^(?i)#{2,6}\s+Major\s+Document\s+Registry\b.*$') {
         $sectionStart = $i
         break
     }
 }
 
 if ($sectionStart -lt 0) {
-    Write-Host "Could not find '## Major Document Registry' section in '$RepoMapPath'."
+    for ($i = 0; $i -lt $lines.Count; $i++) {
+        if ($lines[$i] -match '^(?i)\|\s*Doc\s*\|\s*Title\s*\|\s*Audience\s*\|\s*Purpose\s*\|\s*Doc\s*Type\s*\|\s*Status\s*\|\s*Owner\s*\|\s*Last\s*Reviewed\s*\|\s*$') {
+            $sectionStart = $i
+            break
+        }
+    }
+}
+
+if ($sectionStart -lt 0) {
+    Write-Host "Could not find the Major Document Registry section or table header in '$RepoMapPath'."
     exit 1
 }
 
