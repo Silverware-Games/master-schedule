@@ -152,9 +152,11 @@ if (-not $lines -or $lines.Count -lt 1) {
 }
 
 $sectionStart = -1
+$sectionMatchReason = "none"
 for ($i = 0; $i -lt $lines.Count; $i++) {
     if ($lines[$i] -match '^(?i)\s*#{2,6}\s+Major\s+Document\s+Registry\b.*$') {
         $sectionStart = $i
+        $sectionMatchReason = "major-document-registry-heading"
         break
     }
 }
@@ -163,18 +165,34 @@ if ($sectionStart -lt 0) {
     for ($i = 0; $i -lt $lines.Count; $i++) {
         if ($lines[$i] -match '^(?i)\s*\|\s*Doc\s*\|\s*Title\s*\|\s*Audience\s*\|\s*Purpose\s*\|\s*Doc\s*Type\s*\|\s*Status\s*\|\s*Owner\s*\|\s*Last\s*Reviewed\s*\|\s*$') {
             $sectionStart = $i
+            $sectionMatchReason = "registry-table-header"
             break
         }
     }
 }
 
+if ($sectionStart -lt 0) {
+    $sectionMatchReason = "whole-file-fallback"
+}
+
 $registryRows = New-Object System.Collections.Generic.List[object]
+$tableLikeLines = New-Object System.Collections.Generic.List[object]
+$scanStartLineIndex = if ($sectionStart -ge 0) { $sectionStart + 1 } else { 0 }
+$scanEndLineIndex = $lines.Count - 1
 if ($sectionStart -ge 0) {
     for ($i = $sectionStart + 1; $i -lt $lines.Count; $i++) {
         $line = $lines[$i]
 
         if ($line -match '^\s*##\s+') {
+            $scanEndLineIndex = $i - 1
             break
+        }
+
+        if ($line -match '^\s*\|') {
+            $tableLikeLines.Add([pscustomobject]@{
+                LineIndex = $i
+                RowText = $line
+            })
         }
 
         if ($line -match '^\s*\|\s*\[') {
@@ -188,6 +206,13 @@ if ($sectionStart -ge 0) {
 else {
     for ($i = 0; $i -lt $lines.Count; $i++) {
         $line = $lines[$i]
+        if ($line -match '^\s*\|') {
+            $tableLikeLines.Add([pscustomobject]@{
+                LineIndex = $i
+                RowText = $line
+            })
+        }
+
         if ($line -match '^\s*\|\s*\[') {
             $registryRows.Add([pscustomobject]@{
                 LineIndex = $i
@@ -199,6 +224,32 @@ else {
 
 if ($registryRows.Count -eq 0) {
     Write-Host "No registry rows found in '$RepoMapPath'."
+    Write-Host "Diagnostics:"
+    Write-Host "- Section detection mode: $sectionMatchReason"
+    if ($sectionStart -ge 0) {
+        $anchorPreview = $lines[$sectionStart].Trim()
+        Write-Host "- Anchor line: $($sectionStart + 1): $anchorPreview"
+    }
+    else {
+        Write-Host "- Anchor line: none (no section/table header match)"
+    }
+
+    Write-Host "- Scan range: lines $($scanStartLineIndex + 1)-$($scanEndLineIndex + 1)"
+    Write-Host "- Table-like lines found: $($tableLikeLines.Count)"
+
+    if ($tableLikeLines.Count -gt 0) {
+        Write-Host "- First table-like lines:"
+        foreach ($entry in ($tableLikeLines | Select-Object -First 5)) {
+            $preview = $entry.RowText.Trim()
+            if ($preview.Length -gt 180) {
+                $preview = $preview.Substring(0, 177) + "..."
+            }
+
+            Write-Host "  - L$($entry.LineIndex + 1): $preview"
+        }
+    }
+
+    Write-Host "- Expected registry row format: | [docs/path.md](relative/link.md) | Title | Audience | Purpose | Doc Type | Status | Owner | Last Reviewed |"
     exit 1
 }
 
@@ -208,9 +259,10 @@ $repoMapHeaderUpdated = $false
 
 foreach ($rowEntry in $registryRows) {
     $row = $rowEntry.RowText
+    $rowLineNumber = $rowEntry.LineIndex + 1
 
     if ($row -notmatch $rowPattern) {
-        $failures.Add("${RepoMapPath}: could not parse registry row: $row")
+        $failures.Add("${RepoMapPath}: could not parse registry row at line $rowLineNumber. Expected '| [doc](link) | title | audience | purpose | doc type | status | owner | last reviewed |'. Row: $row")
         continue
     }
 
