@@ -72,3 +72,6 @@ This test has several strategic benefits:
 - If repetition is enjoyable, practicing over and over is fun, not work.
 - If repetition is enjoyable, polishing and refining is more enjoyable, so the final result is better.
 
+## The Great Game?!
+
+Some people consider the great game to be about emotion, making people cry. Some people say a heavy topic like historical trageties are part of the greatest work. At Silverware Games we say, if you can make a game about something boring fun, like doing laundry, that is the greatest game.
