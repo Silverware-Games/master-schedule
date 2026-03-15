@@ -21,3 +21,6 @@ There are many issues I am trying to get resolved by ID@XBOX but no one can seem
 But really what I want from Microsoft is World Peace:
 
 https://www.youtube.com/watch?v=3st-Hai1y54
+
+
+Bonus issues: Support email is under NDA... why is that?
