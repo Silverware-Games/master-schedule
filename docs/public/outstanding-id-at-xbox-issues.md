@@ -22,5 +22,16 @@ But really what I want from Microsoft is World Peace:
 
 https://www.youtube.com/watch?v=3st-Hai1y54
 
+# Email Credential AI Aware Routing System
 
-Bonus issues: Support email is under NDA... why is that?
+If a company the size of Microsoft (~220,000 employees) wastes just 5 minutes per employee per day trying to find the right person or route a misdirected request, that adds up to over 18,000 hours of lost productivity every day. At an average fully-loaded salary of about $70 per hour, that’s roughly $1.2 million in lost productivity per day — over $300 million per year spent simply figuring out who to talk to.
+
+A credential-aware AI routing graph that directs requests to the correct team the first time could eliminate a significant portion of that waste while simultaneously improving partner and developer experience.
+
+---
+
+Large organizations like Microsoft face a structural communication problem: people often know a person but not the system behind that person. When employees move teams, disable external email, or roles change, legitimate partners and developers can lose contact entirely. The result is weeks of lost time, misrouted messages, and frustration for both external partners and internal teams. Current solutions like static support inboxes or fragmented helpdesk systems (Zendesk, forms, etc.) act more like buffering layers than true routing infrastructure.
+
+A better approach is a Credential-Aware AI Routing Graph: a unified communication layer that understands who the sender is and what system or role they are trying to reach. Instead of guessing email addresses, users authenticate and the system expands available routing paths based on credentials (public user, partner, ID@Xbox developer, Microsoft employee, service owner, etc.). AI interprets the request, maps it to a service or team, and routes it to the correct queue or owner. Internally, employees can redirect misrouted requests using a “Route” action tied to a service ownership directory, ensuring messages flow to the correct team rather than dying in personal inboxes.
+
+The result is a dynamic routing graph rather than a static helpdesk. It reduces lost communication, improves developer and partner experience, and gives Microsoft analytics about where requests are coming from and which systems lack clear ownership. Instead of exposing sensitive emails publicly or hiding contact points behind NDAs, communication becomes structured, credential-aware, and resilient to organizational change.
