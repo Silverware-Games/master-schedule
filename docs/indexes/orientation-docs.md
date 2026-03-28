@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-13 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-28 | Canonical: Yes</em></sub>
 
 # Orientation Docs Index
 
@@ -26,6 +26,7 @@ Orientation docs answer: "what is this?" and "where do I go next?"
 - [docs/clients/services-overview.md](../../docs/clients/services-overview.md): client-facing services overview.
 - [docs/collaborators/collaborator-onboarding.md](../../docs/collaborators/collaborator-onboarding.md): contributor onboarding entry doc.
 - [docs/public/philosophy-and-ethos.md](../../docs/public/philosophy-and-ethos.md): high-level public values and posture.
+- [docs/public/who-is-your-audience.md](../../docs/public/who-is-your-audience.md): public-facing audience strategy and positioning.
 
 ## Handoff To Operational Docs
 
