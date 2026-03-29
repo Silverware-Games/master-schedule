@@ -19,7 +19,7 @@ You represent and warrant that:
 
 ## 2. Credit
 
-If Silverware Games uses your Collaboration Material and can reasonably identify you as the collaboration, Silverware Games will make a good-faith effort to provide you with prominent credit, where practical and appropriate to the project, medium, and release format.
+If Silverware Games uses your Collaboration Material and can reasonably identify you as the collaborator, Silverware Games will make a good-faith effort to provide you with prominent credit, where practical and appropriate to the project, medium, and release format.
 
 ## 3. Compensation
 
