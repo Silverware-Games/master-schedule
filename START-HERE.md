@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-28 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-29 | Canonical: Yes</em></sub>
 
 # START HERE
 
@@ -45,6 +45,7 @@ Start here:
 You'll find:
 
 - [Collaboration models](docs/collaborators/collaborator-onboarding.md#contribution-paths)
+- [Default collaboration terms](docs/collaborators/collaboration-terms.md)
 - [Contribution paths](docs/collaborators/collaborator-onboarding.md#contribution-paths)
 - [Current needs](docs/ip/IP-HUB.md#active-ip-projects)
 - [Communication norms](docs/collaborators/collaborator-onboarding.md#repo-and-communication-norms)

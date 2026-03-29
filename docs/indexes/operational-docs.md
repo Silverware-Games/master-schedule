@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-13 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-29 | Canonical: Yes</em></sub>
 
 # Operational Docs Index
 
@@ -16,6 +16,11 @@ Operational docs answer: "how exactly do we do this?"
 
 - [docs/ip/IP-HUB.md](../../docs/ip/IP-HUB.md): living snapshot of active and visible work.
 - [docs/indexes/incomplete-docs.md](../../docs/indexes/incomplete-docs.md): auto-generated list of all Draft and Needs Review docs — start here to find what needs fixing.
+
+## Collaborator Operational Docs
+
+- [docs/collaborators/collaborator-onboarding.md](../../docs/collaborators/collaborator-onboarding.md): contributor onboarding workflow and repo norms.
+- [docs/collaborators/collaboration-terms.md](../../docs/collaborators/collaboration-terms.md): default legal collaboration terms and licensing model.
 
 ## Internal Operational Docs
 

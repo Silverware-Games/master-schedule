@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Collaborators | Doc-Type: Workflow | Owner: Michael | Last Reviewed: 2026-03-14 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Collaborators | Doc-Type: Workflow | Owner: Michael | Last Reviewed: 2026-03-29 | Canonical: Yes</em></sub>
 
 # Collaboration Guide
 
@@ -9,9 +9,10 @@ Welcome! This guide covers everything you need to start contributing to Silverwa
 New collaborators should complete these steps:
 
 1. **Read [`START-HERE.md`](../../START-HERE.md)** — Understand the repository structure and navigation.
-2. **Pick your contribution path** — Choose an area that aligns with your strengths.
-3. **Define your first contribution** — Start small and aligned with project priorities.
-4. **Confirm working scope** — Align with the team on your initial focus area.
+2. **Read [`collaboration-terms.md`](./collaboration-terms.md)** — Review default terms that apply unless a separate signed agreement exists.
+3. **Pick your contribution path** — Choose an area that aligns with your strengths.
+4. **Define your first contribution** — Start small and aligned with project priorities.
+5. **Confirm working scope** — Align with the team on your initial focus area.
 
 ## Contribution Paths
 
