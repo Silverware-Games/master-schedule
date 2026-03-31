@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-31 | Canonical: Yes</em></sub>
 
 # Silverware Drawer
 
@@ -25,6 +25,10 @@ If this is your first time exploring the repo:
 [START-HERE.md](START-HERE.md)
 
 This explains how the repository is structured and where to begin.
+
+➡ **Just want the map?**
+
+[docs/indexes/repo-map.md](docs/indexes/repo-map.md)
 
 # Any Questions?
 
