@@ -1,4 +1,4 @@
-<sub><em>Status: Needs Review | Audience: Public, Clients, Collaborators | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-13 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Public, Clients, Collaborators | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-31 | Canonical: Yes</em></sub>
 
 # IP HUB
 
@@ -17,6 +17,14 @@ It features a curated selection of our best and most representative work. Each p
 **Design & Issues:** https://github.com/Silverware-Games/matchy-star-gdd
 
 Matchy Star is a polished, fast-paced puzzle game focused on expressive matching, satisfying chain reactions, and arcade-style flow. It represents one of our most production-mature projects, with a full Steam presence and a long design history behind it. Ongoing work tends to focus on progression tuning, onboarding clarity, accessibility, juice, and post-launch quality-of-life improvements. This project is a strong fit for collaborators interested in puzzle design, UX iteration, player psychology, and shipping games at a commercial scale.
+
+### Gruboli
+
+**Platform:** Transmedia / Worldbuilding IP  
+**Site:** https://gruboli.com  
+**Concept Bible:** [gruboli-concept-bible.md](./gruboli-concept-bible.md)
+
+Gruboli is an original Silverware Games worldbuilding IP focused on lore-first development, character ecosystems, and long-term creative continuity across formats. It serves as a foundation for narrative experiments, visual exploration, and future game or media projects that can share a cohesive mythology while still standing on their own.
 
 ### Xanadu Live
 
@@ -84,6 +92,7 @@ Hundred Bullets is a puzzle shmup where the core challenge isn’t enemy fire—
 
 ## Related Docs
 
+- [gruboli-concept-bible.md](./gruboli-concept-bible.md)
 - [PUBLIC-HUB.md](../public/PUBLIC-HUB.md)
 - [philosophy-and-ethos.md](../public/philosophy-and-ethos.md)
 - [podcasts-and-content.md](../public/podcasts-and-content.md)
