@@ -12,7 +12,10 @@ $allowedStatus = @("Active", "Draft", "Needs Review", "Archived", "Replaced By")
 $allowedDocTypes = @("Orientation", "Reference", "Workflow")
 $utf8BomChar = [char]0xFEFF
 $metadataPattern = '^<sub><(?<Tag>em|i)>\s*Status:\s*(?<Status>[^|]+?)\s*\|\s*Audience:\s*(?<Audience>[^|]+?)\s*\|\s*Doc-Type:\s*(?<DocType>[^|]+?)\s*\|\s*Owner:\s*(?<Owner>[^|]+?)\s*\|\s*Last Reviewed:\s*(?<LastReviewed>[^|]+?)\s*\|\s*Canonical:\s*(?<Canonical>[^|<]+?)\s*</\k<Tag>></sub>$'
+$registryHeaderLine = "| Doc | Title | Audience | Purpose | Doc Type | Status | Owner | Last Reviewed |"
+$registrySeparatorLine = "| --- | ----- | -------- | ------- | -------- | ------ | ----- | ------------- |"
 $failures = New-Object System.Collections.Generic.List[string]
+$repoMapHeaderUpdated = $false
 
 function Invoke-Git {
     param(
@@ -184,6 +187,56 @@ if ($sectionStart -lt 0) {
     $sectionMatchReason = "whole-file-fallback"
 }
 
+if ($Regenerate -and $sectionStart -ge 0) {
+    $headerLineIndex = -1
+    $separatorLineIndex = -1
+
+    for ($i = $sectionStart + 1; $i -lt $lines.Count; $i++) {
+        $line = $lines[$i]
+
+        if ($line -match '^\s*##\s+') {
+            break
+        }
+
+        if ($line -match '^\s*\|\s*Doc\s*\|\s*Title\s*\|\s*Audience\s*\|\s*Purpose\s*\|\s*Doc\s*Type\s*\|\s*Status\s*\|\s*Owner\s*\|\s*Last\s*Reviewed\s*\|\s*$') {
+            $headerLineIndex = $i
+            break
+        }
+    }
+
+    if ($headerLineIndex -ge 0) {
+        if ($lines[$headerLineIndex] -ne $registryHeaderLine) {
+            $lines[$headerLineIndex] = $registryHeaderLine
+            $repoMapHeaderUpdated = $true
+        }
+
+        $candidateSeparatorIndex = $headerLineIndex + 1
+        if ($candidateSeparatorIndex -lt $lines.Count) {
+            if ($lines[$candidateSeparatorIndex] -match '^\s*\|\s*[-: ]+\|') {
+                $separatorLineIndex = $candidateSeparatorIndex
+            }
+        }
+
+        if ($separatorLineIndex -ge 0) {
+            if ($lines[$separatorLineIndex] -ne $registrySeparatorLine) {
+                $lines[$separatorLineIndex] = $registrySeparatorLine
+                $repoMapHeaderUpdated = $true
+            }
+        }
+        else {
+            $tailStart = $headerLineIndex + 1
+            if ($tailStart -le ($lines.Count - 1)) {
+                $lines = @($lines[0..$headerLineIndex] + @($registrySeparatorLine) + $lines[$tailStart..($lines.Count - 1)])
+            }
+            else {
+                $lines = @($lines[0..$headerLineIndex] + @($registrySeparatorLine))
+            }
+
+            $repoMapHeaderUpdated = $true
+        }
+    }
+}
+
 $registryRows = New-Object System.Collections.Generic.List[object]
 $tableLikeLines = New-Object System.Collections.Generic.List[object]
 $scanStartLineIndex = if ($sectionStart -ge 0) { $sectionStart + 1 } else { 0 }
@@ -266,8 +319,6 @@ if ($registryRows.Count -eq 0) {
 
 $rowPattern = '^\s*\|\s*\[(?<docText>[^\]]+)\]\((?<link>[^)]+)\)\s*\|\s*(?<title>.*?)\s*\|\s*(?<audience>.*?)\s*\|\s*(?<purpose>.*?)\s*\|\s*(?<docType>.*?)\s*\|\s*(?<status>.*?)\s*\|\s*(?<owner>.*?)\s*\|\s*(?<reviewed>.*?)\s*\|\s*$'
 $rowsUpdated = 0
-$repoMapHeaderUpdated = $false
-
 foreach ($rowEntry in $registryRows) {
     $row = $rowEntry.RowText
     $rowLineNumber = $rowEntry.LineIndex + 1
