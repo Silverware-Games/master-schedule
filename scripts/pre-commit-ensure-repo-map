@@ -1,0 +1,25 @@
+#!/usr/bin/env pwsh
+# Pre-commit hook for ensuring repo-map completeness
+# Install: Copy to .git/hooks/pre-commit (no extension on Windows with Git Bash/WSL)
+#          Or configure git core.hooksPath to point to a hooks directory
+
+$ErrorActionPreference = "Stop"
+
+$scriptsDir = Split-Path -Parent (Resolve-Path -LiteralPath $PSCommandPath)
+$repoRoot = Split-Path -Parent (Split-Path -Parent $scriptsDir)
+
+Write-Host "Running pre-commit: ensuring repo-map completeness..."
+
+# Run the compliance check
+& "$scriptsDir\ensure-repo-map-complete.ps1" -Root $repoRoot -AutoFix -Stage
+
+if ($LASTEXITCODE -ne 0) {
+    Write-Host ""
+    Write-Host "⚠️  Pre-commit check detected unmapped files and auto-fixed them."
+    Write-Host "    The repo-map has been regenerated and staged for commit."
+    Write-Host "    Your commit will now include the updated repo-map."
+    Write-Host ""
+    exit 0
+}
+
+exit 0

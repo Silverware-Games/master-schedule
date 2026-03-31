@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Internal | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Internal | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-31 | Canonical: Yes</em></sub>
 
 # INTERNAL HUB
 
@@ -11,14 +11,15 @@ Use this page if you are on the internal team or maintaining systems and automat
 ## Recommended Reading Order
 
 1. [../indexes/repo-map.md](../indexes/repo-map.md) for the authoritative document inventory.
-2. [droplet/droplet.md](./droplet/droplet.md) for current server structure.
-3. [hosting-and-dns.md](./hosting-and-dns.md) for hosting and DNS references.
-4. [calendar.md](./calendar.md) for working rhythm expectations.
-5. [wordpress/staging-server.md](./wordpress/staging-server.md) for staging architecture.
-6. [wordpress/onboarding.md](./wordpress/onboarding.md) for onboarding procedures.
-7. [wordpress/deployment.md](./wordpress/deployment.md) for deployment workflow.
-8. [droplet/content-ops.md](./droplet/content-ops.md) for command-level operations.
-9. [legacy-projects.md](./legacy-projects.md) and [migration-from-hostgator.md](./migration-from-hostgator.md) only for historical context.
+2. [repo-map-automation-setup.md](./repo-map-automation-setup.md) for setting up automatic repo-map verification (recommended!).
+3. [droplet/droplet.md](./droplet/droplet.md) for current server structure.
+4. [hosting-and-dns.md](./hosting-and-dns.md) for hosting and DNS references.
+5. [calendar.md](./calendar.md) for working rhythm expectations.
+6. [wordpress/staging-server.md](./wordpress/staging-server.md) for staging architecture.
+7. [wordpress/onboarding.md](./wordpress/onboarding.md) for onboarding procedures.
+8. [wordpress/deployment.md](./wordpress/deployment.md) for deployment workflow.
+9. [droplet/content-ops.md](./droplet/content-ops.md) for command-level operations.
+10. [legacy-projects.md](./legacy-projects.md) and [migration-from-hostgator.md](./migration-from-hostgator.md) only for historical context.
 
 ## In A Hurry
 
