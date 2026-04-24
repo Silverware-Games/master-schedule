@@ -10,13 +10,11 @@ There are many issues I am trying to get resolved by ID@XBOX but no one can seem
 
 3. I keep getting banned from the micrsoft dev server and no one has explained what my offense is. I was banned once for posting a picture of beans. They said they would investigate but no one could explain what happened. Now I'm told "this is my final warning" ... I'm still not sure what I said that was wrong.
 
-4. Mobile hardware: Microsoft explains that they want their games to be "play anywhere" ... can I get a device to test my game? No one will even tell me yes or no.
+4. Competing docs and competing people: Unity or Microsoft answering a question... they each try to pass me to the other one... Do we have a system to deal with this? I was told not to talk to people in back channels outside of the unity thread, I was told that I lack experience, I was told to go through a labyrinth of docs that compete with each other. There is a forum, I was told not to use it. I asked a microsoft employee about achievements once and his email was set to block all external mail that doesn't come from microsoft.com ... where do I go to answer basic undocumented questions?
 
-5. Competing docs and competing people: Unity or Microsoft answering a question... they each try to pass me to the other one... Do we have a system to deal with this? I was told not to talk to people in back channels outside of the unity thread, I was told that I lack experience, I was told to go through a labyrinth of docs that compete with each other. There is a forum, I was told not to use it. I asked a microsoft employee about achievements once and his email was set to block all external mail that doesn't come from microsoft.com ... where do I go to answer basic undocumented questions?
+5. I was told, that without a PM (product manager) on microsoft's side it is not worth launching on XBOX... that can't be right? Because I really don't have a single point of contact for my inquires.
 
-6. I was told, that without a PM (product manager) on microsoft's side it is not worth launching on XBOX... that can't be right? Because I really don't have a single point of contact for my inquires.
-
-7. I have no reason to believe that my launch will justify buying a Unity Licence for a year, even though I have a fairly complete game in the XBOX flighting system. So until someone can explain "why should an indie who isn't some big name like 'silk song' launch on XBOX?" I'm stuck on this front.
+6. I have no reason to believe that my launch will justify buying a Unity Licence for a year, even though I have a fairly complete game in the XBOX flighting system. So until someone can explain "why should an indie who isn't some big name like 'silk song' launch on XBOX?" I'm stuck on this front.
 
 But really what I want from Microsoft is World Peace:
 
