@@ -22,7 +22,7 @@ But really what I want from Microsoft is World Peace:
 
 https://www.youtube.com/watch?v=3st-Hai1y54
 
-# Email Credential AI Aware Routing System
+# Pitch: Email Credential AI Aware Routing System
 
 If a company the size of Microsoft (~220,000 employees) wastes just 5 minutes per employee per day trying to find the right person or route a misdirected request, that adds up to over 18,000 hours of lost productivity every day. At an average fully-loaded salary of about $70 per hour, that’s roughly $1.2 million in lost productivity per day — over $300 million per year spent simply figuring out who to talk to.
 
