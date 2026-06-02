@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: All | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-03-31 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: All | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-06-02 | Canonical: Yes</em></sub>
 
 # Silverware Games Repository Map
 
@@ -41,7 +41,7 @@ Every Markdown doc must begin with:
 | [docs/indexes/orientation-docs.md](./orientation-docs.md)                                    | Orientation Docs Index                                    | All                            | Index of stable entry-point docs.                               | Orientation | Active       | Michael | 2026-03-29    |
 | [docs/indexes/operational-docs.md](./operational-docs.md)                                    | Operational Docs Index                                    | All                            | Index of procedure-heavy, living runbooks.                      | Orientation | Active       | Michael | 2026-03-29    |
 | [docs/indexes/repo-map.md](./repo-map.md)                                                    | Silverware Games Repository Map                           | All                            | Canonical inventory and metadata map for docs.                  | Reference   | Active       | Michael | 2026-03-31    |
-| [docs/ip/IP-HUB.md](../ip/IP-HUB.md)                                                         | IP HUB                                                    | Public, Clients, Collaborators | Hub and snapshot of active and visible projects.                | Orientation | Active       | Michael | 2026-03-31    |
+| [docs/ip/IP-HUB.md](../ip/IP-HUB.md) | IP HUB | Public, Clients, Collaborators | Hub and snapshot of active and visible projects. | Orientation | Active | Michael | 2026-06-02 |
 | [docs/ip/gruboli-concept-bible.md](../ip/gruboli-concept-bible.md)                           | Gruboli’s Concept Bible                                   | Public, Clients, Collaborators | Design system and character definition for Gruboli IP.          | Reference   | Active       | Michael | 2026-03-31    |
 | [docs/indexes/incomplete-docs.md](./incomplete-docs.md)                                      | Incomplete Docs Index                                     | Internal                       | Auto-generated index of all Draft and Needs Review documents.   | Workflow    | Active       | Michael | 2026-03-29    |
 | [docs/public/coffee-doodle-art.md](../public/coffee-doodle-art.md)                           | Coffee Doodle Art                                         | Public                         | Landing page for the Coffee Doodle Art initiative.              | Reference   | Draft        | Michael | 2026-03-11    |

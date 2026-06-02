@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Public, Clients, Collaborators | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-31 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Public, Clients, Collaborators | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-06-02 | Canonical: Yes</em></sub>
 
 # IP HUB
 
@@ -42,13 +42,27 @@ Xanadu Live is an ambitious voxel-based game project built around a next-generat
 
 Lily’s Game is a fast, playful mini-game anthology in the vein of WarioWare, where each short game contributes a piece of a larger narrative. The emphasis is on variety, surprise, and personality—rapidly teaching new mechanics, then moving on before they wear out their welcome. Active development includes adding new mini-games, refining transitions, improving story delivery between games, and tightening tutorial clarity without slowing the pace. This project is especially welcoming to collaborators who enjoy rapid prototyping, narrative-through-mechanics, and designing tight gameplay moments.
 
-### Wash Towel Fill
+### WashTowelFill.io
 
 **Platform:** HTML5 / Web (Client–Server)  
 **Play:** https://washtowelfill.io  
 **Design & Issues:** https://github.com/Silverware-Games/wash-towel-fill-gdd
 
-Wash Towel Fill is a competitive tower-wars-style car wash game—and a major technical milestone for the studio. It’s our first title built around a real backend: core game logic runs on our servers to prevent cheating, enable asynchronous competition, and allow players to send waves of filthy cars to their friends (and frenemies). Players design and optimize their own car wash layouts while sabotaging others in a playful escalation of chaos (with plenty of Cheesecake and Beefcake). Ongoing work includes backend logic, balance, competitive systems, UI clarity, and scalability—making this an excellent project for collaborators interested in multiplayer systems, backend integration, or competitive design.
+WashTowelFill.io is a competitive tower-wars-style car wash game—and a major technical milestone for the studio. It’s our first title built around a real backend: core game logic runs on our servers to prevent cheating, enable asynchronous competition, and allow players to send waves of filthy cars to their friends (and frenemies). Players design and optimize their own car wash layouts while sabotaging others in a playful escalation of chaos (with plenty of Cheesecake and Beefcake). Ongoing work includes backend logic, balance, competitive systems, UI clarity, and scalability—making this an excellent project for collaborators interested in multiplayer systems, backend integration, or competitive design.
+
+### Dracula: The Torment of Renfield
+
+**Platform:** Video Game / Concept  
+**Concept Page:** https://silverwaregames.com/swg/dracula-the-torment-of-renfield/
+
+Dracula: The Torment of Renfield is a reverse-horror strategy concept where the player is not a monster stalking hallways, but Dracula’s presence inside the castle itself. Renfield is the hunted escapee, driven by AI and pathfinding systems as he searches for exits, follows light, avoids danger, remembers routes, and adapts to the player’s tricks. The player reshapes the gothic labyrinth—sealing passages, folding rooms, extinguishing candles, whispering through walls, and turning architecture into psychological pressure. The design centers on fear, suspicion, resistance, fascination, and eventual surrender rather than simple violence. This project is a strong fit for collaborators interested in AI behavior, isometric strategy, gothic visual systems, modular tile design, and psychological game loops.
+
+### Puzzlenox
+
+**Platform:** Mobile  
+**Learn More:** https://silverwaregames.com/swg/three-puzzles-one-game/
+
+Puzzlenox is a mobile puzzle game built around three distinct puzzle types that gradually become interconnected over time. The hook is not only solving individual puzzles, but noticing how the three systems begin to imply a larger path, pattern, or mystery beneath the surface. The public positioning is clean and player-friendly: three puzzles, one path, unlimited levels, no ads, and no in-app purchases. Current creative interest centers on the relationship between the three puzzle modes, how the “Nox” mystery reveals itself through play, and how mobile-friendly puzzle clarity can coexist with a deeper hidden structure.
 
 ### Firestarter
 
