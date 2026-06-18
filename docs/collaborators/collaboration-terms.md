@@ -76,6 +76,18 @@ If there is a conflict between these terms and a separate signed written agreeme
 
 You accept these terms by submitting a Collaboration Material to Silverware Games, including by pull request, patch, upload, email, message, file transfer, or any other delivery method.
 
+11. Good-Faith Discussion; Optional Mediation
+
+At Silverware Games, we want people to want to be in business with us. If a collaborator believes in good faith that their Collaboration Material has become a substantial and unusually important part of a Silverware Games project, the collaborator may contact Silverware Games at michael@silverwaregames.com to discuss whether a separate written agreement, credit adjustment, or voluntary compensation arrangement is appropriate.
+
+The parties agree to first try to resolve any such concern through direct good-faith discussion.
+
+If the concern cannot be resolved through direct discussion, Silverware Games and the collaborator may mutually agree to participate in non-binding mediation. Unless the parties agree otherwise in writing, mediation will be conducted remotely, the parties will share mediator fees equally, and each party will bear its own costs and attorneys’ fees.
+
+No mediation, discussion, or request for renegotiation will revoke, suspend, limit, or otherwise affect the license granted to Silverware Games under these terms unless Silverware Games agrees otherwise in a separate signed written agreement.
+
+Nothing in this section creates a guarantee of compensation, ownership, employment, partnership, revenue share, or future work.
+
 ---
 
 If you are contributing under a separate signed contract, rev-share agreement, work-for-hire agreement, or other written deal, that separate signed agreement is the one that counts.
