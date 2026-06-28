@@ -186,11 +186,11 @@ foreach ($mdFile in $allMdFiles) {
 }
 
 if ($missing.Count -eq 0) {
-    Write-Host -ForegroundColor Green "✓ All markdown files are mapped in the repo-map!"
+    Write-Host -ForegroundColor Green "OK: All markdown files are mapped in the repo-map!"
     exit 0
 }
 
-Write-Host -ForegroundColor Yellow "Missing from repo-map ($($missing.Count) file(s)):"
+Write-Host -ForegroundColor Yellow ("Missing from repo-map: {0} files" -f $missing.Count)
 $missing | ForEach-Object { Write-Host "  - $_" }
 
 if (-not $AutoFix) {
@@ -201,12 +201,16 @@ if (-not $AutoFix) {
 
 Write-Host ""
 Write-Host "Running verify-repo-map-status.ps1 with -Regenerate..."
-& "$PSScriptRoot\verify-repo-map-status.ps1" -Root $Root -RepoMapPath $RepoMapPath -Regenerate $(if ($Stage) { "-Stage" } else { "" })
+$verifyArgs = @("-Root", $Root, "-RepoMapPath", $RepoMapPath, "-Regenerate")
+if ($Stage) {
+    $verifyArgs += "-Stage"
+}
+& "$PSScriptRoot\verify-repo-map-status.ps1" @verifyArgs
 
 if ($LASTEXITCODE -ne 0) {
     Write-Host -ForegroundColor Red "Regeneration failed!"
     exit 1
 }
 
-Write-Host -ForegroundColor Green "✓ Repo-map regenerated successfully!"
+Write-Host -ForegroundColor Green "OK: Repo-map regenerated successfully!"
 exit 0
