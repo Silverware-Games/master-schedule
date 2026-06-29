@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Public, Clients, Collaborators | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-06-02 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Public, Clients, Collaborators | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-06-29 | Canonical: Yes</em></sub>
 
 # IP HUB
 
@@ -46,7 +46,7 @@ Lily’s Game is a fast, playful mini-game anthology in the vein of WarioWare, w
 
 **Platform:** HTML5 / Web (Client–Server)  
 **Play:** https://washtowelfill.io  
-**Design & Issues:** https://github.com/Silverware-Games/wash-towel-fill-gdd
+**Design & Issues:** https://github.com/Silverware-Games/wash-towel-fill-issues
 
 WashTowelFill.io is a competitive tower-wars-style car wash game—and a major technical milestone for the studio. It’s our first title built around a real backend: core game logic runs on our servers to prevent cheating, enable asynchronous competition, and allow players to send waves of filthy cars to their friends (and frenemies). Players design and optimize their own car wash layouts while sabotaging others in a playful escalation of chaos (with plenty of Cheesecake and Beefcake). Ongoing work includes backend logic, balance, competitive systems, UI clarity, and scalability—making this an excellent project for collaborators interested in multiplayer systems, backend integration, or competitive design.
 
