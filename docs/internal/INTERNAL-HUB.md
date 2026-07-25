@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Internal | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-06-28 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Internal | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-07-25 | Canonical: Yes</em></sub>
 
 # INTERNAL HUB
 
@@ -15,12 +15,13 @@ Use this page if you are on the internal team or maintaining systems and automat
 3. [local-workspace.md](./local-workspace.md) for the canonical local repo layout.
 4. [droplet/droplet.md](./droplet/droplet.md) for current server structure.
 5. [hosting-and-dns.md](./hosting-and-dns.md) for hosting and DNS references.
-6. [calendar.md](./calendar.md) for working rhythm expectations.
-7. [wordpress/staging-server.md](./wordpress/staging-server.md) for staging architecture.
-8. [wordpress/onboarding.md](./wordpress/onboarding.md) for onboarding procedures.
-9. [wordpress/deployment.md](./wordpress/deployment.md) for deployment workflow.
-10. [droplet/content-ops.md](./droplet/content-ops.md) for command-level operations.
-11. [legacy-projects.md](./legacy-projects.md) and [migration-from-hostgator.md](./migration-from-hostgator.md) only for historical context.
+6. [game-telemetry.md](./game-telemetry.md) for integrating native and browser games with shared stats.
+7. [calendar.md](./calendar.md) for working rhythm expectations.
+8. [wordpress/staging-server.md](./wordpress/staging-server.md) for staging architecture.
+9. [wordpress/onboarding.md](./wordpress/onboarding.md) for onboarding procedures.
+10. [wordpress/deployment.md](./wordpress/deployment.md) for deployment workflow.
+11. [droplet/content-ops.md](./droplet/content-ops.md) for command-level operations.
+12. [legacy-projects.md](./legacy-projects.md) and [migration-from-hostgator.md](./migration-from-hostgator.md) only for historical context.
 
 ## In A Hurry
 
@@ -30,6 +31,7 @@ Use task-based triage:
 2. WordPress release: [wordpress/deployment.md](./wordpress/deployment.md) then [wordpress/staging-server.md](./wordpress/staging-server.md).
 3. Content changes on server: [droplet/content-ops.md](./droplet/content-ops.md).
 4. Local repo or staging-file question: [local-workspace.md](./local-workspace.md).
+5. Game stats integration: [game-telemetry.md](./game-telemetry.md).
 
 ## Should Anything Be Ignored?
 

@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Internal | Doc-Type: Workflow | Owner: Michael | Last Reviewed: 2026-06-28 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Internal | Doc-Type: Workflow | Owner: Michael | Last Reviewed: 2026-07-25 | Canonical: Yes</em></sub>
 
 # Local Silverware Games Workspace
 
@@ -28,6 +28,16 @@ Open this folder when working across the main site, public docs, shared engine, 
 
 - `E:\Dev\SilverwareGames\_staging` is the drop zone for unsorted files before they are moved into the correct repo.
 - `E:\Dev\Archive` stores old top-level checkout folders. Do not do active work from archive folders.
+
+## Active Unity Checkouts
+
+Some established Unity repositories remain directly under `E:\Dev` because their editor and package configuration predates the consolidated web workspace.
+
+| Folder | Role |
+| --- | --- |
+| `E:\Dev\MatchyStar.git` | Private Matchy Star Unity implementation |
+
+Treat these paths as active canonical checkouts, not archives. Cross-repository work should use explicit paths and separate commits for the Unity project, shared documentation, and hosted services.
 
 ## Staging Workflow
 

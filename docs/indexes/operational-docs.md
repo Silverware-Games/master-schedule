@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-06-28 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-07-25 | Canonical: Yes</em></sub>
 
 # Operational Docs Index
 
@@ -27,6 +27,7 @@ Operational docs answer: "how exactly do we do this?"
 - [docs/internal/calendar.md](../../docs/internal/calendar.md): ongoing work rhythm and cadence.
 - [docs/internal/hosting-and-dns.md](../../docs/internal/hosting-and-dns.md): hosting and DNS operating references.
 - [docs/internal/local-workspace.md](../../docs/internal/local-workspace.md): canonical local workspace layout and staging-file workflow.
+- [docs/internal/game-telemetry.md](../../docs/internal/game-telemetry.md): cross-repository workflow for connecting browser and native games to shared stats.
 - [docs/internal/legacy-projects.md](../../docs/internal/legacy-projects.md): inventory and decisions for legacy assets.
 - [docs/internal/droplet/droplet.md](../../docs/internal/droplet/droplet.md): active droplet baseline and layout.
 - [docs/internal/droplet/content-ops.md](../../docs/internal/droplet/content-ops.md): command-level content and hosting operations.
