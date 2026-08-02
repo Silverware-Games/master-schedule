@@ -14,6 +14,11 @@ Dracula is a reverse-horror strategy concept in which the player controls the wi
 - **Concept page:** [Dracula: The Torment of Renfield](https://silverwaregames.com/swg/dracula-the-torment-of-renfield/)
 - **Public tracker:** Not established yet
 
+## Videos And Public Posts
+
+- **2026-05-08 — [Dracula Game Dev Diary #2: Pathing and Tutorial](https://www.youtube.com/watch?v=3fWu0FYhZ2c):** Development diary focused on navigation and teaching the game.
+- **2026-05-07 — [Dracula Game Dev Diary #1: Codex ChatGPT 5.5 OH MY](https://www.youtube.com/watch?v=JK5blQveo9U):** First public development diary for the project.
+
 ## Useful Contributions
 
 - AI behavior and pathfinding
