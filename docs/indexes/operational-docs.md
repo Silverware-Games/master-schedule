@@ -1,41 +1,38 @@
-<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-07-25 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Internal, Collaborators | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: Yes</em></sub>
 
-# Operational Docs Index
+# Operational Docs
 
-Use this page when you need detailed, frequently updated procedures.
+Use this index when you need to perform a task. Descriptive references and public orientation pages belong in the [Repository Map](./repo-map.md), not here.
 
-Operational docs answer: "how exactly do we do this?"
+## Join Or Start Work
 
-## Rules For Operational Docs
+- **Join as a contributor:** [Collaborator Onboarding](../collaborators/collaborator-onboarding.md)
+- **Understand contribution rights:** [Collaboration Terms](../collaborators/collaboration-terms.md)
+- **Set up the local workspace:** [Local Workspace](../internal/local-workspace.md)
 
-- Capture concrete steps, commands, and validation checks.
-- Update these docs whenever process details change.
-- Keep orientation docs short by linking to these pages instead of duplicating procedures.
+## Maintain Documentation
 
-## Public Operational Docs
+- **Find unfinished material:** [Incomplete Docs](./incomplete-docs.md)
+- **Configure map verification:** [Repo-Map Automation Setup](../internal/repo-map-automation-setup.md)
+- **Check the canonical registry:** [Repository Map](./repo-map.md)
 
-- [docs/ip/IP-HUB.md](../../docs/ip/IP-HUB.md): living snapshot of active and visible work.
-- [docs/indexes/incomplete-docs.md](../../docs/indexes/incomplete-docs.md): auto-generated list of all Draft and Needs Review docs — start here to find what needs fixing.
+## Operate Websites And Infrastructure
 
-## Collaborator Operational Docs
+- **Understand the active server:** [Droplet Structure](../internal/droplet/droplet.md)
+- **Run server content operations:** [Content Ops](../internal/droplet/content-ops.md)
+- **Check hosting and DNS conventions:** [Hosting And DNS](../internal/hosting-and-dns.md)
 
-- [docs/collaborators/collaborator-onboarding.md](../../docs/collaborators/collaborator-onboarding.md): contributor onboarding workflow and repo norms.
-- [docs/collaborators/collaboration-terms.md](../../docs/collaborators/collaboration-terms.md): default legal collaboration terms and licensing model.
+## Work With WordPress Clients
 
-## Internal Operational Docs
+- **Onboard a site:** [WordPress Onboarding](../internal/wordpress/onboarding.md)
+- **Understand staging:** [Staging Server](../internal/wordpress/staging-server.md)
+- **Follow the client workflow:** [Client Workflow](../internal/wordpress/workflow-client.md)
+- **Deploy approved work:** [WordPress Deployment](../internal/wordpress/deployment.md)
 
-- [docs/internal/calendar.md](../../docs/internal/calendar.md): ongoing work rhythm and cadence.
-- [docs/internal/hosting-and-dns.md](../../docs/internal/hosting-and-dns.md): hosting and DNS operating references.
-- [docs/internal/local-workspace.md](../../docs/internal/local-workspace.md): canonical local workspace layout and staging-file workflow.
-- [docs/internal/game-telemetry.md](../../docs/internal/game-telemetry.md): cross-repository workflow for connecting browser and native games to shared stats.
-- [docs/internal/legacy-projects.md](../../docs/internal/legacy-projects.md): inventory and decisions for legacy assets.
-- [docs/internal/droplet/droplet.md](../../docs/internal/droplet/droplet.md): active droplet baseline and layout.
-- [docs/internal/droplet/content-ops.md](../../docs/internal/droplet/content-ops.md): command-level content and hosting operations.
-- [docs/internal/wordpress/onboarding.md](../../docs/internal/wordpress/onboarding.md): WordPress onboarding procedure.
-- [docs/internal/wordpress/staging-server.md](../../docs/internal/wordpress/staging-server.md): staging architecture and server conventions.
-- [docs/internal/wordpress/workflow-client.md](../../docs/internal/wordpress/workflow-client.md): client workflow across backup, staging, and approval.
-- [docs/internal/wordpress/deployment.md](../../docs/internal/wordpress/deployment.md): deployment procedure from staging to live.
+## Integrate Game Telemetry
 
-## Historical Reference
+- **Connect a game to shared stats:** [Game Telemetry](../internal/game-telemetry.md)
 
-- [docs/internal/migration-from-hostgator.md](../../docs/internal/migration-from-hostgator.md): completed migration archive retained for reference.
+## Documentation Gaps
+
+The drawer does not yet have canonical workflows for creating a new project, publishing a non-WordPress website, releasing a game, incident response, or retiring a project. These should be added as real procedures when the underlying process is confirmed—not as empty placeholder files.

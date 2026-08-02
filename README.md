@@ -1,41 +1,19 @@
-<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-31 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: Yes</em></sub>
 
 # Silverware Drawer
 
 <img width="1280" height="640" alt="silverware-drawer-thumb" src="https://github.com/user-attachments/assets/ae06a45d-ba65-4150-875f-166c27141071" />
 
-**The documentation hub for Silverware Games (SWG).**
+The documentation home for Silverware Games: our projects, principles, collaboration paths, services, and operating knowledge.
 
-This repository organizes the knowledge, philosophy, projects, and operational systems behind **Silverware Games**, an independent creative studio building:
+## Choose A Door
 
-- games
-- interactive experiences
-- experimental media
-- creative tooling
-- collaborative projects
+- **New here?** Start with [START-HERE.md](START-HERE.md).
+- **Fans and players:** Visit the [Public Hub](docs/public/PUBLIC-HUB.md).
+- **Potential collaborators:** Visit the [Collaborator Hub](docs/collaborators/COLLABORATOR-HUB.md).
+- **Clients and prospects:** Visit the [Client Hub](docs/clients/CLIENT-HUB.md).
+- **Team members and maintainers:** Visit the [Internal Hub](docs/internal/INTERNAL-HUB.md).
+- **Projects and creative IP:** Visit the [IP Hub](docs/ip/IP-HUB.md).
+- **Looking for one specific document?** Use the [Repository Map](docs/indexes/repo-map.md).
 
-The **Silverware Drawer** acts as a structured knowledge base so that anyone — human or machine — can quickly understand how the SWG ecosystem works.
-
-# Start Here
-
-If this is your first time exploring the repo:
-
-➡ **Read the orientation guide**
-
-[START-HERE.md](START-HERE.md)
-
-This explains how the repository is structured and where to begin.
-
-➡ **Just want the map?**
-
-[docs/indexes/repo-map.md](docs/indexes/repo-map.md)
-
-# Any Questions?
-
-Contact us @michaelplzno on social. Make an issue in the repo and we'll take care of it.
-
----
-
-Silverware Games
-
-Organized chaos since the beginning.
+Questions or corrections are welcome as GitHub issues or messages to `@michaelplzno`.

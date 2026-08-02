@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: All | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-07-25 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: All | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: Yes</em></sub>
 
 # Silverware Games Repository Map
 
@@ -32,18 +32,18 @@ Every Markdown doc must begin with:
 
 | Doc | Title | Audience | Purpose | Doc Type | Status | Owner | Last Reviewed |
 | --- | ----- | -------- | ------- | -------- | ------ | ----- | ------------- |
-| [README.md](../../README.md)                                                                 | Silverware Drawer                                         | All                            | Root router by audience and task.                               | Orientation | Active       | Michael | 2026-03-31    |
-| [START-HERE.md](../../START-HERE.md)                                                         | START HERE                                                | All                            | Human-first intro to repo intent and structure.                 | Orientation | Active       | Michael | 2026-03-29    |
+| [README.md](../../README.md)                                                                 | Silverware Drawer                                         | All                            | Shortest route into the drawer.                                 | Orientation | Active       | Michael | 2026-08-02    |
+| [START-HERE.md](../../START-HERE.md)                                                         | Start Here                                                | All                            | Audience-based introduction and repository conventions.         | Orientation | Active       | Michael | 2026-08-02    |
 | [docs/public/PUBLIC-HUB.md](../public/PUBLIC-HUB.md)                                         | Ya heard of us?                                           | Public                         | Audience landing page for public readers.                       | Orientation | Active       | Michael | 2026-03-28    |
 | [docs/collaborators/COLLABORATOR-HUB.md](../collaborators/COLLABORATOR-HUB.md)               | You want to work with us?!                                | Collaborators                  | Audience landing page for collaborators and contributors.       | Orientation | Active       | Michael | 2026-03-29    |
 | [docs/clients/CLIENT-HUB.md](../clients/CLIENT-HUB.md)                                       | We'll make your ideas into a real product.                | Clients                        | Audience landing page for clients and prospects.                | Orientation | Active       | Michael | 2026-03-13    |
 | [docs/internal/INTERNAL-HUB.md](../internal/INTERNAL-HUB.md) | INTERNAL HUB | Internal | Audience landing page for team operations and automation. | Orientation | Active | Michael | 2026-07-25 |
-| [docs/indexes/orientation-docs.md](./orientation-docs.md)                                    | Orientation Docs Index                                    | All                            | Index of stable entry-point docs.                               | Orientation | Active       | Michael | 2026-03-29    |
-| [docs/indexes/operational-docs.md](./operational-docs.md) | Operational Docs Index | All | Index of procedure-heavy, living runbooks. | Orientation | Active | Michael | 2026-07-25 |
-| [docs/indexes/repo-map.md](./repo-map.md) | Silverware Games Repository Map | All | Canonical inventory and metadata map for docs. | Reference | Active | Michael | 2026-07-25 |
+| [docs/indexes/orientation-docs.md](./orientation-docs.md)                                    | Orientation Docs                                          | All                            | Compact map of entry points, audience hubs, and system indexes. | Orientation | Active       | Michael | 2026-08-02    |
+| [docs/indexes/operational-docs.md](./operational-docs.md) | Operational Docs | Internal, Collaborators | Task-based routing to confirmed workflows and workflow gaps. | Orientation | Active | Michael | 2026-08-02 |
+| [docs/indexes/repo-map.md](./repo-map.md) | Silverware Games Repository Map | All | Canonical inventory and metadata map for docs. | Reference | Active | Michael | 2026-08-02 |
 | [docs/ip/IP-HUB.md](../ip/IP-HUB.md) | IP HUB | Public, Clients, Collaborators | Hub and snapshot of active and visible projects. | Orientation | Active | Michael | 2026-06-29 |
 | [docs/ip/gruboli-concept-bible.md](../ip/gruboli-concept-bible.md)                           | Gruboli’s Concept Bible                                   | Public, Clients, Collaborators | Design system and character definition for Gruboli IP.          | Reference   | Active       | Michael | 2026-03-31    |
-| [docs/indexes/incomplete-docs.md](./incomplete-docs.md)                                      | Incomplete Docs Index                                     | Internal                       | Auto-generated index of all Draft and Needs Review documents.   | Workflow    | Active       | Michael | 2026-03-29    |
+| [docs/indexes/incomplete-docs.md](./incomplete-docs.md) | Incomplete Docs Index | Internal | Auto-generated index of all Draft and Needs Review documents. | Workflow | Active | Michael | 2026-08-02 |
 | [docs/public/coffee-doodle-art.md](../public/coffee-doodle-art.md)                           | Coffee Doodle Art                                         | Public                         | Landing page for the Coffee Doodle Art initiative.              | Reference   | Draft        | Michael | 2026-03-11    |
 | [docs/public/gamedev-feedback.md](../public/gamedev-feedback.md)                             | Gamedev Feedback                                          | Public                         | Overview and submission flow for the Gamedev Feedback series.   | Reference   | Active       | Michael | 2026-03-14    |
 | [docs/public/outstanding-id-at-xbox-issues.md](../public/outstanding-id-at-xbox-issues.md)   | Outstanding ID@Xbox Issues                                | Public                         | Tracks unresolved ID@Xbox process and launch questions.         | Reference   | Active       | Michael | 2026-03-15    |
@@ -55,8 +55,7 @@ Every Markdown doc must begin with:
 | [docs/collaborators/collaboration-terms.md](../collaborators/collaboration-terms.md)         | Collaboration Terms a.k.a. the “Total Consciousness Deal” | Collaborators                  | Default legal terms for collaborator submissions and licensing. | Reference   | Active       | Michael | 2026-03-29    |
 | [docs/clients/services-overview.md](../clients/services-overview.md) | Services Overview | Clients | Explains Silverware Games service offerings and delivery model. | Orientation | Active | Michael | 2026-03-31 |
 | [docs/internal/calendar.md](../internal/calendar.md)                                         | Silverware Games – Living Calendar                        | Internal                       | Records recurring work rhythms and expectations.                | Workflow    | Needs Review | Michael | 2026-03-11    |
-| [docs/internal/hosting-and-dns.md](../internal/hosting-and-dns.md)                           | Hosting And DNS                                           | Internal                       | Current hosting and DNS architecture reference.                 | Reference   | Needs Review | Michael | 2026-03-11    |
-| [docs/internal/HTML5-engine.md](../internal/HTML5-engine.md)                                 | HTML5 Engine (TBD)                                        | Internal                       | Reserved for engine architecture and implementation notes.      | Reference   | Draft        | Michael | 2026-03-11    |
+| [docs/internal/hosting-and-dns.md](../internal/hosting-and-dns.md)                           | Hosting And DNS                                           | Internal                       | Current hosting and DNS architecture reference.                 | Reference   | Needs Review | Michael | 2026-08-02    |
 | [docs/internal/local-workspace.md](../internal/local-workspace.md) | Local Silverware Games Workspace | Internal | Canonical local repo layout and staging-file workflow. | Workflow | Active | Michael | 2026-07-25 |
 | [docs/internal/game-telemetry.md](../internal/game-telemetry.md)                             | Game Telemetry Integration                                | Internal                       | Defines ownership, privacy, transport, and rollout for shared game telemetry. | Workflow | Active | Michael | 2026-07-25 |
 | [docs/internal/repo-map-automation-setup.md](../internal/repo-map-automation-setup.md)       | Repo-Map Auto-Sync Setup Guide                            | Internal                       | Setup guide for automatic repo-map verification.                | Workflow    | Active       | Michael | 2026-03-31    |
@@ -69,8 +68,9 @@ Every Markdown doc must begin with:
 | [docs/internal/wordpress/workflow-client.md](../internal/wordpress/workflow-client.md)       | Silverware Games WordPress Development Process            | Internal                       | Client-facing workflow from staging through approval.           | Workflow    | Needs Review | Michael | 2026-03-11    |
 | [docs/internal/wordpress/deployment.md](../internal/wordpress/deployment.md)                 | Silverware Games WordPress Deployment Workflow            | Internal                       | Procedure for moving approved staging changes to production.    | Workflow    | Needs Review | Michael | 2026-03-11    |
 
-## Supporting Folders
+## Folder Conventions
 
-- `docs/assets/` stores shared documentation assets and is currently empty.
-- `docs/diagrams/` is reserved for architecture and process diagrams and is currently empty.
-- `docs/ip/` stores canonical docs for active creative work and project IP.
+- `docs/public/`, `docs/collaborators/`, `docs/clients/`, and `docs/internal/` organize knowledge by audience.
+- `docs/ip/` stores canonical creative-project and worldbuilding documentation.
+- `docs/indexes/` stores navigation and generated maintenance indexes.
+- Add `docs/assets/` or `docs/diagrams/` only when the repository contains assets that need those homes; do not reserve empty folders.
