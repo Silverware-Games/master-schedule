@@ -1,36 +1,26 @@
-<sub><em>Status: Replaced By | Audience: Internal | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: No</em></sub>
+<sub><em>Status: Replaced By | Audience: Internal | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: No</em></sub>
 
-# HostGator Migration Archive
+# Host Migration Archive
 
-## Silverware Games: HostGator to DigitalOcean
+The migration from the previous shared host to the current hosting model is complete. This page is historical context, not an operations guide.
 
-`Status`: Completed  
-`Document status`: Replaced By `docs/internal/droplet/droplet.md` (historical reference only)
+## Migration Outcomes
 
-The HostGator migration is finished. This file is kept only as a historical archive and should not be used as the active operations guide.
-
-## Current Sources Of Truth
-
-- Droplet structure and host layout: `docs/internal/droplet.md`
-- Current hosting and DNS conventions: `docs/internal/hosting-and-dns.md`
-
-## Migration Outcomes (Completed)
-
-- Hosting moved from HostGator to the DigitalOcean droplet.
-- DNS authority moved off HostGator.
-- Host and document root conventions were standardized.
-- TLS and backup practices were established for droplet operations.
-- HostGator dependencies were removed as part of decommissioning.
+- Active properties moved to owned deployment targets.
+- DNS authority was separated from the previous host.
+- Host and deployment conventions were standardized.
+- HTTPS, recovery, and release practices were established.
+- Dependencies on the previous host were removed before decommissioning.
+- Legacy files were classified as migrated, privately preserved, superseded, or intentionally not restored.
 
 ## Historical Scope
 
-The completed migration effort covered:
+The completed effort covered property discovery, archive review, database assessment, DNS and email validation, HTTPS readiness, recovery verification, cutover checks, and decommissioning.
 
-- site and domain inventory review
-- legacy directory and database audit
-- DNS and email verification (MX, SPF, DKIM, DMARC)
-- TLS issuance and renewal validation
-- backup verification before final cutover
-- decommission readiness checks
+Exact account details, paths, addresses, backups, and artifact inventories are intentionally excluded from this public repository.
 
-Use this file for historical context only.
+## Current References
+
+- [Hosting Operations Boundary](./droplet/droplet.md)
+- [Hosting and DNS](./hosting-and-dns.md)
+- [Legacy Hosting Archive Summary](./legacy-projects.md)
