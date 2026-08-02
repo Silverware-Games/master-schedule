@@ -1,34 +1,28 @@
-<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-29 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: All | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: Yes</em></sub>
 
-# Orientation Docs Index
+# Orientation Docs
 
-Use this page when you need stable, short, human-readable entry points.
+Orientation documents answer two questions: **what is this?** and **where should I go next?** They should route readers to canonical detail instead of repeating it.
 
-Orientation docs answer: "what is this?" and "where do I go next?"
+## Front Door
 
-## Rules For Orientation Docs
+- [README.md](../../README.md): shortest route into the drawer.
+- [START-HERE.md](../../START-HERE.md): audience-based introduction.
 
-- Keep pages concise; target under about 500 to 800 words.
-- Prefer routing and context over full procedures.
-- Link outward to operational docs for execution details.
+## Audience Hubs
 
-## Canonical Orientation Docs
+- [Public Hub](../public/PUBLIC-HUB.md)
+- [Collaborator Hub](../collaborators/COLLABORATOR-HUB.md)
+- [Client Hub](../clients/CLIENT-HUB.md)
+- [Internal Hub](../internal/INTERNAL-HUB.md)
+- [IP Hub](../ip/IP-HUB.md)
 
-- [README.md](../../README.md): root router by audience and task.
-- [START-HERE.md](../../START-HERE.md): human introduction to Silverware Games and this repo.
-- [docs/public/PUBLIC-HUB.md](../../docs/public/PUBLIC-HUB.md): public audience landing page.
-- [docs/ip/IP-HUB.md](../../docs/ip/IP-HUB.md): IP hub and active creative work snapshot.
-- [docs/collaborators/COLLABORATOR-HUB.md](../../docs/collaborators/COLLABORATOR-HUB.md): collaborator audience landing page.
-- [docs/clients/CLIENT-HUB.md](../../docs/clients/CLIENT-HUB.md): client audience landing page.
-- [docs/internal/INTERNAL-HUB.md](../../docs/internal/INTERNAL-HUB.md): internal audience landing page.
-- [docs/indexes/repo-map.md](../../docs/indexes/repo-map.md): full inventory of tracked docs.
-- [docs/indexes/orientation-docs.md](../../docs/indexes/orientation-docs.md): this orientation index.
-- [docs/clients/services-overview.md](../../docs/clients/services-overview.md): client-facing services overview.
-- [docs/collaborators/collaborator-onboarding.md](../../docs/collaborators/collaborator-onboarding.md): contributor onboarding entry doc.
-- [docs/collaborators/collaboration-terms.md](../../docs/collaborators/collaboration-terms.md): baseline collaborator legal terms and usage rights.
-- [docs/public/philosophy-and-ethos.md](../../docs/public/philosophy-and-ethos.md): high-level public values and posture.
-- [docs/public/who-is-your-audience.md](../../docs/public/who-is-your-audience.md): public-facing audience strategy and positioning.
+## System Indexes
 
-## Handoff To Operational Docs
+- [Repository Map](./repo-map.md): complete document registry and metadata source of truth.
+- [Operational Docs](./operational-docs.md): task-based workflow routing.
+- [Incomplete Docs](./incomplete-docs.md): generated list of drafts and material awaiting review.
 
-- Execution and runbooks: [docs/indexes/operational-docs.md](../../docs/indexes/operational-docs.md)
+## Editing Rule
+
+Keep orientation pages concise. Put procedures in workflow documents and detailed facts in reference documents.
