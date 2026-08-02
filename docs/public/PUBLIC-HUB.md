@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Public | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-28 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Public | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: Yes</em></sub>
 
 # Ya heard of us?
 
@@ -14,12 +14,11 @@ Maybe... just maybe, you want to give us some support and approval. Let me tell 
 
 1. [philosophy-and-ethos.md](./philosophy-and-ethos.md) for how we think and work.
 2. [who-is-your-audience.md](./who-is-your-audience.md) for our audience strategy and creative positioning.
-3. [podcasts-and-content.md](./podcasts-and-content.md) for long-form media context.
-4. [coffee-doodle-art.md](./coffee-doodle-art.md) for art initiative context.
-5. [gamedev-feedback.md](./gamedev-feedback.md) for feedback-oriented content.
-6. [social-media-overview.md](./social-media-overview.md) for channel-level updates.
+3. [content-and-channels.md](./content-and-channels.md) for art, video, publishing, and channel destinations.
+4. [gamedev-feedback.md](./gamedev-feedback.md) for the game-feedback series and submission path.
+5. [../ip/IP-HUB.md](../ip/IP-HUB.md) for the current project registry.
 
-(if you are in a rush just read the first 2! There will be a quiz later though.)
+(If you are in a rush, just read the first two. There may still be a quiz later.)
 
 ## Still have questions?
 

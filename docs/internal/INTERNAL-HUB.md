@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Internal | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-07-25 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Internal | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: Yes</em></sub>
 
 # INTERNAL HUB
 
@@ -16,7 +16,7 @@ Use this page if you are on the internal team or maintaining systems and automat
 4. [droplet/droplet.md](./droplet/droplet.md) for current server structure.
 5. [hosting-and-dns.md](./hosting-and-dns.md) for hosting and DNS references.
 6. [game-telemetry.md](./game-telemetry.md) for integrating native and browser games with shared stats.
-7. [calendar.md](./calendar.md) for working rhythm expectations.
+7. [working-rhythms.md](./working-rhythms.md) for team and collaborator expectations.
 8. [wordpress/staging-server.md](./wordpress/staging-server.md) for staging architecture.
 9. [wordpress/onboarding.md](./wordpress/onboarding.md) for onboarding procedures.
 10. [wordpress/deployment.md](./wordpress/deployment.md) for deployment workflow.

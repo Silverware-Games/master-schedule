@@ -35,4 +35,4 @@ Use this index when you need to perform a task. Descriptive references and publi
 
 ## Documentation Gaps
 
-The drawer does not yet have canonical workflows for creating a new project, publishing a non-WordPress website, releasing a game, incident response, or retiring a project. These should be added as real procedures when the underlying process is confirmed—not as empty placeholder files.
+The [Documentation Backlog](./documentation-backlog.md) tracks missing runbooks and the evidence needed before they can be written responsibly.
