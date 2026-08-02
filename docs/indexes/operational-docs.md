@@ -18,16 +18,14 @@ Use this index when you need to perform a task. Descriptive references and publi
 
 ## Operate Websites And Infrastructure
 
-- **Understand the active server:** [Droplet Structure](../internal/droplet/droplet.md)
-- **Run server content operations:** [Content Ops](../internal/droplet/content-ops.md)
+- **Understand the public/private operations boundary:** [Hosting Operations Boundary](../internal/droplet/droplet.md)
+- **Apply safe content-change controls:** [Content Operations Safety](../internal/droplet/content-ops.md)
 - **Check hosting and DNS conventions:** [Hosting And DNS](../internal/hosting-and-dns.md)
 
 ## Work With WordPress Clients
 
-- **Onboard a site:** [WordPress Onboarding](../internal/wordpress/onboarding.md)
-- **Understand staging:** [Staging Server](../internal/wordpress/staging-server.md)
-- **Follow the client workflow:** [Client Workflow](../internal/wordpress/workflow-client.md)
-- **Deploy approved work:** [WordPress Deployment](../internal/wordpress/deployment.md)
+- **Run WordPress onboarding, review, or release:** [WordPress Operations Policy](../internal/wordpress/operations.md)
+- **Explain the process to a client:** [How We Work On WordPress Sites](../clients/wordpress-process.md)
 
 ## Integrate Game Telemetry
 

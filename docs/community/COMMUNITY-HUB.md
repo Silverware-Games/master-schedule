@@ -1,10 +1,10 @@
-<sub><em>Status: Active | Audience: Public | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Community | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: Yes</em></sub>
 
-# Ya heard of us?
+# Community Hub: Ya heard of us?
 
-<img width="1280" height="640" alt="public-hub-thumb" src="https://github.com/user-attachments/assets/61ea5da3-b4b2-4ee2-b026-4a3c73b55ad6" />
+<img width="1280" height="640" alt="community-hub-thumb" src="https://github.com/user-attachments/assets/61ea5da3-b4b2-4ee2-b026-4a3c73b55ad6" />
 
-Visitors, fans, well-wishers, hangers-on, acquaintances, and ... "our people." Use this page if you are a visitor, fan, or anyone trying to understand Silverware Games from the outside.
+Players, fans, visitors, well-wishers, hangers-on, acquaintances, and ... "our people." Use this page if you follow our games, art, videos, or experiments—or are simply trying to understand Silverware Games from the outside.
 
 What we are building? What do we value? Where do we follow projects and content?
 

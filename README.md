@@ -9,7 +9,7 @@ The documentation home for Silverware Games: our projects, principles, collabora
 ## Choose A Door
 
 - **New here?** Start with [START-HERE.md](START-HERE.md).
-- **Fans and players:** Visit the [Public Hub](docs/public/PUBLIC-HUB.md).
+- **Fans and players:** Visit the [Community Hub](docs/community/COMMUNITY-HUB.md).
 - **Potential collaborators:** Visit the [Collaborator Hub](docs/collaborators/COLLABORATOR-HUB.md).
 - **Clients and prospects:** Visit the [Client Hub](docs/clients/CLIENT-HUB.md).
 - **Team members and maintainers:** Visit the [Internal Hub](docs/internal/INTERNAL-HUB.md).

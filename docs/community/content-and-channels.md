@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Public, Collaborators | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Community, Collaborators | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: Yes</em></sub>
 
 # Content And Channels
 

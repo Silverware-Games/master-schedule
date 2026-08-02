@@ -20,7 +20,7 @@ Prototyping, tuning, UI and accessibility work, content creation, refactoring, t
 
 ### Art And Content
 
-Drawing, editing, streams, articles, short-form experiments, feedback videos, and conversations. See [Content And Channels](../public/content-and-channels.md) for public destinations.
+Drawing, editing, streams, articles, short-form experiments, feedback videos, and conversations. See [Content And Channels](../community/content-and-channels.md) for public destinations.
 
 ### Client Work
 

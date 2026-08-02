@@ -1,79 +1,39 @@
-<sub><em>Status: Active | Audience: Internal | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-03-11 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Internal | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: Yes</em></sub>
 
-# DigitalOcean Droplet Structure
+# Hosting Operations Boundary
 
-This document is the source of truth for how the Silverware Games production droplet is organized.
+This public document records the durable rules for Silverware Games hosting without exposing production topology or access details.
 
-## Scope And Status
+## Public Repository Boundary
 
-- This is the active hosting layout.
-- HostGator migration is complete.
-- Historical migration context is archived in `docs/internal/migration-from-hostgator.md`.
+Do not record sensitive operational details in this repository, including:
 
-## Hosting Model
+- server addresses, account identifiers, or access methods
+- filesystem paths, usernames, or permission layouts
+- secret names, credential locations, or configuration values
+- complete domain-to-host mappings
+- executable provisioning, removal, recovery, or deployment commands
+- backup locations, schedules, retention, or restoration details
+- monitoring endpoints or security controls
 
-- One hostname = one virtual host = one document root.
-- Document roots are not shared across properties.
-- Each hostname has its own TLS certificate.
-- DNS is managed outside HostGator, with explicit A records pointing hostnames to the droplet IP.
+Store those details in the approved private operations system. Link to that system only from another access-controlled location.
 
-## Filesystem Layout
+## Durable Hosting Principles
 
-All hosted properties are rooted under `/var/www`, with each hostname using its own `public_html` directory.
+- Give each property a clearly owned deployment target.
+- Keep staging and production isolated.
+- Use encrypted connections and least-privilege access.
+- Require recoverable backups before material production changes.
+- Test changes in staging and verify them after release.
+- Keep credentials out of repositories and rotate them when exposure is suspected.
+- Record material infrastructure changes in the private operations log.
 
-```text
-/var/www/
-	silverwaregames.com/
-		public_html/
-	wiki.silverwaregames.com/
-		public_html/
-	mandela.agency/
-		public_html/
-	lilysgame.io/
-		public_html/
-	bobblebonanza.io/
-		public_html/
-	kingzazz.com/
-		public_html/
-	firestarter.cc/
-		public_html/
-	eggfun.io/
-		public_html/
-	washtowelfill.io/
-		public_html/
-	blokaroka.com/
-		public_html/
-	speedwayheroes.com/
-		public_html/
-	xanadu.live/
-		public_html/
-	hundredbullets.com/
-		public_html/
-```
+## Ownership
 
-## Hostname Roles
+The person performing a production change is responsible for confirming authorization, backup readiness, validation, and rollback before beginning. If any of those are uncertain, pause the change and contact the current hosting owner.
 
-- `silverwaregames.com`: Main studio site generated from repository content and data files.
-- `wiki.silverwaregames.com`: MediaWiki instance.
-- `mandela.agency`: WikiMedia-based site.
-- `lilysgame.io`, `bobblebonanza.io`, `kingzazz.com`, `firestarter.cc`, `eggfun.io`, `washtowelfill.io`: HTML5 game domains.
-- `blokaroka.com`, `speedwayheroes.com`, `xanadu.live`, `hundredbullets.com`: Download or landing domains.
+## Related Public-Safe References
 
-## Operations Baseline
-
-- TLS certificates are managed with Certbot and auto-renewal.
-- Renewal check command:
-
-```text
-certbot renew --dry-run
-```
-
-- Backups include daily database dumps and weekly `/var/www` snapshots stored off-droplet.
-
-## Standard Process For A New Hostname
-
-1. Create `/var/www/<hostname>/public_html`.
-2. Add a dedicated virtual host that points to that path.
-3. Issue and attach a TLS certificate for the hostname.
-4. Add or update DNS A records for the hostname.
-5. Document the change in this file and `docs/internal/hosting-and-dns.md`.
+- [Hosting and DNS](../hosting-and-dns.md)
+- [Content Operations Safety](./content-ops.md)
+- [WordPress Operations Policy](../wordpress/operations.md)

@@ -15,9 +15,9 @@ Use this page if you want to contribute to Silverware Games projects. The simple
 1. [collaborator-onboarding.md](./collaborator-onboarding.md) to understand onboarding flow and norms.
 2. [collaboration-terms.md](./collaboration-terms.md) to understand default contributor legal terms.
 3. [../ip/IP-HUB.md](../ip/IP-HUB.md) to find where contribution is currently useful.
-4. [../public/philosophy-and-ethos.md](../public/philosophy-and-ethos.md) to align with creative and working values.
+4. [../community/philosophy-and-ethos.md](../community/philosophy-and-ethos.md) to align with creative and working values.
 5. [../internal/working-rhythms.md](../internal/working-rhythms.md) for expectations about pace, communication, and planning.
 6. [../indexes/operational-docs.md](../indexes/operational-docs.md) to find detailed runbooks once your scope is defined.
-7. [../internal/wordpress/workflow-client.md](../internal/wordpress/workflow-client.md) only if you are assigned WordPress workflow tasks.
+7. [../internal/wordpress/operations.md](../internal/wordpress/operations.md) only if you are assigned WordPress workflow tasks.
 
 If you are rushing, just read the first 2!

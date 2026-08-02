@@ -26,7 +26,6 @@ Use the generated [Incomplete Docs Index](./incomplete-docs.md) for documents th
 
 | Needed Document | Why It Matters | Ready To Write When |
 | --- | --- | --- |
-| Domain and DNS change workflow | Adds change validation and rollback to the existing architecture reference. | The authoritative DNS providers and access owners are confirmed. |
 | Repository conventions | Defines when to create a code repo, public issue tracker, GDD, or combined project. | Current repository patterns are reviewed for intentional exceptions. |
 | Decision log convention | Gives important technical and product decisions a durable, searchable home. | A lightweight format and storage location are chosen. |
 
