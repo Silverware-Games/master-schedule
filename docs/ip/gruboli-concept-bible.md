@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Public, Clients, Collaborators | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-03-31 | Canonical: No</em></sub>
+<sub><em>Status: Active | Audience: Community, Clients, Collaborators | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: No</em></sub>
 
 # Gruboli’s Concept Bible
 

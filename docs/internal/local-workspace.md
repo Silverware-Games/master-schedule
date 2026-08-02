@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Internal | Doc-Type: Workflow | Owner: Michael | Last Reviewed: 2026-07-25 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Internal | Doc-Type: Workflow | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: Yes</em></sub>
 
 # Local Silverware Games Workspace
 
@@ -8,14 +8,14 @@ The canonical local development workspace for Silverware Games is:
 E:\Dev\SilverwareGames
 ```
 
-Open this folder when working across the main site, public docs, shared engine, or any current web game.
+Open this folder when working across the main site, community docs, shared engine, or any current web game.
 
 ## Canonical Local Repos
 
 | Folder | Role |
 | --- | --- |
 | `silverwaregames.com` | Main Silverware Games website and latest-game feed |
-| `silverware-drawer` | Public-facing company documentation and knowledge base |
+| `silverware-drawer` | Publicly readable company documentation and knowledge base |
 | `swgengine` | Shared Silverware Games engine, UI, audio, settings, versioning, and shared assets |
 | `kingzazz.com` | King Zazz game site |
 | `eggfun.io` | Egg Fun game site |

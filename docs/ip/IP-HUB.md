@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Public, Clients, Collaborators | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Community, Clients, Collaborators | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: Yes</em></sub>
 
 # IP Hub
 
@@ -32,9 +32,9 @@ This is the visual directory for Silverware Games projects and creative worlds. 
 ## Related Documentation
 
 - [Gruboli Concept Bible](./gruboli-concept-bible.md)
-- [Public Hub](../public/PUBLIC-HUB.md)
-- [Philosophy And Ethos](../public/philosophy-and-ethos.md)
-- [Content And Channels](../public/content-and-channels.md)
+- [Community Hub](../community/COMMUNITY-HUB.md)
+- [Philosophy And Ethos](../community/philosophy-and-ethos.md)
+- [Content And Channels](../community/content-and-channels.md)
 - [Documentation Backlog](../indexes/documentation-backlog.md)
 
 Update a project home and this directory whenever its posture, identity image, public destination, or canonical tracker changes.

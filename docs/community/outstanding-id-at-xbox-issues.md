@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Public | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-03-15 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Community | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: Yes</em></sub>
 
 # Outstanding ID@Xbox Issues
 

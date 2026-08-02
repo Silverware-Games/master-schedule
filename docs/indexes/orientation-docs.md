@@ -11,7 +11,7 @@ Orientation documents answer two questions: **what is this?** and **where should
 
 ## Audience Hubs
 
-- [Public Hub](../public/PUBLIC-HUB.md)
+- [Community Hub](../community/COMMUNITY-HUB.md)
 - [Collaborator Hub](../collaborators/COLLABORATOR-HUB.md)
 - [Client Hub](../clients/CLIENT-HUB.md)
 - [Internal Hub](../internal/INTERNAL-HUB.md)

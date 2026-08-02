@@ -6,11 +6,11 @@ Silverware Games is an independent creative studio making games, interactive pro
 
 You do not need to read the whole repository. Choose the path that matches why you are here.
 
-## Public
+## Community
 
 For players, fans, curious visitors, and people who want to understand what Silverware Games makes and values.
 
-Start with the [Public Hub](docs/public/PUBLIC-HUB.md).
+Start with the [Community Hub](docs/community/COMMUNITY-HUB.md).
 
 ## Collaborators
 
@@ -45,6 +45,7 @@ The [Operational Docs Index](docs/indexes/operational-docs.md) routes maintainer
 ## How The Drawer Stays Useful
 
 - Organize by audience first and task second.
+- Treat audience labels as navigation, not access control; everything committed here is public.
 - Keep hub pages short; put detailed instructions in workflow documents.
 - Prefer one canonical explanation over repeated summaries.
 - Mark uncertain material as `Draft` or `Needs Review`.

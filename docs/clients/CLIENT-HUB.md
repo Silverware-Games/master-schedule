@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: Clients | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-03-13 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: Clients | Doc-Type: Orientation | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: Yes</em></sub>
 
 # We'll make your ideas into a real product.
 
@@ -26,8 +26,8 @@ Typical engagement posture:
 
 1. [services-overview.md](./services-overview.md) for services and engagement baseline.
 2. [../ip/IP-HUB.md](../ip/IP-HUB.md) for visible project examples.
-3. [../public/philosophy-and-ethos.md](../public/philosophy-and-ethos.md) for working style and values.
-4. [../internal/wordpress/workflow-client.md](../internal/wordpress/workflow-client.md) only if your project uses the WordPress staging workflow.
+3. [../community/philosophy-and-ethos.md](../community/philosophy-and-ethos.md) for working style and values.
+4. [wordpress-process.md](./wordpress-process.md) if your project uses the WordPress review and staging workflow.
 
 If you are in a hurry just read the first 2!
 
