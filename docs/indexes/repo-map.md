@@ -1,4 +1,4 @@
-<sub><em>Status: Active | Audience: All | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-08-02 | Canonical: Yes</em></sub>
+<sub><em>Status: Active | Audience: All | Doc-Type: Reference | Owner: Michael | Last Reviewed: 2026-09-02 | Canonical: Yes</em></sub>
 
 # Silverware Games Repository Map
 
@@ -69,7 +69,7 @@ Every Markdown doc must begin with:
 | [docs/internal/working-rhythms.md](../internal/working-rhythms.md) | Working Rhythms | Internal, Collaborators | Expectations for pace, communication, and project planning. | Reference | Active | Michael | 2026-08-02 |
 | [docs/internal/hosting-and-dns.md](../internal/hosting-and-dns.md) | Hosting And DNS | Internal | Public-safe hosting policy and DNS change workflow. | Reference | Active | Michael | 2026-08-02 |
 | [docs/internal/local-workspace.md](../internal/local-workspace.md) | Local Silverware Games Workspace | Internal | Canonical local repo layout and staging-file workflow. | Workflow | Active | Michael | 2026-08-02 |
-| [docs/internal/game-telemetry.md](../internal/game-telemetry.md)                             | Game Telemetry Integration                                | Internal                       | Defines ownership, privacy, transport, and rollout for shared game telemetry. | Workflow | Active | Michael | 2026-07-25 |
+| [docs/internal/game-telemetry.md](../internal/game-telemetry.md) | Game Telemetry Integration | Internal | Defines ownership, privacy, transport, and rollout for shared game telemetry. | Workflow | Active | Michael | 2026-09-02 |
 | [docs/internal/repo-map-automation-setup.md](../internal/repo-map-automation-setup.md)       | Repo-Map Auto-Sync Setup Guide                            | Internal                       | Setup guide for automatic repo-map verification.                | Workflow    | Active       | Michael | 2026-03-31    |
 | [docs/internal/legacy-projects.md](../internal/legacy-projects.md) | Legacy Hosting Archive Summary | Internal | Public-safe summary of legacy archive outcomes and retrieval policy. | Reference | Archived | Michael | 2026-08-02 |
 | [docs/internal/migration-from-hostgator.md](../internal/migration-from-hostgator.md) | Host Migration Archive | Internal | Public-safe historical record of the completed hosting migration. | Reference | Replaced By | Michael | 2026-08-02 |
